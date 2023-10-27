@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<scene name="Relam_FunFight_MagBal001" version="2" unique_token="{709DE782-BC9F-4581-A939-EBEAF9175FB2}" revision="1670248550078" id_automatic="true">
+	<flora_bounding_rect min="50.570, 3.653" max="185.057, 198.201"/>
+	<levels>
+		<level name="base" mask="1"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="0.000, 0.000"/>
+		<property name="physics_world_max_" value="200.000, 200.000"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="1.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-100.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="118.095, 147.447, 0.000" rotation_euler="0.000, 0.000, 0.085"/>
+		</game_entity>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="102.031, 147.456, 0.000" rotation_euler="0.000, 0.000, 0.085"/>
+		</game_entity>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="87.479, 147.418, 0.000" rotation_euler="0.000, 0.000, 0.085"/>
+		</game_entity>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="123.895, 52.903, 0.000" rotation_euler="0.000, 0.000, 3.130"/>
+		</game_entity>
+		<game_entity name="ground_plane" old_prefab_name="">
+			<transform position="10.000, 10.000, 0.010" rotation_euler="0.000, 0.000, 0.000" scale="20.000, 20.000, 20.000"/>
+			<physics shape="bo_editor_plane"/>
+			<components>
+				<meta_mesh_component name="editor_plane_low"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="110.675, 52.919, 0.000" rotation_euler="0.000, 0.000, 3.130"/>
+		</game_entity>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="97.468, 52.953, 0.000" rotation_euler="0.000, 0.000, 3.130"/>
+		</game_entity>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="83.926, 53.151, 0.000" rotation_euler="0.000, 0.000, 3.130"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="20.000, 0.000, 5.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="70.613, 147.624, 0.000" rotation_euler="0.000, 0.000, 0.085"/>
+		</game_entity>
+		<game_entity prefab="spawn_visual">
+			<transform position="102.623, 103.687, 0.000" rotation_euler="0.000, 0.000, 1.585"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_attacker">
+			<transform position="107.445, 180.896, 0.000" rotation_euler="0.000, 0.000, 3.114"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="107.992, 14.642, 0.000" rotation_euler="0.000, 0.000, 1.528"/>
+			<children>
+				<game_entity _index_="0">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="1">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="2">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="3">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="4">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="5">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="6">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="7">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="8">
+					<tags>
+						<tag name="attacker"/>
+					</tags>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_defender">
+			<transform position="107.110, 40.793, 0.000" rotation_euler="0.000, 0.000, 0.078"/>
+		</game_entity>
+		<game_entity prefab="rock_pile">
+			<transform position="112.380, 29.485, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_pile">
+			<transform position="125.580, 29.254, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="pot_pile">
+			<transform position="118.689, 28.288, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="pot_pile">
+			<transform position="104.876, 27.829, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="pot_pile">
+			<transform position="89.895, 27.913, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="pot_pile">
+			<transform position="78.989, 179.208, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="pot_pile">
+			<transform position="95.131, 179.895, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="95.533, 197.502, 0.000" rotation_euler="0.000, 0.000, -1.647"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_A">
+			<transform position="105.276, 26.930, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_B">
+			<transform position="105.134, 99.795, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_C">
+			<transform position="94.419, 175.956, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="50.570, 198.201, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="52.618, 3.760, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="185.057, 3.653, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="184.975, 198.136, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_pile">
+			<transform position="98.240, 29.022, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="pot_pile">
+			<transform position="110.272, 180.644, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_pile">
+			<transform position="84.961, 179.753, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_pile">
+			<transform position="101.888, 179.938, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_pile">
+			<transform position="118.462, 180.747, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mangonel_b_spawner">
+			<transform position="121.841, 167.806, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mangonel_b_spawner">
+			<transform position="109.131, 168.262, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mangonel_b_spawner">
+			<transform position="95.151, 167.893, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mangonel_b_spawner">
+			<transform position="75.749, 167.827, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mangonel_b_spawner">
+			<transform position="122.009, 36.196, 0.000" rotation_euler="0.000, 0.000, 3.116"/>
+		</game_entity>
+		<game_entity prefab="mangonel_b_spawner">
+			<transform position="111.616, 37.537, 0.000" rotation_euler="0.000, 0.000, 3.116"/>
+		</game_entity>
+		<game_entity prefab="mangonel_b_spawner">
+			<transform position="100.923, 38.389, 0.000" rotation_euler="0.000, 0.000, 3.116"/>
+		</game_entity>
+		<game_entity prefab="mangonel_b_spawner">
+			<transform position="83.836, 39.718, 0.000" rotation_euler="0.000, 0.000, 3.116"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="true" node_dimension_x="2" node_dimension_y="2" node_size="100.000" lod_multiplier="1.000" min_height="-100.000" max_height="500.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="0" ao_intensity="4.000">
+		<outer_mesh>
+			<variable name="outer_mesh_name" value=""/>
+			<variable name="diffuse1_texture_name" value=""/>
+			<variable name="diffuse2_texture_name" value=""/>
+			<variable name="diffuse3_texture_name" value=""/>
+			<variable name="areamap_texture_name" value=""/>
+			<variable name="splatmap_texture_name" value=""/>
+			<variable name="splatmap_normal_name" value=""/>
+			<variable name="horizon_mesh_diffuse_1_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_2_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_3_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_tile_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_power" value="1.000"/>
+			<variable name="horizon_mesh_height" value="1.000"/>
+		</outer_mesh>
+		<layers version="1">
+			<layer name="flora_habitat_a">
+				<summer is_enabled="true" name="flora_habitat_a" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="grass" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_grass_c_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_grass_c_n"/>
+						<texture type="specularmap" name="ground_grass_c_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_grass_c_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="flora_grass_a_non_shadow" index="0" density="55.000" seed_index="1" colony_radius="0.000" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.000, 1.000, 1.000" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_green__mix" index="1" density="45.000" seed_index="2" colony_radius="0.000" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_plant__mix" index="2" density="25.000" seed_index="3" colony_radius="0.000" colony_threshold="0.000" size_min="0.500, 0.500, 0.500" size_max="1.200, 1.200, 1.200" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="tree_high__mix" index="3" density="12.000" seed_index="4" colony_radius="0.000" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_green__mix_flower" index="4" density="35.000" seed_index="6" colony_radius="0.000" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="flora_habitat_a" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="flora_habitat_a" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="flora_habitat_a" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+		</layers>
+		<nodes>
+			<node idx="0" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="5"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="5"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="5"/>
+						<variable layer="1" value="0"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="5"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="5"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="5"/>
+						<variable layer="1" value="0"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="5"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="5"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="5"/>
+						<variable layer="1" value="0"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="5"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="5"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="5"/>
+						<variable layer="1" value="0"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+		</nodes>
+	</terrain>
+	<editor_data editor_camera_position="138.195, 25.739, 25.970" editor_camera_elevation="-0.034" editor_camera_bearing="-4.035" editor_camera_forward="-0.275, 0.590, -0.759" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="100000.000"/>
+	<Paths/>
+</scene>
+

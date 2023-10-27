@@ -1,0 +1,1741 @@
+<?xml version="1.0"?>
+<scene name="Swamp_Fortress" version="2">
+	<flora_bounding_rect min="9.600, 9.367" max="390.967, 390.177"/>
+	<levels>
+		<level name="base" mask="1"/>
+		<level name="level_1" mask="2"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="true"/>
+		<property name="physics_world_min" value="-9.616, -4.522"/>
+		<property name="physics_world_max_" value="400.000, 400.000"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="1.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="0.800"/>
+			<property name="water_strength" value="5.300"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="wat_river_brown_g"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="true"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="195.268, 122.919, 6.218" rotation_euler="-0.228, -0.338, -3.000"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="217.001, 121.356, 5.884" rotation_euler="-0.228, -0.338, -3.000"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="166.046, 161.125, 4.577" rotation_euler="-0.333, -0.599, -1.369"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="164.714, 158.895, 4.619" rotation_euler="-0.333, -0.599, -1.369"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="157.644, 162.633, 1.488" rotation_euler="0.234, 0.246, 0.765"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="170.826, 134.197, 6.501" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="167.450, 135.727, 5.047" rotation_euler="0.000, 0.000, -1.719"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="173.749, 130.239, 6.162" rotation_euler="0.000, 0.000, -1.719"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="175.274, 136.002, 7.074" rotation_euler="0.000, 0.000, 2.711"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="194.529, 131.463, 7.590" rotation_euler="0.000, 0.000, 2.711"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="197.881, 129.835, 7.750" rotation_euler="0.000, 0.000, 2.711"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="191.784, 121.501, 6.371" rotation_euler="0.000, 0.000, 2.711"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="197.871, 121.585, 6.076" rotation_euler="0.000, -0.405, 2.711"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="204.549, 213.361, 0.707" rotation_euler="0.000, 0.000, 0.291"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="193.852, 206.069, 3.328" rotation_euler="0.000, 0.000, 0.291"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="194.618, 203.753, 3.968" rotation_euler="0.000, 0.000, 0.291"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="186.917, 178.808, 6.410" rotation_euler="0.000, 0.000, 0.291"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="179.869, 172.252, 5.506" rotation_euler="0.000, 0.000, 2.145"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="210.489, 208.800, 2.897" rotation_euler="0.000, 0.000, 2.145"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="209.567, 203.988, 3.083" rotation_euler="0.000, 0.000, 2.145"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="213.382, 205.848, 2.717" rotation_euler="0.000, 0.000, 2.145"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_wall_b">
+			<transform position="198.160, 206.391, -1.365" rotation_euler="0.000, 0.000, 0.023"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_wall_c">
+			<transform position="217.676, 208.289, 1.468" rotation_euler="0.000, 0.000, -0.487"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_wall_a">
+			<transform position="225.080, 204.344, 2.516" rotation_euler="0.000, 0.000, 2.262"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="158.310, 166.189, 1.566" rotation_euler="0.000, 0.000, -2.687"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="157.691, 170.936, 0.931" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="160.136, 151.417, 3.300" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="159.760, 156.003, 2.695" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="157.235, 159.053, 1.545" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="163.556, 155.570, 4.297" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="162.061, 158.435, 3.153" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="177.626, 157.477, 6.797" rotation_euler="0.000, 0.000, -0.984"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="177.469, 161.983, 7.381" rotation_euler="0.000, 0.000, -2.161"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="182.545, 159.814, 7.078" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="200.354, 172.708, 7.096" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="208.255, 212.157, 1.611" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="206.235, 209.455, 2.619" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="199.373, 209.291, 4.255" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="202.225, 211.390, 1.751" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="199.020, 211.144, 2.487" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="194.919, 210.219, 3.037" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="210.005, 213.844, 2.194" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="209.925, 215.654, 0.695" rotation_euler="0.000, 0.000, 0.291"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_tower_a">
+			<transform position="184.236, 129.917, 8.221" rotation_euler="0.000, 0.000, 2.660"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_wall_c">
+			<transform position="161.175, 170.767, 3.868" rotation_euler="0.000, 0.000, -1.611"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_wall_c">
+			<transform position="166.935, 143.021, 3.411" rotation_euler="0.000, 0.000, -1.110"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_building_a">
+			<transform position="209.546, 129.097, 6.764" rotation_euler="0.000, 0.000, -0.168"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_building_a">
+			<transform position="212.369, 142.496, 7.956" rotation_euler="0.000, 0.000, -0.168"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_dungeon_a">
+			<transform position="205.239, 147.671, 6.625" rotation_euler="0.000, 0.000, -1.694"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_wall_a">
+			<transform position="174.710, 132.977, 7.261" rotation_euler="0.000, 0.000, 2.604"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="160.970, 153.668, 4.131" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="162.028, 152.275, 4.631" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="161.254, 151.216, 4.382" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="164.249, 152.705, 5.316" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="163.022, 153.002, 4.935" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="162.350, 154.610, 4.355" rotation_euler="0.000, 0.000, 2.802"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="160.651, 153.074, 3.867" rotation_euler="0.000, 0.000, -1.046"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="161.047, 152.347, 4.316" rotation_euler="0.000, 0.000, -0.616"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_a">
+			<transform position="164.366, 154.593, 4.626" rotation_euler="0.000, 0.000, -0.616"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_gate_house_a">
+			<transform position="231.140, 196.855, 1.894" rotation_euler="0.000, 0.000, 2.101"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_wall_a">
+			<transform position="234.750, 187.461, 1.662" rotation_euler="0.000, 0.000, -1.334"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_small_wall_b">
+			<transform position="230.263, 140.203, 7.074" rotation_euler="0.000, 0.000, -1.683"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_small_wall_b">
+			<transform position="230.195, 152.955, 4.922" rotation_euler="0.000, 0.000, -1.683"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="236.161, 181.035, 3.098" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="234.162, 179.681, 4.221" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="237.157, 177.268, 3.361" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="230.395, 183.582, 3.650" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="91.471, 143.665, 0.883" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="101.086, 136.139, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="80.352, 124.623, 1.931" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="98.566, 174.198, 0.934" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="siege_barricade_group_c">
+			<transform position="171.313, 190.747, 1.992" rotation_euler="-0.085, 0.000, 0.697"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="86.086, 84.795, 0.640" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="100.276, 80.239, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="112.025, 77.684, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="122.059, 80.866, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="95.128, 92.902, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="83.610, 113.366, 0.777" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="90.573, 131.765, 0.326" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="231.032, 175.052, 5.550" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="233.463, 177.705, 5.142" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="167.439, 177.077, 2.124" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="158.972, 180.586, 1.384" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="164.880, 180.549, 1.926" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="162.138, 184.792, 1.765" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_stone_heap_b">
+			<transform position="158.230, 184.419, 1.443" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="20.000, 0.000, 5.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="ground_plane" old_prefab_name="">
+			<transform position="10.000, 10.000, 0.010" rotation_euler="0.000, 0.000, 0.000" scale="20.000, 20.000, 20.000"/>
+			<physics shape="bo_editor_plane"/>
+			<components>
+				<meta_mesh_component name="editor_plane_low">
+					<mesh name="editor_plane_low" argument="1.000, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="285.143, 215.413, 1.928" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="296.803, 215.772, 2.027" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="291.216, 222.031, 1.589" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="319.821, 184.886, 1.282" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="315.239, 276.058, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="315.643, 286.994, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="320.234, 295.393, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="302.713, 302.393, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="296.486, 301.641, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="278.175, 306.231, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="273.218, 316.485, 1.222" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="256.770, 321.640, 0.636" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="254.353, 304.916, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="241.895, 312.159, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="243.486, 326.232, 0.228" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="274.956, 293.099, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="265.727, 311.400, 0.408" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="231.104, 302.972, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="209.401, 284.114, 0.406" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="175.050, 273.021, 0.915" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="332.772, 173.114, 1.020" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="345.114, 180.678, 1.592" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="349.725, 192.429, 1.503" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="353.967, 194.115, 3.317" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="356.832, 205.298, 2.162" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="343.681, 219.883, 0.575" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="332.747, 247.774, 0.455" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="320.356, 275.075, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="161.850, 220.355, 1.543" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="143.790, 230.311, 1.648" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="126.609, 203.261, 1.084" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="139.014, 232.069, 1.836" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="150.319, 221.703, 1.378" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="151.358, 185.824, 1.012" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="141.751, 169.489, 1.211" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="135.009, 187.584, 1.488" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="145.926, 45.752, 0.940" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="116.470, 43.111, 0.301" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="106.572, 55.881, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="84.289, 39.674, 0.281" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_t_pine">
+			<transform position="70.674, 60.357, 1.378" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="tree_high_t_pine.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod3.7" argument="0.500, 0.000, 0.000, 0.000"/>
+					<mesh name="tree_high_t_pine.lod5.7" argument="0.500, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="debris">
+			<transform position="177.717, 198.658, 1.920" rotation_euler="1.410, -1.530, 1.072"/>
+		</game_entity>
+		<game_entity prefab="desert_vertebrae_a">
+			<transform position="134.729, 200.828, 1.359" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="desert_vertebrae_a">
+			<transform position="147.773, 194.355, 0.972" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="desert_vertebrae_a">
+			<transform position="170.026, 218.435, 1.535" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="desert_vertebrae_a">
+			<transform position="147.306, 233.000, 1.251" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="desert_vertebrae_a">
+			<transform position="122.307, 245.790, 3.175" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="390.967, 390.177, 6.405" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="373.063, 16.566, 16.435" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="9.600, 9.367, 4.636" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="17.750, 388.048, 22.822" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_attacker">
+			<transform position="183.816, 292.570, 2.024" rotation_euler="0.000, 0.000, 3.068"/>
+		</game_entity>
+		<game_entity prefab="sp_battle_set">
+			<transform position="176.801, 296.021, 1.994" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="14.827, -147.171, 5.240" rotation_euler="0.000, 0.000, -0.125"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="16.246, -147.378, 5.240" rotation_euler="0.000, 0.000, -0.125"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="17.792, -147.566, 5.240" rotation_euler="0.000, 0.000, -0.125"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="19.214, -147.741, 5.240" rotation_euler="0.000, 0.000, -0.125"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<transform position="12.561, -6.689, 0.520"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<transform position="11.048, -6.653, 0.520"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<transform position="9.506, -6.585, 0.520"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<transform position="7.929, -6.536, 0.520"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<transform position="14.742, -136.901, 5.059" rotation_euler="0.000, 0.000, -0.110"/>
+				</game_entity>
+				<game_entity _index_="9">
+					<transform position="16.164, -137.086, 5.059" rotation_euler="0.000, 0.000, -0.110"/>
+				</game_entity>
+				<game_entity _index_="10">
+					<transform position="17.712, -137.249, 5.059" rotation_euler="0.000, 0.000, -0.110"/>
+				</game_entity>
+				<game_entity _index_="11">
+					<transform position="19.137, -137.400, 5.059" rotation_euler="0.000, 0.000, -0.110"/>
+				</game_entity>
+				<game_entity _index_="12">
+					<transform position="7.929, -8.614, 0.520"/>
+				</game_entity>
+				<game_entity _index_="13">
+					<transform position="9.506, -8.663, 0.520"/>
+				</game_entity>
+				<game_entity _index_="14">
+					<transform position="11.048, -8.731, 0.520"/>
+				</game_entity>
+				<game_entity _index_="15">
+					<transform position="12.561, -8.767, 0.520"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="sp_attacker_infantry">
+			<transform position="195.939, 158.621, 7.053" rotation_euler="0.000, 0.000, -0.110" scale="0.800, 0.800, 0.800"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_defender">
+			<transform position="222.838, 161.262, 6.828" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prt_border_probe">
+			<transform position="3.009, 3.212, 0.496" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prt_border_probe">
+			<transform position="385.285, 384.804, 72.816" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="183.828, 388.515, 11.885" rotation_euler="-0.015, 0.167, 1.644"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-0.161, -4.943, -1.023"/>
+					<components>
+						<meta_mesh_component>
+							<mesh name="debug_lod_mesh" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod1" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod2" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod3" argument="1.000, 1.000, 1.000, 1.000"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="0.363, 4.878, 1.842"/>
+					<components>
+						<meta_mesh_component>
+							<mesh name="debug_lod_mesh" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod1" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod2" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod3" argument="1.000, 1.000, 1.000, 1.000"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="flee_line">
+			<transform position="183.828, 388.515, 11.885" rotation_euler="0.030, 0.156, 1.662" scale="1.000, 1.000, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-0.189, -4.937, -0.845"/>
+					<components>
+						<meta_mesh_component>
+							<mesh name="debug_lod_mesh" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod1" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod2" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod3" argument="1.000, 1.000, 1.000, 1.000"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="0.391, 4.873, 1.668"/>
+					<components>
+						<meta_mesh_component>
+							<mesh name="debug_lod_mesh" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod1" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod2" argument="1.000, 1.000, 1.000, 1.000"/>
+							<mesh name="debug_lod_mesh.lod3" argument="1.000, 1.000, 1.000, 1.000"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+	</entities>
+	<terrain enabled="true" node_dimension_x="4" node_dimension_y="4" node_size="100.000" lod_multiplier="1.000" min_height="-100.000" max_height="500.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="0" ao_intensity="4.000">
+		<outer_mesh>
+			<variable name="outer_mesh_name" value=""/>
+			<variable name="diffuse1_texture_name" value=""/>
+			<variable name="diffuse2_texture_name" value=""/>
+			<variable name="diffuse3_texture_name" value=""/>
+			<variable name="areamap_texture_name" value=""/>
+			<variable name="splatmap_texture_name" value=""/>
+			<variable name="splatmap_normal_name" value=""/>
+			<variable name="horizon_mesh_diffuse_1_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_2_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_3_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_tile_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_power" value="1.000"/>
+			<variable name="horizon_mesh_height" value="1.000"/>
+		</outer_mesh>
+		<layers version="1">
+			<layer name="mud_cliff">
+				<summer is_enabled="true" name="mud_cliff" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="stone" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.400" ground_slope_scale="1.000" bigdetailmap_mode="2" bigdetailmap_weight="0.650" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_soil_b_d"/>
+						<texture type="areamap" name="ground_soil_b_d"/>
+						<texture type="normalmap" name="ground_earth_bump"/>
+						<texture type="specularmap" name="ground_road_mud_a_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_soil_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="valley_ground_rock_a" index="0" density="14.000" seed_index="0" colony_radius="200.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_reed_f" index="1" density="200.000" seed_index="0" colony_radius="200.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_reed_a" index="2" density="75.000" seed_index="0" colony_radius="200.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="mud_cliff" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="mud_cliff" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="mud_cliff" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="more ground">
+				<summer is_enabled="true" name="more ground" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.200" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_forest_b_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_forest_b_n"/>
+						<texture type="specularmap" name="ground_forest_b_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_forest_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="more ground" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="more ground" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="more ground" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="default">
+				<summer is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.250" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_grass_stone_a_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_grass_stone_a_n"/>
+						<texture type="specularmap" name="ground_grass_stone_a_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_grass_stone_a_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="flora_grass_a_non_shadow" index="0" density="100.000" seed_index="8" colony_radius="600.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.600"/>
+						<mesh name="shrub_c" index="1" density="60.000" seed_index="0" colony_radius="600.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_green__mix_big_leafs" index="2" density="11.000" seed_index="0" colony_radius="200.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="ground_rocks_group" index="3" density="50.000" seed_index="0" colony_radius="200.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="soil_b">
+				<summer is_enabled="true" name="soil_b" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="pict_floor_stone_d"/>
+						<texture type="areamap" name="desert_floor_a"/>
+						<texture type="normalmap" name="pict_floor_stone_n"/>
+						<texture type="specularmap" name="pict_floor_stone_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="pict_floor_stone_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="soil_b" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="soil_b" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="soil_b" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+		</layers>
+		<nodes>
+			<node idx="0" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.100" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="6"/>
+						<variable layer="9" value="6"/>
+						<variable layer="10" value="6"/>
+						<variable layer="11" value="6"/>
+						<variable layer="12" value="6"/>
+						<variable layer="13" value="6"/>
+						<variable layer="14" value="6"/>
+						<variable layer="15" value="6"/>
+					</variable>
+				</texture_levels>
+			</node>
+		</nodes>
+	</terrain>
+	<editor_data editor_camera_position="231.127, 341.085, 52.069" editor_camera_elevation="-0.347" editor_camera_bearing="9.211" editor_camera_forward="-0.186, -0.885, -0.427" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="100000.000"/>
+	<Paths>
+		<path name="spawn_path_1" interpolation_type="linear">
+			<flags/>
+			<points>
+				<point position="188.227, 334.644, 10.865" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="189.227, 334.644, 10.865"/>
+					<second_tangent position="187.227, 334.644, 10.865"/>
+				</point>
+				<point position="188.966, 323.538, 7.714" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="187.969, 323.472, 7.714"/>
+					<second_tangent position="189.964, 323.604, 7.714"/>
+				</point>
+				<point position="185.115, 290.356, 1.779" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="184.122, 290.472, 1.779"/>
+					<second_tangent position="186.109, 290.241, 1.779"/>
+				</point>
+				<point position="180.212, 265.739, 0.346" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="179.232, 265.934, 0.346"/>
+					<second_tangent position="181.193, 265.544, 0.346"/>
+				</point>
+				<point position="168.380, 245.580, 0.031" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="167.517, 246.087, 0.031"/>
+					<second_tangent position="169.242, 245.074, 0.031"/>
+				</point>
+				<point position="159.280, 223.736, 1.051" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="158.357, 224.121, 1.051"/>
+					<second_tangent position="160.203, 223.352, 1.051"/>
+				</point>
+				<point position="159.690, 211.248, 1.758" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="158.690, 211.215, 1.758"/>
+					<second_tangent position="160.689, 211.280, 1.758"/>
+				</point>
+				<point position="178.579, 210.014, 1.895" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="178.514, 209.016, 1.895"/>
+					<second_tangent position="178.644, 211.012, 1.895"/>
+				</point>
+				<point position="186.136, 198.680, 3.672" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="185.304, 198.125, 3.672"/>
+					<second_tangent position="186.968, 199.234, 3.672"/>
+				</point>
+				<point position="190.458, 185.634, 5.011" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="189.509, 185.320, 5.011"/>
+					<second_tangent position="191.407, 185.949, 5.011"/>
+				</point>
+				<point position="191.717, 168.209, 6.800" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="190.719, 168.137, 6.800"/>
+					<second_tangent position="192.714, 168.281, 6.800"/>
+				</point>
+				<point position="194.552, 153.208, 6.815" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="193.569, 153.023, 6.815"/>
+					<second_tangent position="195.534, 153.394, 6.815"/>
+				</point>
+				<point position="215.031, 168.525, 6.288" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="215.630, 167.724, 6.288"/>
+					<second_tangent position="214.432, 169.326, 6.288"/>
+				</point>
+				<point position="219.922, 145.867, 6.608" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="218.944, 145.656, 6.608"/>
+					<second_tangent position="220.899, 146.078, 6.608"/>
+				</point>
+				<point position="215.974, 130.024, 7.078" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="215.004, 130.266, 7.078"/>
+					<second_tangent position="216.944, 129.782, 7.078"/>
+				</point>
+				<point position="189.991, 115.459, 5.524" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="189.502, 116.331, 5.524"/>
+					<second_tangent position="190.480, 114.586, 5.524"/>
+				</point>
+			</points>
+		</path>
+		<path name="spawn_path_2" interpolation_type="linear">
+			<flags/>
+			<points>
+				<point position="179.713, 140.812, 7.479" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="180.713, 140.812, 7.479"/>
+					<second_tangent position="178.713, 140.812, 7.479"/>
+				</point>
+				<point position="171.385, 162.860, 6.263" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="172.321, 163.213, 6.263"/>
+					<second_tangent position="170.450, 162.507, 6.263"/>
+				</point>
+				<point position="192.879, 175.457, 6.914" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="193.385, 174.594, 6.914"/>
+					<second_tangent position="192.373, 176.319, 6.914"/>
+				</point>
+				<point position="188.177, 200.903, 4.038" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="189.160, 201.084, 4.038"/>
+					<second_tangent position="187.194, 200.721, 4.038"/>
+				</point>
+				<point position="153.695, 208.834, 1.392" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="153.919, 209.809, 1.392"/>
+					<second_tangent position="153.471, 207.860, 1.392"/>
+				</point>
+				<point position="133.195, 231.387, 1.385" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="133.935, 232.060, 1.385"/>
+					<second_tangent position="132.455, 230.715, 1.385"/>
+				</point>
+				<point position="140.523, 258.278, -0.363" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="141.488, 258.015, -0.363"/>
+					<second_tangent position="139.558, 258.541, -0.363"/>
+				</point>
+				<point position="151.893, 272.319, -0.830" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="152.670, 271.690, -0.830"/>
+					<second_tangent position="151.116, 272.949, -0.830"/>
+				</point>
+				<point position="174.392, 311.743, 3.491" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="175.260, 311.248, 3.491"/>
+					<second_tangent position="173.523, 312.239, 3.491"/>
+				</point>
+				<point position="154.987, 330.586, 11.763" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="155.683, 331.304, 11.763"/>
+					<second_tangent position="154.290, 329.869, 11.763"/>
+				</point>
+				<point position="138.072, 356.503, 19.036" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="138.909, 357.049, 19.036"/>
+					<second_tangent position="137.234, 355.956, 19.036"/>
+				</point>
+			</points>
+		</path>
+		<path name="spawn_path_3" interpolation_type="linear">
+			<flags/>
+			<points>
+				<point position="196.058, 134.341, 7.239" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="197.058, 134.341, 7.239"/>
+					<second_tangent position="195.058, 134.341, 7.239"/>
+				</point>
+				<point position="207.251, 147.757, 7.131" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="208.019, 147.117, 7.131"/>
+					<second_tangent position="206.483, 148.398, 7.131"/>
+				</point>
+				<point position="208.643, 173.000, 7.004" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="209.641, 172.945, 7.004"/>
+					<second_tangent position="207.644, 173.055, 7.004"/>
+				</point>
+				<point position="217.966, 194.575, 2.831" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="218.884, 194.178, 2.831"/>
+					<second_tangent position="217.048, 194.972, 2.831"/>
+				</point>
+				<point position="254.102, 203.188, 1.985" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="254.333, 202.216, 1.985"/>
+					<second_tangent position="253.870, 204.161, 1.985"/>
+				</point>
+				<point position="279.242, 201.597, 4.890" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="279.179, 200.599, 4.890"/>
+					<second_tangent position="279.306, 202.595, 4.890"/>
+				</point>
+				<point position="296.442, 217.962, 1.847" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="297.131, 217.238, 1.847"/>
+					<second_tangent position="295.753, 218.687, 1.847"/>
+				</point>
+				<point position="317.845, 236.740, 0.000" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="318.505, 235.988, 0.000"/>
+					<second_tangent position="317.186, 237.492, 0.000"/>
+				</point>
+				<point position="333.064, 285.923, 3.309" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="334.019, 285.628, 3.309"/>
+					<second_tangent position="332.109, 286.219, 3.309"/>
+				</point>
+				<point position="311.944, 334.375, 6.174" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="312.861, 334.775, 6.174"/>
+					<second_tangent position="311.027, 333.976, 6.174"/>
+				</point>
+				<point position="251.510, 332.362, 1.275" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="251.476, 333.361, 1.275"/>
+					<second_tangent position="251.543, 331.362, 1.275"/>
+				</point>
+			</points>
+		</path>
+		<path name="spawn_path_4" interpolation_type="linear">
+			<flags/>
+			<points>
+				<point position="224.906, 319.706, 5.413" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="225.906, 319.706, 5.413"/>
+					<second_tangent position="223.906, 319.706, 5.413"/>
+				</point>
+				<point position="231.170, 302.893, 0.734" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="230.233, 302.543, 0.734"/>
+					<second_tangent position="232.107, 303.242, 0.734"/>
+				</point>
+				<point position="232.477, 274.650, 0.000" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="231.478, 274.603, 0.000"/>
+					<second_tangent position="233.476, 274.696, 0.000"/>
+				</point>
+				<point position="237.353, 249.892, 0.000" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="236.372, 249.698, 0.000"/>
+					<second_tangent position="238.335, 250.085, 0.000"/>
+				</point>
+				<point position="251.026, 206.187, 1.583" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="250.071, 205.889, 1.583"/>
+					<second_tangent position="251.980, 206.486, 1.583"/>
+				</point>
+				<point position="244.463, 197.011, 1.117" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="243.649, 197.593, 1.117"/>
+					<second_tangent position="245.276, 196.429, 1.117"/>
+				</point>
+				<point position="223.988, 181.910, 5.418" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="223.395, 182.715, 5.418"/>
+					<second_tangent position="224.582, 181.106, 5.418"/>
+				</point>
+				<point position="199.064, 164.139, 6.894" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="198.483, 164.954, 6.894"/>
+					<second_tangent position="199.644, 163.325, 6.894"/>
+				</point>
+				<point position="185.866, 150.353, 7.751" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="185.144, 151.045, 7.751"/>
+					<second_tangent position="186.589, 149.662, 7.751"/>
+				</point>
+				<point position="210.818, 132.775, 6.955" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="210.242, 131.958, 6.955"/>
+					<second_tangent position="211.394, 133.593, 6.955"/>
+				</point>
+			</points>
+		</path>
+	</Paths>
+</scene>
+
