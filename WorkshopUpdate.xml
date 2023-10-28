@@ -1,10 +1,13 @@
 <Tasks>
-    <CreateItem/>
+    <GetItem>
+        <ItemId Value="3062546734"/>
+        <!-- Can be found in the URL of your workshop item -->
+    </GetItem>
     <UpdateItem>
-        <ModuleFolder Value="D:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\OCEMod"/>
-        <!-- A direct path of your module -->
-        <ItemDescription Value="Oceanic Bannerlord Mod for community events"/>
-        <!-- A description that will be displayed on Steam Workshop, can be edited via the Steam UI -->
+        <ModuleFolder Value="C:\Users\Jonathan\Documents\BannerlordLab\OCEMod-0.1.0"/>
+        <!-- A direct path of your module -->   
+        <ChangeNotes Value="Minor Changes" />
+        <!-- Insert patch notes -->
         <Tags> 
             <!-- You can use the following tags: -->
             <!-- Type: Graphical Enhancement, Map Pack, Partial Conversion, Sound, Total Conversion, Troops, UI, Utility, Weapons and Armour -->
@@ -16,10 +19,6 @@
             <Tag Value="OCE" />
             <Tag Value="Maps" />
             <Tag Value="v1.1.6" />
-        </Tags>
-        <Image Value="D:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\OCEMod\Image.png"/>
-        <!-- Determines the featured image displayed on Steam Workshop, a direct path to it must be inserted here (the image should be smaller than 1 MB) -->
-        <Visibility Value="Public"/>
-        <!-- Determines visibility on Steam Workshop. Can be: Public, FriendsOnly, Private -->
+		</Tags>
     </UpdateItem>
 </Tasks>
