@@ -1,0 +1,3527 @@
+<?xml version="1.0"?>
+<scene name="kingclone_or_hct_nurdin_fort_battle" version="2">
+	<flora_bounding_rect min="0.000, 0.000" max="0.000, 0.000"/>
+	<levels>
+		<level name="base" mask="1"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="-7244.846, -7184.518"/>
+		<property name="physics_world_max_" value="400.000, 400.000"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="1.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="25.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="true"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="bd_sack_heap_b">
+			<transform position="161.885, 111.784, 27.320" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l3">
+			<transform position="228.030, 222.670, 72.990" rotation_euler="0.000, 0.000, -0.002"/>
+		</game_entity>
+		<game_entity prefab="mp_shop_prop_merchantarmory_a">
+			<transform position="208.905, 213.654, 72.990" rotation_euler="0.000, 0.000, -1.542"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="177.502, 192.188, 70.682" rotation_euler="0.684, 1.267, -2.402" scale="0.589, 0.589, 0.589"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="169.083, 201.006, 52.766" rotation_euler="0.315, -1.461, 1.470"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_c">
+			<transform position="247.219, 156.225, 59.900" rotation_euler="0.000, 0.000, -0.886"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_roof">
+			<transform position="222.369, 168.871, 72.557" rotation_euler="0.000, 0.000, 0.001"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="174.910, 192.321, 65.379" rotation_euler="0.684, 1.267, -2.402" scale="0.589, 0.589, 0.589"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_desert_c">
+			<transform position="221.483, 216.794, 72.990" rotation_euler="0.000, 0.000, -0.850"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_desert_a">
+			<transform position="224.039, 211.337, 72.974" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_wool_c">
+			<transform position="249.486, 153.940, 58.992" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_c">
+			<transform position="222.261, 156.704, 57.625" rotation_euler="0.000, 0.000, -3.088"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_a">
+			<transform position="187.249, 70.358, 27.000" rotation_euler="0.000, 0.000, -1.247"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_a">
+			<transform position="209.066, 102.946, 28.980" rotation_euler="0.000, 0.000, -2.531"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="154.640, 203.337, 39.043" rotation_euler="0.333, -0.038, -0.645"/>
+		</game_entity>
+		<game_entity prefab="bd_aserai_pot_cupper_a">
+			<transform position="151.046, 160.753, 44.266" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="weapon_rack_aserai_a">
+			<transform position="162.452, 145.793, 60.205" rotation_euler="0.000, 0.000, -1.570"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="191.412, 193.360, 64.206" rotation_euler="0.132, -0.003, 0.611"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="250.297, 185.085, 66.090" rotation_euler="-0.125, -0.055, -0.007"/>
+		</game_entity>
+		<game_entity prefab="weapon_rack_aserai_a">
+			<transform position="141.933, 148.890, 52.482" rotation_euler="0.000, 0.000, -2.358"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_d">
+			<transform position="158.233, 195.829, 43.770" rotation_euler="0.000, 0.000, -1.173"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="175.196, 193.584, 60.040" rotation_euler="0.115, -0.017, 0.002"/>
+		</game_entity>
+		<game_entity prefab="bd_tapestry_aserai_c">
+			<transform position="167.249, 205.519, 84.648" rotation_euler="0.000, 0.000, 0.293" scale="2.956, 2.956, 2.956"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b">
+			<transform position="193.428, 167.869, 59.753" rotation_euler="0.139, -2.448, 1.045"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="165.246, 204.124, 64.282" rotation_euler="0.059, 0.017, -1.000" scale="0.453, 0.453, 0.453"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_aserai_a">
+			<transform position="159.061, 166.051, 43.770" rotation_euler="0.000, 0.000, 0.530"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_d">
+			<transform position="212.359, 118.041, 30.073" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_village_bridge">
+			<transform position="141.089, 83.426, 26.738" rotation_euler="-0.023, 0.000, -1.559"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_c">
+			<transform position="211.444, 99.348, 28.803" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_b">
+			<transform position="251.149, 153.783, 59.919" rotation_euler="0.000, -0.121, 0.000"/>
+		</game_entity>
+		<game_entity prefab="Boardgame Aserai">
+			<transform position="159.354, 160.419, 44.556" rotation_euler="0.000, 0.000, -0.437"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_roof">
+			<transform position="222.463, 174.661, 73.224" rotation_euler="0.000, 0.000, 3.087"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="146.154, 108.531, 35.746" rotation_euler="0.000, 0.000, 1.828" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_rope_c">
+			<transform position="150.266, 169.110, 43.759" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_a">
+			<transform position="149.689, 168.470, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="137.215, 178.822, 61.287" rotation_euler="0.000, 0.000, 1.828" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="130.496, 155.561, 31.294" rotation_euler="0.000, 0.000, -0.793"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_b">
+			<transform position="149.309, 169.522, 43.770" rotation_euler="0.000, 0.000, 1.587"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="257.737, 102.779, 34.813" rotation_euler="0.000, 0.000, 1.828" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_b">
+			<transform position="228.339, 149.734, 58.593" rotation_euler="0.000, 0.000, 3.102"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="159.327, 86.242, 27.000" rotation_euler="0.000, 0.000, 0.025"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_a">
+			<transform position="204.103, 85.331, 30.887" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_e">
+			<transform position="154.717, 69.869, 27.036" rotation_euler="-0.143, -0.129, 0.159"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="220.556, 73.524, 31.719" rotation_euler="0.000, 0.000, 0.468"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantsiege_b">
+			<transform position="153.913, 68.996, 27.233" rotation_euler="0.000, 0.000, -1.199"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_velvet_c">
+			<transform position="159.973, 74.237, 27.000" rotation_euler="0.000, 0.000, 0.138"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_b">
+			<transform position="169.690, 86.503, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<transform position="224.700, 179.035, 65.298" rotation_euler="-0.142, -0.002, -0.824"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="227.049, 87.264, 31.766" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l1">
+			<transform position="253.040, 106.655, 27.990" rotation_euler="0.000, 0.000, -0.468"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_e">
+			<transform position="210.959, 184.517, 66.073" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="arabian_waterwell_a">
+			<transform position="204.211, 186.730, 66.496" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="bd_aserai_seat_a_unsittable">
+			<transform position="151.035, 160.736, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="97.537, 159.439, 35.699" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_b">
+			<transform position="164.158, 171.914, 43.710" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="159.004, 105.204, 35.712" rotation_euler="0.000, 0.000, 1.828" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="127.102, 162.675, 25.265" rotation_euler="0.000, 0.195, -1.472"/>
+		</game_entity>
+		<game_entity prefab="desert_cow_skull">
+			<transform position="121.916, 84.748, 26.978" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="86.458, 96.252, 26.970" rotation_euler="0.000, 0.000, 0.000" scale="3.424, 3.424, 3.424"/>
+		</game_entity>
+		<game_entity prefab="shipyard_a">
+			<transform position="218.631, 63.273, 29.487" rotation_euler="0.000, 0.000, -1.844"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="165.417, 95.553, 33.854" rotation_euler="0.000, 0.000, 1.828" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="ship_a" old_prefab_name="ship_a" mobility="1">
+			<transform position="192.537, 40.710, 25.273" rotation_euler="0.000, 0.000, 3.136"/>
+			<physics shape="bo_ship_a"/>
+			<components>
+				<meta_mesh_component name="ship_a"/>
+			</components>
+			<scripts>
+				<script name="WaveFloater">
+					<variables>
+						<variable name="oscillateAtX" value="true"/>
+						<variable name="oscillateAtY" value="true"/>
+						<variable name="oscillateAtZ" value="true"/>
+						<variable name="oscillationFrequency" value="1.000"/>
+						<variable name="maxOscillationAngle" value="10.000"/>
+						<variable name="bounceX" value="false"/>
+						<variable name="bounceXFrequency" value="14.000"/>
+						<variable name="maxBounceXDistance" value="0.300"/>
+						<variable name="bounceY" value="false"/>
+						<variable name="bounceYFrequency" value="14.000"/>
+						<variable name="maxBounceYDistance" value="0.300"/>
+						<variable name="bounceZ" value="false"/>
+						<variable name="bounceZFrequency" value="14.000"/>
+						<variable name="maxBounceZDistance" value="0.300"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="desert_cow_skull">
+			<transform position="106.432, 127.060, 30.437" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shipyard_b">
+			<transform position="174.797, 54.725, 28.127" rotation_euler="0.000, 0.000, -1.543"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_d">
+			<transform position="235.608, 69.707, 30.671" rotation_euler="0.000, -0.135, 0.785"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="167.768, 93.284, 27.000" rotation_euler="0.000, 0.000, -3.139"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantpottery_c">
+			<transform position="156.237, 86.602, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantpottery_c">
+			<transform position="153.453, 72.531, 27.000" rotation_euler="0.000, 0.000, 0.195"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="221.386, 219.558, 72.833" rotation_euler="0.000, 0.000, -1.549"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantpottery_c">
+			<transform position="201.835, 227.427, 72.990" rotation_euler="0.000, 0.000, -0.088" scale="1.596, 1.596, 1.596"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="204.966, 232.166, 111.645" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="prop_merchantw_a">
+			<transform position="232.471, 212.260, 72.990" rotation_euler="0.000, 0.000, -3.082"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="153.205, 188.547, 43.740" rotation_euler="0.000, 0.000, -1.608"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantarmory_b">
+			<transform position="213.486, 220.219, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_d_l1">
+			<transform position="183.165, 180.819, 68.304" rotation_euler="0.000, 0.000, -1.545"/>
+		</game_entity>
+		<game_entity prefab="floorstone_c">
+			<transform position="217.652, 207.070, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="outermesh_desert_a">
+			<transform position="275.545, 330.790, 128.915" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantleather_a">
+			<transform position="212.083, 179.985, 65.970" rotation_euler="0.000, 0.000, 0.112"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweavery_wool_c">
+			<transform position="221.972, 177.916, 65.739" rotation_euler="0.000, 0.000, 0.082"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_c1">
+			<transform position="226.082, 149.571, 58.279" rotation_euler="0.000, -0.129, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_a_stairs_part_a">
+			<transform position="184.508, 159.210, 51.371" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_d">
+			<transform position="231.633, 177.887, 63.802" rotation_euler="0.017, 0.396, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchanthorse_a">
+			<transform position="219.878, 179.940, 65.637" rotation_euler="0.000, 0.000, -0.003"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_i">
+			<transform position="173.966, 158.251, 46.580" rotation_euler="0.457, -0.261, -1.398"/>
+		</game_entity>
+		<game_entity prefab="aserai_street_tent_a">
+			<transform position="148.586, 165.426, 43.751" rotation_euler="0.000, 0.000, -1.610"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_c">
+			<transform position="250.468, 88.970, 28.579" rotation_euler="0.000, 0.000, 2.724"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_c">
+			<transform position="163.596, 154.613, 43.710" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="20.067, 151.882, 75.326" rotation_euler="0.000, 0.000, -0.126"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="21.090, 162.634, 93.322" rotation_euler="-0.230, 0.000, -0.126"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="40.343, 188.559, 88.798" rotation_euler="0.268, 0.000, 1.408"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_d">
+			<transform position="28.889, 202.790, 108.667" rotation_euler="0.000, 0.000, 0.760" scale="2.353, 2.353, 2.353"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_d">
+			<transform position="31.105, 168.557, 95.115" rotation_euler="0.509, -0.183, 0.603" scale="2.353, 2.353, 2.353"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="18.889, 73.987, 41.223" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="55.932, 113.607, 67.131" rotation_euler="0.893, 0.000, 0.904" scale="0.578, 0.578, 0.578"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="109.147, 304.758, 76.221" rotation_euler="0.132, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="126.408, 310.423, 78.177" rotation_euler="0.333, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="138.286, 311.619, 83.971" rotation_euler="0.333, 0.000, -0.642"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="90.831, 333.712, 92.098" rotation_euler="0.333, 0.000, -0.642"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="88.956, 324.233, 97.357" rotation_euler="0.079, 0.000, 0.648"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="118.599, 321.753, 96.176" rotation_euler="0.079, 0.000, -0.253"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="117.538, 322.674, 100.638" rotation_euler="0.645, -0.341, 0.335"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="139.082, 316.395, 101.103" rotation_euler="0.181, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="132.056, 249.816, 82.075" rotation_euler="-0.506, 0.000, -0.537"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="105.785, 278.055, 73.351" rotation_euler="-0.320, 0.000, -0.537"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="149.299, 282.344, 80.000" rotation_euler="0.220, 0.000, -0.985"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="91.324, 284.900, 71.058" rotation_euler="-0.133, 0.000, 0.934"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="70.337, 305.443, 112.696" rotation_euler="0.065, 0.000, 0.921"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="74.446, 323.998, 113.292" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="105.541, 348.858, 119.033" rotation_euler="-0.946, 0.000, 1.892"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="61.119, 312.852, 133.315" rotation_euler="0.105, 0.000, 0.986" scale="0.561, 0.561, 0.561"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="56.032, 316.337, 144.127" rotation_euler="0.380, 0.000, 0.986" scale="0.358, 0.358, 0.358"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="184.092, 199.684, 99.444" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="226.618, 212.114, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantflour_b">
+			<transform position="167.294, 87.148, 27.000" rotation_euler="0.000, 0.000, 1.280"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantleather_c">
+			<transform position="153.015, 74.964, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantbeer_c">
+			<transform position="164.029, 97.713, 27.000" rotation_euler="0.000, 0.000, -0.014"/>
+		</game_entity>
+		<game_entity prefab="rope_chain_heap">
+			<transform position="197.398, 106.763, 28.857" rotation_euler="0.000, 0.000, -0.831"/>
+		</game_entity>
+		<game_entity prefab="ashes_a">
+			<transform position="229.153, 214.231, 73.001" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="218.572, 213.937, 72.990" rotation_euler="0.000, 0.000, -0.060"/>
+		</game_entity>
+		<game_entity prefab="arabian_corner_b">
+			<transform position="175.376, 207.847, 75.824" rotation_euler="0.000, 0.000, -1.274"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l1">
+			<transform position="258.914, 207.133, 84.291" rotation_euler="0.000, 0.000, 1.656"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_wool_c">
+			<transform position="203.917, 99.657, 28.980" rotation_euler="0.000, 0.000, -0.907"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="191.986, 106.030, 14.674" rotation_euler="0.000, 0.000, 0.154"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_small_a">
+			<transform position="168.806, 107.905, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="239.173, 195.504, 62.841" rotation_euler="0.000, 0.000, 0.000" scale="0.850, 0.664, 0.850"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantcarpenter_b">
+			<transform position="153.620, 70.622, 27.010" rotation_euler="0.000, 0.000, 1.824"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="73.529, 138.504, 37.421" rotation_euler="0.000, 0.000, 1.137"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l3">
+			<transform position="253.745, 159.430, 72.412" rotation_euler="0.000, 0.000, -0.053"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l3">
+			<transform position="254.384, 171.035, 78.120" rotation_euler="0.000, 0.000, -0.053"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_corner_a_l1">
+			<transform position="250.338, 146.049, 59.963" rotation_euler="0.000, 0.000, -0.080"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="253.769, 154.876, 64.379" rotation_euler="0.000, 0.000, 1.462"/>
+		</game_entity>
+		<game_entity prefab="floorstone_c">
+			<transform position="218.891, 220.915, 72.990" rotation_euler="0.000, 0.000, -0.003"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_d">
+			<transform position="207.488, 224.733, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="pot_heap_a">
+			<transform position="149.278, 76.595, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_e">
+			<transform position="240.936, 173.944, 60.176" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="199.041, 60.680, 15.029" rotation_euler="0.000, 0.000, 0.154"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="268.099, 100.456, 31.018" rotation_euler="0.000, 0.000, -1.610"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_wool_c">
+			<transform position="185.710, 74.280, 27.000" rotation_euler="0.000, 0.000, -0.907"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_wool_b">
+			<transform position="200.477, 102.948, 28.980" rotation_euler="0.000, 0.000, 0.780"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_b">
+			<transform position="146.720, 79.062, 26.958" rotation_euler="0.000, 0.000, -0.166"/>
+		</game_entity>
+		<game_entity prefab="cave_desert_rock_small_a">
+			<transform position="235.837, 75.670, 30.951" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantsiege_c">
+			<transform position="216.285, 180.137, 65.876" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="252.928, 122.367, 29.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_b">
+			<transform position="201.819, 102.338, 30.147" rotation_euler="0.000, 0.000, -0.690"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_c">
+			<transform position="201.833, 101.625, 28.980" rotation_euler="0.000, 0.000, 2.370"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_d">
+			<transform position="208.921, 111.000, 28.985" rotation_euler="0.000, 0.000, -2.381"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_c">
+			<transform position="206.414, 113.677, 28.980" rotation_euler="0.000, 0.000, -0.800"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_a">
+			<transform position="147.049, 89.713, 26.933" rotation_euler="0.000, 0.000, 0.017"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_c">
+			<transform position="174.321, 76.065, 27.000" rotation_euler="0.000, 0.000, 0.627"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantpottery_a">
+			<transform position="148.448, 72.986, 27.000" rotation_euler="0.000, 0.000, 0.839"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_c2">
+			<transform position="217.876, 149.828, 57.993" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_c">
+			<transform position="210.636, 178.260, 65.970" rotation_euler="0.000, 0.000, -0.040"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantsmithing_b">
+			<transform position="151.551, 86.880, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantpottery_b">
+			<transform position="149.687, 68.774, 27.202" rotation_euler="0.000, 0.000, 0.216" scale="4.929, 4.929, 4.929"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_wool_c">
+			<transform position="156.694, 73.937, 27.000" rotation_euler="0.000, 0.000, 0.223"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantsiege_b">
+			<transform position="149.843, 88.907, 26.982" rotation_euler="0.000, 0.000, -1.518"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_e">
+			<transform position="162.333, 71.032, 27.218" rotation_euler="-0.293, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="152.498, 176.646, 43.770" rotation_euler="0.000, 0.000, -1.624"/>
+		</game_entity>
+		<game_entity prefab="bd_table_vlandia_tavern_a">
+			<transform position="199.941, 185.534, 65.966" rotation_euler="0.000, 0.000, -1.036"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="158.325, 179.847, 43.710" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="159.381, 172.109, 43.770" rotation_euler="0.000, 0.000, -1.183"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="163.168, 165.007, 43.680" rotation_euler="0.000, 0.000, -1.183"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="165.068, 160.594, 43.586" rotation_euler="0.000, 0.000, -1.183"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="158.504, 175.503, 43.740" rotation_euler="0.000, 0.000, -1.183"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="161.611, 168.462, 43.740" rotation_euler="0.000, 0.000, -1.183"/>
+		</game_entity>
+		<game_entity prefab="floorstone_c">
+			<transform position="155.921, 182.741, 43.681" rotation_euler="0.000, 0.000, 1.571"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_tower_round_a_l2">
+			<transform position="152.730, 106.792, 18.443" rotation_euler="0.000, 0.000, -2.188"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack_desk_a">
+			<transform position="192.542, 183.181, 69.961" rotation_euler="0.000, 0.000, -1.613"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_c">
+			<transform position="155.916, 189.822, 43.740" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_log_and_axe">
+			<transform position="151.585, 204.673, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_baracks_a_l1">
+			<transform position="170.891, 170.670, 45.671" rotation_euler="0.018, 0.000, -1.200"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_linen_c">
+			<transform position="198.198, 157.007, 53.843" rotation_euler="0.000, -0.098, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_tapestry_aserai_c">
+			<transform position="217.730, 208.555, 85.153" rotation_euler="0.000, 0.000, -1.576" scale="1.809, 1.809, 1.809"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_desert_b">
+			<transform position="207.306, 218.275, 72.990" rotation_euler="0.000, 0.000, -2.784"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l1">
+			<transform position="178.796, 153.793, 50.814" rotation_euler="-0.074, 0.486, -0.042"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l3">
+			<transform position="197.144, 179.693, 63.997" rotation_euler="0.000, 0.000, -3.127"/>
+		</game_entity>
+		<game_entity prefab="arabian_waterwell_a">
+			<transform position="157.482, 168.088, 44.240" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="cave_desert_floor_b">
+			<transform position="214.164, 148.603, 57.076" rotation_euler="0.000, -0.144, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_a">
+			<transform position="207.143, 64.355, 29.379" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_a2">
+			<transform position="209.237, 63.109, 29.419" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_b">
+			<transform position="205.581, 65.868, 29.259" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_a">
+			<transform position="216.782, 57.980, 28.107" rotation_euler="0.048, 0.057, -0.582"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_d">
+			<transform position="206.422, 184.889, 65.970" rotation_euler="0.000, 0.000, 0.839"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l1">
+			<transform position="166.227, 157.867, 44.504" rotation_euler="0.044, 0.355, -0.734"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l1">
+			<transform position="218.295, 153.534, 58.701" rotation_euler="-0.064, 0.647, -0.022" scale="1.307, 1.307, 1.307"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="221.451, 152.731, 57.837" rotation_euler="0.000, -0.132, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_a">
+			<transform position="156.710, 189.463, 43.740" rotation_euler="1.544, 3.141, 3.141"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_b">
+			<transform position="157.340, 191.624, 43.740" rotation_euler="-0.310, 0.000, -1.362"/>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack_desk_a">
+			<transform position="192.643, 186.938, 70.011" rotation_euler="0.000, 0.000, -1.613"/>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack">
+			<transform position="187.987, 187.380, 69.924" rotation_euler="0.000, 0.000, 3.070"/>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack_desk_b">
+			<transform position="191.142, 183.155, 69.925" rotation_euler="0.000, 0.000, -1.615"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="204.740, 156.883, 54.687" rotation_euler="0.000, -0.183, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_tapestry_aserai_c">
+			<transform position="217.776, 199.474, 85.211" rotation_euler="0.000, 0.000, -1.568"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_b">
+			<transform position="205.734, 158.798, 62.543" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweavery_velvet_c">
+			<transform position="229.084, 156.557, 58.120" rotation_euler="0.000, -0.039, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweavery_wool_c">
+			<transform position="223.024, 149.376, 58.036" rotation_euler="0.000, -0.133, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweavery_linen_c">
+			<transform position="236.228, 156.990, 59.048" rotation_euler="0.000, -0.161, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_aserai_b">
+			<transform position="215.369, 202.113, 93.151" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_washtub_a">
+			<transform position="217.487, 182.797, 65.767" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_washtub_a">
+			<transform position="174.710, 162.537, 50.739" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="253.277, 141.601, 65.974" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_washtub_b">
+			<transform position="205.433, 180.533, 65.970" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_washtub_b">
+			<transform position="201.310, 157.066, 54.231" rotation_euler="0.000, -0.180, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_velvet_c">
+			<transform position="249.327, 156.145, 59.703" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="awning_arbor_big_a">
+			<transform position="240.349, 163.718, 74.810" rotation_euler="0.000, 0.000, 3.080" scale="1.261, 1.261, 1.261"/>
+		</game_entity>
+		<game_entity prefab="awning_arbor_big_a">
+			<transform position="249.569, 164.358, 65.057" rotation_euler="0.000, 0.000, -1.641" scale="1.410, 1.410, 1.410"/>
+		</game_entity>
+		<game_entity prefab="aserai_grandbazaar_wall">
+			<transform position="249.658, 157.871, 62.171" rotation_euler="0.000, 0.000, -1.560"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="138.431, 142.838, 53.875" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_b">
+			<transform position="173.382, 187.858, 44.281" rotation_euler="0.000, 0.000, -1.340"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_a_stairs">
+			<transform position="171.386, 170.587, 50.803" rotation_euler="0.000, 0.000, -1.193"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_c">
+			<transform position="167.138, 111.819, 27.398" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_a">
+			<transform position="164.793, 111.978, 27.380" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_d">
+			<transform position="245.330, 103.706, 27.673" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<transform position="208.947, 97.359, 29.393" rotation_euler="0.000, 0.011, 0.447"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_a">
+			<transform position="200.374, 99.663, 28.980" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="258.830, 190.809, 85.836" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="233.838, 145.106, 67.399" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="158.893, 142.014, 61.656" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="255.265, 158.680, 74.004" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_c">
+			<transform position="158.129, 69.339, 27.459" rotation_euler="0.000, 0.000, 3.116"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="172.533, 91.941, 27.159" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_e">
+			<transform position="172.330, 104.040, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_b">
+			<transform position="209.985, 228.503, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_a">
+			<transform position="160.062, 111.853, 27.401" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_d">
+			<transform position="162.403, 114.360, 29.220" rotation_euler="0.000, 0.000, -2.663"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_f">
+			<transform position="205.396, 61.226, 28.929" rotation_euler="0.000, 0.000, 2.486"/>
+		</game_entity>
+		<game_entity prefab="bd_table_aserai_tavern_c">
+			<transform position="158.245, 161.473, 43.758" rotation_euler="0.000, 0.000, -0.483"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_d">
+			<transform position="185.873, 62.611, 27.746" rotation_euler="0.000, 0.000, 2.043"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_c">
+			<transform position="227.531, 67.562, 30.429" rotation_euler="0.000, 0.170, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_b">
+			<transform position="228.884, 77.757, 31.057" rotation_euler="0.000, 0.000, -1.656"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_c_l3">
+			<transform position="156.795, 146.548, 53.990" rotation_euler="0.000, 0.000, -1.560"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_corner_c_l1">
+			<transform position="162.095, 146.291, 49.575" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="1">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_c_l3">
+			<transform position="177.224, 147.040, 57.423" rotation_euler="0.000, 0.000, -1.560"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_c_l2">
+			<transform position="189.578, 146.848, 60.747" rotation_euler="0.000, 0.000, -1.590"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="151.884, 146.292, 46.443" rotation_euler="0.000, 0.000, -0.008"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="269.046, 67.319, 22.980" rotation_euler="0.000, 0.000, -0.743"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_desert_b">
+			<transform position="222.024, 214.284, 72.990" rotation_euler="0.000, 0.000, -2.784"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="258.748, 171.860, 83.447" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="aserai_village_house_a">
+			<transform position="165.854, 189.069, 43.924" rotation_euler="0.000, 0.000, 1.879"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="202.848, 145.261, 65.498" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_aserai_vaze_b">
+			<transform position="159.823, 161.250, 44.556" rotation_euler="0.000, 0.000, -0.437"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_c">
+			<transform position="227.171, 74.681, 31.240" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l1">
+			<transform position="233.377, 152.935, 60.000" rotation_euler="0.010, 0.694, 0.035" scale="1.307, 1.307, 1.307"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="90.156, 117.469, 31.804" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_d">
+			<transform position="95.808, 91.235, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="235.745, 153.574, 58.885" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l1">
+			<transform position="196.516, 153.485, 54.879" rotation_euler="-0.064, 0.606, -0.022" scale="1.307, 1.307, 1.307"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_c">
+			<transform position="218.627, 181.583, 65.684" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_a">
+			<transform position="105.162, 104.695, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="75.841, 105.448, 26.897" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="133.593, 94.020, 26.557" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="65.311, 145.501, 55.841" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_a">
+			<transform position="204.187, 149.702, 54.786" rotation_euler="0.000, -0.123, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="172.434, 146.646, 49.608" rotation_euler="0.000, 0.000, -0.008"/>
+		</game_entity>
+		<game_entity prefab="siege_barricade_group_d">
+			<transform position="160.898, 116.254, 29.740" rotation_euler="0.302, -0.087, 0.119"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="259.037, 197.223, 78.324" rotation_euler="0.000, 0.000, 1.392"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_c">
+			<transform position="225.912, 180.731, 65.010" rotation_euler="0.000, 0.017, -0.800"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l3">
+			<transform position="217.375, 189.306, 62.749" rotation_euler="0.000, 0.183, 1.565" scale="1.000, 2.339, 1.000"/>
+		</game_entity>
+		<game_entity prefab="vlandia_arena_grandstand_barrier_c">
+			<transform position="145.455, 95.382, 26.692" rotation_euler="0.000, -0.007, -1.549" scale="1.411, 1.000, 2.292"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_2_fence_a">
+			<transform position="230.580, 182.560, 63.934" rotation_euler="0.000, 0.232, -0.955"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="226.657, 177.464, 65.092" rotation_euler="0.000, 0.155, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_floor_a">
+			<transform position="152.067, 182.958, 43.618" rotation_euler="0.000, 0.000, -0.014"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="243.229, 166.842, 60.636" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_a">
+			<transform position="234.464, 175.731, 62.094" rotation_euler="0.000, 0.000, -1.540"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_f">
+			<transform position="243.538, 173.647, 61.507" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_street_tent_a">
+			<transform position="217.966, 179.155, 66.208" rotation_euler="-0.075, 0.000, -3.129" scale="1.778, 0.997, 0.997"/>
+		</game_entity>
+		<game_entity prefab="sew_or_knit_chair_unsittable">
+			<transform position="157.102, 160.684, 43.996" rotation_euler="1.455, 0.000, -1.190"/>
+		</game_entity>
+		<game_entity prefab="vlandia_arena_grandstand_barrier_c">
+			<transform position="145.183, 73.413, 27.660" rotation_euler="0.000, -0.034, -1.702" scale="1.189, 1.000, 1.524"/>
+		</game_entity>
+		<game_entity prefab="sew_or_knit_chair_unsittable">
+			<transform position="158.051, 160.120, 43.770" rotation_euler="0.000, 0.000, -0.560"/>
+		</game_entity>
+		<game_entity prefab="sew_or_knit_chair_unsittable">
+			<transform position="159.352, 162.258, 43.770" rotation_euler="0.000, 0.000, -0.560"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="167.478, 164.109, 43.436" rotation_euler="0.000, 0.000, -1.211"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="160.706, 181.868, 43.752" rotation_euler="0.000, 0.000, 0.085"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_h">
+			<transform position="201.865, 180.582, 65.913" rotation_euler="0.000, -0.002, 1.622"/>
+		</game_entity>
+		<game_entity prefab="arabian_carpet_creased_c_low">
+			<transform position="152.512, 160.545, 43.740" rotation_euler="0.070, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantsmithing_tools_c">
+			<transform position="240.414, 207.918, 88.107" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_baracks_a_l3">
+			<transform position="207.453, 162.300, 56.711" rotation_euler="0.000, -0.082, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l3">
+			<transform position="187.029, 163.429, 52.782" rotation_euler="0.000, -0.168, -0.267"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_b">
+			<transform position="196.642, 149.847, 53.742" rotation_euler="0.000, -0.064, -0.147"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_c_l3">
+			<transform position="186.186, 159.502, 51.385" rotation_euler="0.000, -0.140, -0.209"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_e">
+			<transform position="169.669, 169.555, 50.761" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_c">
+			<transform position="200.086, 149.530, 53.994" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="240.409, 154.788, 59.249" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="arabian_stone_a">
+			<transform position="172.588, 156.459, 46.265" rotation_euler="0.000, -0.673, -1.074"/>
+		</game_entity>
+		<game_entity prefab="arabian_stone_a">
+			<transform position="172.477, 158.755, 45.677" rotation_euler="0.000, -0.673, -1.074"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="211.368, 152.609, 55.890" rotation_euler="0.000, -0.187, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack">
+			<transform position="187.370, 186.046, 69.915" rotation_euler="0.000, 0.000, -1.658"/>
+		</game_entity>
+		<game_entity prefab="bd_manure_a">
+			<transform position="151.198, 206.384, 43.752" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack">
+			<transform position="189.428, 186.906, 69.903" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_small_a">
+			<transform position="106.415, 119.071, 27.529" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack">
+			<transform position="189.603, 185.762, 69.893" rotation_euler="0.000, 0.000, -0.833"/>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack_desk_b">
+			<transform position="191.159, 186.782, 69.920" rotation_euler="0.000, 0.000, -1.580"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_c">
+			<transform position="178.898, 86.722, 28.651" rotation_euler="0.129, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_e">
+			<transform position="177.320, 87.658, 27.796" rotation_euler="-0.451, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_d">
+			<transform position="194.023, 75.245, 27.588" rotation_euler="0.267, 0.000, -1.538"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_c">
+			<transform position="147.227, 96.938, 26.217" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_a">
+			<transform position="179.067, 85.594, 28.018" rotation_euler="0.000, -0.717, 0.792"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_b">
+			<transform position="177.912, 84.204, 27.285" rotation_euler="0.000, 0.000, 0.795"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_b">
+			<transform position="189.220, 76.579, 27.287" rotation_euler="0.000, 0.000, -2.268"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="184.715, 146.473, 53.054" rotation_euler="0.000, 0.000, -0.008"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="214.437, 200.755, 94.548" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="aserai_castle_tower_round_a_l2">
+			<transform position="184.800, 206.759, 79.701" rotation_euler="0.000, 0.000, -3.085"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="aserai_castle_gatehouse_a_l2">
+			<transform position="143.460, 183.624, 43.989" rotation_euler="0.000, 0.000, -1.624"/>
+			<children>
+				<game_entity _index_="1">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity _index_="2">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity _index_="3">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity _index_="4">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="220.857, 209.672, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="228.235, 217.335, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="225.244, 214.048, 72.990" rotation_euler="0.000, 0.000, -0.875"/>
+		</game_entity>
+		<game_entity prefab="arabian_corner_b">
+			<transform position="260.329, 207.458, 74.823" rotation_euler="0.000, 0.000, 2.974"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="217.673, 199.464, 72.960" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantsmithing_tools_c">
+			<transform position="235.260, 215.206, 72.990" rotation_euler="0.000, 0.000, 0.061"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweapons_shield_c">
+			<transform position="225.925, 218.684, 72.990" rotation_euler="0.000, 0.000, -0.016"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="218.359, 210.056, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweapons_melee_c">
+			<transform position="231.631, 218.260, 72.990" rotation_euler="0.000, 0.000, -1.540"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="218.751, 217.798, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<transform position="222.303, 217.793, 72.905" rotation_euler="0.000, 0.000, 2.351"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="256.721, 185.068, 76.214" rotation_euler="0.000, 0.000, 1.379"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_aserai_b">
+			<transform position="160.928, 110.086, 27.025" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_c">
+			<transform position="163.812, 113.017, 27.818" rotation_euler="0.848, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_c">
+			<transform position="164.178, 114.005, 28.421" rotation_euler="0.848, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_c">
+			<transform position="166.740, 113.542, 28.146" rotation_euler="0.848, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_c">
+			<transform position="161.190, 113.223, 27.746" rotation_euler="0.848, 0.133, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_c">
+			<transform position="160.948, 114.072, 28.295" rotation_euler="0.848, 0.133, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_baracks_a_l3">
+			<transform position="222.963, 170.855, 65.273" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l3">
+			<transform position="204.176, 209.011, 73.948" rotation_euler="0.000, 0.000, -3.135" scale="1.260, 1.260, 1.260"/>
+		</game_entity>
+		<game_entity prefab="vlandia_arena_grandstand_roof_cloth_a2">
+			<transform position="220.772, 248.481, 115.365" rotation_euler="0.000, 0.000, 0.000" scale="0.889, 0.889, 0.889"/>
+		</game_entity>
+		<game_entity prefab="aserai_village_house_c">
+			<transform position="189.868, 184.330, 65.994" rotation_euler="0.000, 0.000, -1.576" scale="0.645, 0.645, 0.645"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l1">
+			<transform position="203.120, 217.956, 72.990" rotation_euler="0.000, 0.000, 1.598"/>
+		</game_entity>
+		<game_entity prefab="vlandia_arena_grandstand_roof_cloth_b1">
+			<transform position="206.066, 252.448, 108.200" rotation_euler="0.000, 0.000, -0.045"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l3">
+			<transform position="202.792, 171.301, 67.782" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_corner_roof">
+			<transform position="188.586, 185.000, 69.890" rotation_euler="0.000, 0.000, -1.556"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l3">
+			<transform position="230.216, 209.688, 73.521" rotation_euler="0.000, 0.000, 0.016" scale="1.265, 1.265, 1.265"/>
+		</game_entity>
+		<game_entity prefab="merchant_stand_armorer">
+			<transform position="208.721, 219.493, 72.990" rotation_euler="0.000, 0.000, 0.104"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_d_roof">
+			<transform position="185.311, 162.514, 60.583" rotation_euler="0.000, -0.234, -0.295"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_a_top">
+			<transform position="222.013, 162.694, 63.668" rotation_euler="0.000, 0.000, 0.000" scale="1.359, 1.359, 1.359"/>
+		</game_entity>
+		<game_entity prefab="bd_wheelbarrow_a">
+			<transform position="195.033, 189.424, 65.906" rotation_euler="0.000, 0.990, 0.056"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_a_top">
+			<transform position="169.395, 177.818, 50.741" rotation_euler="0.000, 0.000, 0.357" scale="1.359, 1.359, 1.359"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l1">
+			<transform position="225.484, 160.781, 57.981" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_a_top">
+			<transform position="165.305, 188.869, 49.576" rotation_euler="0.000, 0.000, 0.295" scale="1.647, 1.647, 1.647"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_a">
+			<transform position="167.437, 90.204, 27.000" rotation_euler="0.000, 0.000, 1.411"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_a">
+			<transform position="164.132, 109.895, 27.010" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchanthorse_c">
+			<transform position="203.197, 176.464, 74.062" rotation_euler="0.000, 0.000, -0.099"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_desert_f">
+			<transform position="212.629, 213.262, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="167.670, 209.088, 88.709" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="arabian_fountain_a">
+			<transform position="219.718, 242.134, 102.531" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+						<variable name="Overrided Min Distance" value="1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l3">
+			<transform position="208.351, 177.829, 63.824" rotation_euler="0.000, 0.000, 3.128"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l2">
+			<transform position="235.462, 179.672, 57.015" rotation_euler="-0.081, 0.496, 2.141" scale="1.240, 1.240, 1.240"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="195.316, 168.729, 75.483" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="202.812, 168.076, 63.345" rotation_euler="0.465, 0.048, 0.000" scale="0.446, 0.446, 0.446"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="189.139, 171.143, 63.097" rotation_euler="0.177, -0.168, -0.165" scale="0.446, 0.446, 0.446"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l2">
+			<transform position="240.217, 159.914, 54.709" rotation_euler="0.000, 0.747, 1.553" scale="1.127, 2.295, 1.127"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="182.654, 174.781, 75.664" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="187.247, 172.988, 63.741" rotation_euler="0.000, -0.116, -0.186" scale="0.331, 0.331, 0.331"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="190.272, 172.829, 63.881" rotation_euler="0.000, -0.113, 0.000" scale="0.331, 0.331, 0.331"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l3">
+			<transform position="229.755, 176.948, 61.500" rotation_euler="0.000, 0.000, -3.127"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l2">
+			<transform position="178.711, 199.284, 79.760" rotation_euler="0.000, 0.000, 2.030" scale="0.752, 0.752, 0.752"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l1">
+			<transform position="183.550, 188.337, 78.156" rotation_euler="0.000, 0.138, 1.972" scale="0.666, 0.738, 1.111"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="53.667, 318.295, 152.393" rotation_euler="0.380, 0.000, 0.986" scale="0.226, 0.226, 0.226"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="36.956, 290.466, 119.084" rotation_euler="-0.315, 0.000, -0.155" scale="1.550, 1.550, 1.550"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="41.949, 307.682, 137.925" rotation_euler="0.014, 0.000, -0.155" scale="1.550, 1.550, 1.550"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="65.771, 343.709, 130.832" rotation_euler="-0.720, 0.000, 2.325" scale="1.550, 1.550, 1.550"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="64.468, 351.180, 133.336" rotation_euler="-0.720, 0.000, 2.325" scale="1.550, 1.550, 1.550"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="66.024, 335.665, 139.754" rotation_euler="0.000, 0.000, 1.036"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="79.035, 348.432, 133.073" rotation_euler="0.000, 0.000, 0.642"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="94.615, 347.535, 124.873" rotation_euler="0.000, 0.000, 0.642"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="121.839, 354.916, 115.532" rotation_euler="0.000, 0.000, 1.047"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="74.906, 177.864, 56.390" rotation_euler="0.259, 0.000, 1.047"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="64.002, 144.108, 51.979" rotation_euler="0.186, 0.000, 0.509"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="270.751, 94.074, 26.765" rotation_euler="0.000, 0.000, -1.543"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="266.435, 121.656, 24.462" rotation_euler="0.000, 0.000, -1.213"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="249.796, 124.431, 23.499" rotation_euler="0.000, 0.000, 0.150"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="221.227, 122.029, 22.614" rotation_euler="0.000, 0.000, -0.039"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="194.442, 125.701, 22.257" rotation_euler="0.000, 0.000, -0.172"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="170.923, 126.672, 26.299" rotation_euler="0.000, 0.000, -0.087" scale="0.769, 0.769, 0.769"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="241.225, 128.639, 35.481" rotation_euler="0.025, 0.000, -0.022"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="210.998, 129.635, 32.435" rotation_euler="0.025, -0.181, -0.022"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="179.924, 129.555, 26.628" rotation_euler="0.025, -0.181, -0.022"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="183.234, 140.417, 47.356" rotation_euler="0.200, -0.110, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="204.764, 140.698, 50.998" rotation_euler="0.000, -0.149, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="234.827, 140.107, 54.592" rotation_euler="0.000, -0.076, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="256.365, 140.888, 54.538" rotation_euler="0.000, -0.076, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="267.424, 129.789, 35.837" rotation_euler="0.000, 0.000, -0.047"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="276.808, 118.043, 47.429" rotation_euler="0.000, 0.000, -1.210"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="281.687, 100.694, 40.268" rotation_euler="0.344, 0.000, -1.210"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="279.346, 84.528, 38.719" rotation_euler="0.344, 0.000, -1.210" scale="1.250, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="273.508, 69.025, 16.626" rotation_euler="0.344, 0.000, -1.860"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="265.340, 48.992, 17.505" rotation_euler="0.344, 0.000, -2.013"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="277.953, 106.146, 53.539" rotation_euler="-0.160, 0.000, -1.348" scale="0.677, 0.677, 0.677"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="279.195, 101.498, 53.131" rotation_euler="-0.160, 0.000, -1.348" scale="0.677, 0.677, 0.677"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="279.056, 112.466, 54.176" rotation_euler="-0.160, 0.000, -1.362" scale="0.677, 0.677, 0.677"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="262.415, 148.575, 59.346" rotation_euler="-0.807, 0.000, -0.064"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="264.757, 178.343, 69.327" rotation_euler="-0.963, 0.000, -0.064"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="271.531, 201.758, 73.734" rotation_euler="-0.963, 0.000, -0.064"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="283.900, 171.536, 54.150" rotation_euler="-0.679, 0.000, 2.741"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="284.693, 185.250, 64.135" rotation_euler="-1.545, 0.000, 2.741"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="280.562, 168.034, 57.045" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="290.211, 217.436, 77.657" rotation_euler="0.000, 0.000, 0.774"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="246.448, 337.485, 122.081" rotation_euler="0.000, 0.000, -0.230"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="52.514, 61.031, 27.314" rotation_euler="-0.020, 0.000, 0.244"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="138.687, 56.022, 25.872" rotation_euler="0.000, 0.000, 3.018" scale="506.510, 31.657, 126.627"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="271.290, 178.395, 25.447" rotation_euler="0.000, 0.000, -1.689" scale="506.510, 31.657, 126.627"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="207.579, 268.117, 109.285" rotation_euler="0.000, 0.000, -0.183" scale="506.510, 31.657, 126.627"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="99.840, 165.593, 29.040" rotation_euler="0.000, 0.000, 1.489" scale="506.510, 31.657, 126.628"/>
+		</game_entity>
+		<game_entity prefab="_barrier_12x04m">
+			<transform position="141.067, 85.270, 27.079" rotation_euler="0.000, 0.000, 0.000" scale="9.819, 0.731, 9.098"/>
+		</game_entity>
+		<game_entity prefab="_barrier_12x04m">
+			<transform position="141.212, 81.581, 27.079" rotation_euler="0.000, 0.000, -3.138" scale="9.819, 0.731, 9.098"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="131.082, 91.420, 26.970" rotation_euler="0.000, 0.000, -0.879" scale="16.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="123.856, 94.249, 26.510" rotation_euler="0.000, 0.000, -0.253" scale="18.536, 1.000, 8.234"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="114.700, 104.453, 25.277" rotation_euler="0.000, 0.000, -1.543" scale="16.000, 1.000, 8.135"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="121.156, 116.825, 26.856" rotation_euler="0.000, 0.000, -2.534" scale="16.000, 1.000, 6.721"/>
+		</game_entity>
+		<game_entity prefab="_barrier_12x04m">
+			<transform position="122.931, 119.709, 29.470" rotation_euler="0.000, 0.000, -2.091" scale="12.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_12x04m">
+			<transform position="131.796, 125.603, 27.845" rotation_euler="0.000, 0.000, -3.023" scale="12.000, 1.000, 13.784"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="142.568, 120.781, 29.684" rotation_euler="0.000, 0.000, 2.317" scale="22.744, 0.997, 11.537"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="144.501, 104.843, 26.273" rotation_euler="0.000, 0.000, 1.621" scale="38.841, 2.428, 24.711"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="142.917, 62.430, 27.510" rotation_euler="0.000, 0.000, 1.396" scale="38.841, 2.428, 9.710"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="133.891, 68.213, 27.458" rotation_euler="0.000, 0.000, -1.748" scale="27.363, 1.710, 6.841"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="131.162, 66.680, 27.497" rotation_euler="0.000, 0.000, -1.991" scale="27.363, 1.710, 6.841"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="127.983, 66.269, 29.034" rotation_euler="0.000, 0.000, 3.034" scale="16.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="adam_0">
+			<transform position="98.718, 100.848, 27.000" rotation_euler="0.000, 0.000, -3.100"/>
+		</game_entity>
+		<game_entity prefab="adam_0">
+			<transform position="123.322, 85.254, 27.000" rotation_euler="0.000, 0.000, 1.263"/>
+		</game_entity>
+		<game_entity prefab="mp_camera_start_pos">
+			<transform position="180.128, 100.958, 39.272" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_attacker">
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_0"/>
+			</tags>
+			<transform position="158.756, 90.898, 32.704" rotation_euler="0.000, 0.000, 2.578"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_attacker">
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_1"/>
+			</tags>
+			<transform position="159.813, 90.991, 32.694" rotation_euler="0.000, 0.000, 2.578"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_attacker">
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_3"/>
+			</tags>
+			<transform position="158.408, 91.917, 32.657" rotation_euler="0.000, 0.000, 2.578"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_attacker">
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_2"/>
+			</tags>
+			<transform position="160.788, 91.231, 32.677" rotation_euler="0.000, 0.000, 2.578"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_attacker">
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_4"/>
+			</tags>
+			<transform position="158.295, 92.814, 32.612" rotation_euler="0.000, 0.000, 2.578"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint_attacker">
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_5"/>
+			</tags>
+			<transform position="159.474, 92.065, 32.621" rotation_euler="0.000, 0.000, -0.565"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="101.878, 89.718, 36.815" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="0.552, -2.009, -9.467"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="2.965, 3.106, -9.261"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="4.650, 4.822, -9.608"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="3.729, 6.801, -9.657"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="1.150, -12.594, -9.428"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="-4.324, -13.553, -8.825"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="-2.115, 7.208, -9.723"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="-1.271, 11.542, -9.820"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<tags>
+						<tag name="spawnpoint"/>
+						<tag name="attacker"/>
+					</tags>
+					<transform position="-4.097, -6.227, -9.738"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="skirmish_respawn">
+			<transform position="123.537, 78.006, 27.000" rotation_euler="0.000, 0.000, 1.261"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="228.725, 98.278, 42.819" rotation_euler="0.000, 0.000, -2.508"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-13.574, 10.619, -14.348"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="-9.135, 14.826, -13.068"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="-21.452, 11.531, -14.020"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="-14.310, 15.759, -14.067"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<transform position="-10.801, 9.937, -13.395"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<transform position="-11.659, 16.641, -13.423"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<transform position="-13.579, 18.737, -14.194"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<transform position="-12.030, 6.650, -14.281" rotation_euler="0.000, 0.000, -0.618"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<transform position="-17.328, 11.024, -14.035"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="skirmish_respawn">
+			<transform position="252.875, 106.516, 33.703" rotation_euler="0.000, 0.000, -1.826"/>
+			<children>
+				<game_entity _index_="0">
+					<tags>
+						<tag name="defender"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="1">
+					<tags>
+						<tag name="defender"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="2">
+					<tags>
+						<tag name="defender"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_A">
+			<transform position="202.943, 81.948, 30.884" rotation_euler="0.000, 0.000, 1.432"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_B">
+			<transform position="148.850, 110.458, 34.478" rotation_euler="0.000, 0.000, -2.193"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_C">
+			<transform position="191.767, 52.061, 27.537" rotation_euler="0.000, 0.000, 0.352"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="109.988, 119.762, 27.576" rotation_euler="0.000, 0.000, -0.158" scale="68.406, 3.805, 15.220"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="106.127, 110.907, 27.000" rotation_euler="0.000, 0.000, -0.158" scale="77.793, 3.805, 15.220"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_aserai_a">
+			<transform position="154.918, 158.265, 43.765" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l1">
+			<transform position="238.125, 149.688, 60.031" rotation_euler="0.000, 0.000, -0.065"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l3">
+			<transform position="202.186, 178.357, 66.514" rotation_euler="0.000, 0.000, -3.119" scale="0.659, 0.659, 0.659"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="182.386, 185.042, 75.581" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="251.017, 101.550, 27.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="arabian_waterwell_a">
+			<transform position="253.793, 96.262, 28.822" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="AmbientSoundEmitter">
+					<variables>
+						<variable name="Overrided Max Distance" value="20.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="249.113, 97.890, 27.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="116.227, 214.062, 38.278" rotation_euler="0.000, 0.000, 0.411"/>
+		</game_entity>
+		<game_entity prefab="bd_hay_cart_b">
+			<transform position="178.377, 90.771, 27.362" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="180.891, 89.098, 28.112" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_a">
+			<transform position="105.218, 82.544, 27.000" rotation_euler="0.000, 0.000, 0.000" scale="2.323, 2.323, 2.323"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_d">
+			<transform position="189.856, 98.253, 27.615" rotation_euler="0.000, 0.000, 2.796"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_l1_heap_a">
+			<transform position="160.939, 107.104, 27.000" rotation_euler="0.000, 0.000, 1.630"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="107.077, 113.028, 27.000" rotation_euler="0.000, 0.000, 0.000" scale="3.424, 3.424, 3.424"/>
+		</game_entity>
+		<game_entity prefab="pot_heap_c">
+			<transform position="150.226, 71.409, 27.006" rotation_euler="0.000, 0.000, 0.299"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_a">
+			<transform position="172.995, 113.311, 27.864" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="146.524, 168.995, 43.725" rotation_euler="0.000, 0.000, -0.763"/>
+		</game_entity>
+		<game_entity prefab="stand_straw_a">
+			<transform position="163.278, 152.998, 42.416" rotation_euler="0.000, 0.000, 1.495" scale="0.774, 0.991, 0.991"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="147.545, 169.996, 43.761" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_e">
+			<transform position="229.608, 190.366, 65.370" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="214.341, 149.709, 57.605" rotation_euler="-0.015, -0.143, -0.002"/>
+		</game_entity>
+		<game_entity prefab="bd_stone_mill">
+			<transform position="190.362, 150.270, 53.370" rotation_euler="-0.122, -0.030, 1.121"/>
+		</game_entity>
+		<game_entity prefab="bd_mill_flour_sack">
+			<transform position="188.370, 185.958, 69.897" rotation_euler="0.000, 0.000, -1.658"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_ramp_b">
+			<transform position="209.605, 150.037, 55.916" rotation_euler="-0.208, -0.593, -0.139"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="231.742, 156.928, 57.889" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="cave_desert_floor_b">
+			<transform position="189.974, 148.732, 52.857" rotation_euler="0.000, -0.144, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_smithy_anvil">
+			<transform position="219.138, 150.912, 57.740" rotation_euler="0.000, 0.000, -1.526"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="254.566, 165.758, 70.452" rotation_euler="0.000, 0.000, 1.517"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_heap_d">
+			<transform position="244.055, 112.932, 28.974" rotation_euler="0.000, 0.000, 0.824"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_c2">
+			<transform position="178.536, 78.774, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="196.987, 146.181, 56.353" rotation_euler="0.000, 0.000, -0.008"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="186.215, 123.028, 28.984" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_c">
+			<transform position="210.346, 95.011, 29.115" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="164.155, 125.386, 29.090" rotation_euler="0.000, 0.000, -1.703"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="245.583, 85.836, 30.135" rotation_euler="0.000, 0.000, 0.468"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_d">
+			<transform position="199.379, 122.925, 28.914" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="259.983, 94.770, 27.038" rotation_euler="0.000, 0.000, 0.468"/>
+		</game_entity>
+		<game_entity prefab="pot_heap_d">
+			<transform position="160.312, 76.613, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_heap_d">
+			<transform position="241.345, 115.300, 28.913" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_heap_a">
+			<transform position="237.862, 115.230, 28.184" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_f">
+			<transform position="245.433, 115.474, 27.893" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_heap_a">
+			<transform position="239.493, 112.750, 28.940" rotation_euler="0.000, 0.000, -0.181"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="244.153, 108.933, 28.210" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_heap_a">
+			<transform position="242.172, 111.365, 28.058" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="172.427, 96.283, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="245.615, 111.979, 28.484" rotation_euler="0.000, 0.000, 1.061"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_d_l1">
+			<transform position="180.829, 192.076, 71.146" rotation_euler="0.000, 0.147, -1.199"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_roof">
+			<transform position="203.199, 170.938, 75.383" rotation_euler="0.000, 0.135, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="254.000, 50.090, 25.543" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="218.697, 48.993, 25.782" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_a">
+			<transform position="229.618, 80.177, 31.427" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_e">
+			<transform position="208.513, 227.162, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantsiege_b">
+			<transform position="235.474, 212.055, 72.990" rotation_euler="0.000, 0.000, 1.711"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_aserai_a">
+			<transform position="210.287, 225.315, 72.990" rotation_euler="0.000, 0.000, -1.559"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweapons_melee_c">
+			<transform position="235.179, 218.211, 72.990" rotation_euler="0.000, 0.000, -1.540"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_c">
+			<transform position="242.495, 161.187, 59.942" rotation_euler="0.000, 0.000, -1.407"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="219.768, 247.787, 118.893" rotation_euler="0.000, 0.000, 0.000" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_d_l1">
+			<transform position="188.843, 175.374, 68.198" rotation_euler="0.000, 0.000, -0.028" scale="1.110, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_palm_b">
+			<transform position="239.764, 87.058, 30.924" rotation_euler="0.000, 0.158, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l1">
+			<transform position="201.931, 107.621, 28.983" rotation_euler="0.000, 0.000, -0.805"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l1">
+			<transform position="179.824, 69.110, 27.349" rotation_euler="0.000, 0.000, -1.003"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b">
+			<transform position="183.339, 160.169, 48.221" rotation_euler="0.139, -1.685, 1.496"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_d">
+			<transform position="232.583, 91.565, 31.445" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="197.146, 191.012, 61.782" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_tapestry_battania">
+			<transform position="150.007, 183.127, 56.977" rotation_euler="0.000, 0.000, 1.526"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_barn_a_l1">
+			<transform position="159.092, 93.689, 26.978" rotation_euler="0.000, 0.000, -3.141"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="202.810, 76.525, 28.410" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_c_l2">
+			<transform position="176.263, 205.561, 86.657" rotation_euler="0.000, 0.000, -1.383"/>
+		</game_entity>
+		<game_entity prefab="bd_tapestry_battania">
+			<transform position="139.171, 183.441, 51.160" rotation_euler="0.000, 0.000, 1.518"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="154.227, 58.171, 27.382" rotation_euler="0.000, 0.000, -1.258"/>
+		</game_entity>
+		<game_entity prefab="terrain_rock_b">
+			<transform position="172.159, 187.765, 51.926" rotation_euler="0.575, -0.988, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_l2">
+			<transform position="145.443, 204.773, 44.073" rotation_euler="0.000, 0.000, -1.624"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="208.146, 99.541, 28.980" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_c_l1">
+			<transform position="178.361, 199.307, 75.637" rotation_euler="0.000, 0.000, -1.154"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l3">
+			<transform position="183.628, 185.884, 73.083" rotation_euler="0.082, -0.038, 0.230" scale="0.777, 0.777, 0.777"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="85.206, 247.046, 82.502" rotation_euler="0.146, 0.000, 0.358"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="45.867, 200.764, 88.933" rotation_euler="0.000, 0.000, 0.780"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="60.294, 232.963, 75.443" rotation_euler="-0.375, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="63.399, 195.302, 67.948" rotation_euler="-0.051, 0.000, 1.342" scale="0.820, 0.820, 0.820"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="49.901, 193.343, 76.246" rotation_euler="-0.051, 0.000, 1.342" scale="0.820, 0.820, 0.820"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="54.837, 216.488, 84.330" rotation_euler="0.271, 0.000, 1.374"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="64.135, 221.475, 70.752" rotation_euler="-0.060, 0.000, 1.374"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="119.877, 210.459, 57.087" rotation_euler="0.164, 0.000, 0.161"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="33.615, 185.537, 96.304" rotation_euler="0.000, 0.000, 1.140"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="83.414, 195.641, 52.235" rotation_euler="0.175, 0.000, 0.760"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="104.246, 208.431, 52.286" rotation_euler="0.175, 0.000, 0.256"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="137.986, 225.383, 54.877" rotation_euler="0.552, 0.000, -0.079"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_b">
+			<transform position="244.182, 156.510, 59.903" rotation_euler="0.000, 0.000, -0.180"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantsiege_b">
+			<transform position="214.666, 198.760, 72.974" rotation_euler="0.000, 0.000, 0.048"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_c">
+			<transform position="209.097, 157.204, 55.479" rotation_euler="0.000, -0.188, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="194.165, 152.751, 53.314" rotation_euler="0.000, -0.180, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="240.884, 157.544, 59.483" rotation_euler="0.000, -0.050, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_a">
+			<transform position="217.569, 182.926, 65.955" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_planks_a">
+			<transform position="208.352, 182.280, 65.838" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_b">
+			<transform position="215.503, 182.299, 65.889" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_b">
+			<transform position="182.308, 153.184, 50.798" rotation_euler="0.000, -0.211, 0.000"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_heap_a">
+			<transform position="163.336, 49.864, 26.523" rotation_euler="0.000, 0.000, 0.000" scale="1.619, 1.619, 1.619"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_f">
+			<transform position="166.654, 54.695, 28.171" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_f">
+			<transform position="209.786, 89.977, 29.545" rotation_euler="0.000, 0.318, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_d">
+			<transform position="177.068, 83.756, 27.108" rotation_euler="0.000, 0.000, -0.910"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_b">
+			<transform position="174.511, 69.693, 27.262" rotation_euler="0.000, 0.000, -0.997"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_fountain_a">
+			<transform position="154.849, 199.264, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_village_house_b">
+			<transform position="154.809, 152.345, 43.770" rotation_euler="0.000, 0.000, -0.023"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l2">
+			<transform position="148.923, 204.420, 42.510" rotation_euler="0.000, 0.000, 1.545"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_a">
+			<transform position="152.071, 183.025, 43.669" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l2">
+			<transform position="146.806, 154.981, 42.407" rotation_euler="0.000, 0.000, -1.610"/>
+		</game_entity>
+		<game_entity prefab="bd_cloth_aserai_b">
+			<transform position="154.594, 157.800, 45.947" rotation_euler="0.065, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="266.489, 202.839, 87.666" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="65.880, 64.534, 20.286" rotation_euler="0.000, 0.000, 0.535"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="41.941, 54.513, 20.269" rotation_euler="0.000, 0.000, 0.364"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="21.374, 53.786, 21.762" rotation_euler="0.000, 0.000, 0.364"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="35.127, 74.493, 40.102" rotation_euler="-0.312, 0.000, 0.364"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="82.330, 89.670, 17.778" rotation_euler="0.012, 0.000, 1.587"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="62.701, 166.794, 58.133" rotation_euler="0.292, 0.000, 1.117"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="37.464, 154.489, 75.862" rotation_euler="0.000, 0.000, 0.254"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="48.458, 132.170, 60.633" rotation_euler="0.000, 0.000, 1.397"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="58.053, 123.036, 60.494" rotation_euler="-0.051, 0.000, 1.720"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="32.138, 89.281, 50.991" rotation_euler="-0.051, 0.000, 0.189"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="13.402, 104.808, 55.945" rotation_euler="-0.051, 0.000, -0.755"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="49.546, 96.916, 42.334" rotation_euler="0.000, 0.000, -0.216"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="70.449, 90.710, 36.324" rotation_euler="0.164, 0.000, 1.951" scale="0.325, 0.325, 0.325"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="75.648, 87.347, 29.800" rotation_euler="0.164, 0.000, 1.951" scale="0.325, 0.325, 0.325"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="71.438, 87.639, 37.521" rotation_euler="0.164, 0.000, 1.951" scale="0.325, 0.325, 0.325"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="50.633, 173.098, 81.806" rotation_euler="-0.051, 0.000, 1.342" scale="0.820, 0.820, 0.820"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="79.846, 237.367, 59.664" rotation_euler="0.468, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="65.074, 217.265, 69.923" rotation_euler="-0.920, 0.000, -0.575"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="121.977, 246.038, 78.331" rotation_euler="-0.157, 0.000, 0.068"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="108.803, 238.413, 72.838" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="129.673, 224.419, 60.558" rotation_euler="0.253, 0.000, 0.889"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="122.056, 224.554, 74.899" rotation_euler="0.253, 0.000, 0.634"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="90.309, 220.153, 68.757" rotation_euler="0.383, 0.000, 0.099"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="149.650, 222.926, 76.272" rotation_euler="0.383, 0.000, -0.661"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="139.427, 232.207, 79.560" rotation_euler="0.383, 0.000, -0.744"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="153.063, 214.378, 59.632" rotation_euler="0.523, 0.000, -0.102"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="99.482, 220.424, 77.829" rotation_euler="0.177, 0.000, 0.000" scale="0.735, 0.735, 0.735"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="80.944, 215.772, 75.372" rotation_euler="-0.352, 0.000, -0.354" scale="0.735, 0.735, 0.735"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="111.064, 212.086, 59.844" rotation_euler="0.107, 0.000, -0.354" scale="0.735, 0.735, 0.735"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="93.463, 200.570, 54.523" rotation_euler="-0.952, 0.000, -0.955" scale="0.735, 0.735, 0.735"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="155.691, 215.726, 82.005" rotation_euler="-0.458, 0.887, -0.796" scale="0.735, 0.735, 0.735"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="145.911, 214.743, 69.363" rotation_euler="0.546, 0.000, -0.549" scale="0.451, 0.451, 0.451"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="176.338, 220.491, 87.410" rotation_euler="0.414, 0.000, 0.521" scale="0.451, 0.451, 0.451"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="174.068, 224.299, 96.452" rotation_euler="0.332, 0.000, 0.521" scale="0.451, 0.451, 0.451"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="164.707, 227.574, 99.350" rotation_euler="0.242, 0.000, -0.247" scale="0.451, 0.451, 0.451"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="153.342, 232.394, 99.051" rotation_euler="0.242, 0.000, -0.247" scale="0.451, 0.451, 0.451"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="181.601, 224.629, 94.049" rotation_euler="0.138, 0.000, 0.785" scale="0.579, 0.579, 0.579"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="177.854, 221.875, 95.816" rotation_euler="0.138, 0.000, 0.409" scale="0.579, 0.579, 0.579"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="184.237, 226.701, 94.332" rotation_euler="0.138, 0.000, 0.875" scale="0.579, 0.579, 0.579"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="191.717, 242.446, 90.924" rotation_euler="0.343, 0.000, 1.137"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="156.217, 255.338, 90.651" rotation_euler="0.281, 0.000, -1.791"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="176.591, 254.414, 111.388" rotation_euler="0.000, 0.000, -1.481"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="201.655, 241.227, 80.030" rotation_euler="0.320, 0.000, 1.396"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="201.051, 264.275, 97.489" rotation_euler="0.290, 0.000, 1.306"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="70.915, 290.066, 93.191" rotation_euler="0.090, 0.000, 0.515"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="49.605, 276.718, 101.282" rotation_euler="0.090, 0.000, 0.515"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="84.398, 301.306, 88.114" rotation_euler="0.090, 0.000, 0.515"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="61.088, 253.026, 95.372" rotation_euler="-0.180, 0.489, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_a">
+			<transform position="247.037, 114.767, 27.972" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_c">
+			<transform position="183.419, 59.990, 28.376" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_l">
+			<transform position="167.054, 79.182, 27.000" rotation_euler="0.000, 0.000, -0.765"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_c2">
+			<transform position="179.237, 62.581, 28.214" rotation_euler="0.000, 0.000, -0.856"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_b">
+			<transform position="162.852, 151.427, 43.677" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_rope_b">
+			<transform position="150.447, 169.014, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_heap_b">
+			<transform position="168.568, 150.112, 46.020" rotation_euler="0.000, -0.121, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="34.182, 218.129, 108.034" rotation_euler="0.422, 0.019, 1.354"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="34.314, 200.606, 101.798" rotation_euler="1.019, -0.123, 1.354"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="295.828, 190.259, 66.181" rotation_euler="-0.147, 0.000, 0.774"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="311.782, 185.604, 54.201" rotation_euler="-0.147, 0.000, 0.256"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="320.489, 157.890, 46.135" rotation_euler="-0.147, 0.000, 0.569"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="307.954, 157.257, 53.587" rotation_euler="-0.147, 0.000, 0.569"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="368.437, 200.712, 55.846" rotation_euler="0.295, 0.000, -0.996"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="359.753, 177.602, 51.440" rotation_euler="-0.098, 0.000, -0.996"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="260.062, 236.019, 106.275" rotation_euler="-0.423, 0.000, -0.433" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="282.040, 239.962, 94.633" rotation_euler="0.076, 0.000, 1.477" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="240.633, 229.900, 82.132" rotation_euler="0.436, 0.000, -1.318" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="237.268, 240.693, 84.593" rotation_euler="0.436, 0.000, -1.318" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="235.095, 257.537, 87.154" rotation_euler="0.436, 0.000, -1.515" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="245.827, 238.319, 103.608" rotation_euler="0.092, 0.000, -1.515" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="259.245, 219.740, 98.163" rotation_euler="0.256, 0.000, -0.025" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="274.096, 216.900, 90.429" rotation_euler="0.256, 0.000, 0.223" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="284.034, 202.863, 79.721" rotation_euler="-0.230, 0.000, 0.267" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="302.845, 207.625, 75.548" rotation_euler="-0.230, 0.000, 0.267" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="278.520, 257.276, 96.295" rotation_euler="0.498, 0.000, 1.455" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="244.872, 253.316, 103.250" rotation_euler="0.065, 0.000, -0.931" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="257.003, 257.135, 115.451" rotation_euler="-0.126, 0.000, -0.099" scale="0.757, 0.757, 0.757"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="139.697, 342.604, 119.309" rotation_euler="0.000, 0.000, -0.436" scale="1.096, 1.096, 1.096"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="300.096, 245.933, 67.793" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="289.172, 288.693, 88.423" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_b">
+			<transform position="291.229, 243.701, 71.772" rotation_euler="0.000, 0.000, 0.532"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_b">
+			<transform position="318.382, 250.827, 64.090" rotation_euler="0.000, 0.000, 0.012"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_b">
+			<transform position="342.373, 245.265, 56.010" rotation_euler="0.000, 0.000, -0.558"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_b">
+			<transform position="362.628, 225.966, 56.025" rotation_euler="0.000, 0.000, -0.884"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="295.168, 262.630, 93.898" rotation_euler="0.000, 0.000, 0.400"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="317.656, 261.915, 86.477" rotation_euler="0.000, 0.000, 0.087"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="347.603, 254.721, 78.397" rotation_euler="0.000, 0.000, -0.420"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="372.672, 237.656, 78.233" rotation_euler="0.000, 0.000, -0.754"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_l1">
+			<transform position="233.689, 205.739, 82.172" rotation_euler="0.000, 0.000, 0.028"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="232.115, 232.350, 111.535" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_a">
+			<transform position="210.078, 227.599, 72.990" rotation_euler="0.000, 0.000, -1.658"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_wheel_b">
+			<transform position="210.703, 223.227, 72.990" rotation_euler="-0.448, 0.000, 0.147"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_l1">
+			<transform position="203.737, 205.432, 82.394" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_c">
+			<transform position="256.518, 99.487, 27.990" rotation_euler="0.000, 0.000, -1.787"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_b">
+			<transform position="241.195, 104.004, 28.564" rotation_euler="0.000, 0.000, -0.050"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="182.382, 91.412, 28.049" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_b">
+			<transform position="240.653, 98.492, 28.955" rotation_euler="-0.245, 0.000, -0.055"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="175.199, 127.017, 33.817" rotation_euler="0.000, 0.000, -3.082" scale="0.581, 0.581, 0.581"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="183.811, 106.954, 27.177" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_small_a">
+			<transform position="229.596, 82.664, 32.149" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="114.669, 93.248, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="96.185, 139.283, 35.431" rotation_euler="0.000, 0.207, 0.000"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_b">
+			<transform position="184.461, 93.515, 28.123" rotation_euler="0.000, 0.000, -1.525"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="131.926, 105.020, 2.925" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="223.142, 60.728, 28.834" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_a">
+			<transform position="192.175, 81.468, 28.498" rotation_euler="0.347, -0.112, -0.156" scale="1.414, 1.414, 1.414"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="117.789, 115.296, 27.326" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_small_a">
+			<transform position="230.243, 62.080, 29.140" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="213.001, 60.187, 28.829" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_d">
+			<transform position="114.839, 112.520, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="cave_desert_rock_b">
+			<transform position="238.126, 96.494, 30.172" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="115.218, 117.710, 27.468" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="192.319, 49.741, 26.861" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="187.192, 86.515, 29.624" rotation_euler="0.000, 0.000, -1.708" scale="0.457, 0.457, 0.457"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_c">
+			<transform position="241.906, 77.343, 31.170" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l2">
+			<transform position="169.670, 161.298, 41.724" rotation_euler="0.000, 0.000, -1.200"/>
+		</game_entity>
+		<game_entity prefab="arabian_house_new_passage_a">
+			<transform position="240.321, 164.304, 61.424" rotation_euler="0.000, 0.000, -0.038" scale="1.735, 1.462, 1.212"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="180.536, 91.078, 27.991" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_b">
+			<transform position="173.844, 103.846, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_c">
+			<transform position="127.306, 90.972, 26.970" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_d">
+			<transform position="112.580, 127.439, 29.992" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_a">
+			<transform position="174.208, 58.955, 28.497" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_small_a">
+			<transform position="232.345, 60.342, 29.138" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_v_palm_date_e">
+			<transform position="130.052, 126.415, 28.053" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_a">
+			<transform position="231.270, 60.071, 29.057" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_aserai_plate_cupper">
+			<transform position="216.372, 201.179, 93.158" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_roof">
+			<transform position="206.921, 159.447, 63.771" rotation_euler="0.000, -0.082, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_grandbazaar_wall">
+			<transform position="249.946, 170.607, 68.458" rotation_euler="0.000, 0.000, -1.512"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_desert_d">
+			<transform position="214.837, 221.418, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="awning_arbor_big_a">
+			<transform position="227.932, 223.834, 74.894" rotation_euler="0.000, 0.000, 0.007" scale="1.585, 1.585, 1.585"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="20.000, 0.000, 5.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_gate_l2">
+			<transform position="217.596, 204.794, 79.845" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="arabian_castle_house_floor_a">
+			<transform position="217.655, 245.401, 79.220" rotation_euler="0.000, 0.000, 0.000" scale="1.556, 1.757, 1.906"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_aserai_b">
+			<transform position="210.804, 212.167, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l3">
+			<transform position="218.527, 222.167, 66.479" rotation_euler="0.000, 0.000, 1.580" scale="1.179, 1.179, 1.179"/>
+		</game_entity>
+		<game_entity prefab="bd_stand_b_dark">
+			<transform position="213.624, 225.992, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_keep_a_l2">
+			<transform position="218.788, 246.945, 80.510" rotation_euler="0.000, 0.000, 0.003"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantweapons_melee_c">
+			<transform position="233.408, 218.228, 72.990" rotation_euler="0.000, 0.000, -1.540"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_aserai_e">
+			<transform position="160.155, 160.542, 43.770" rotation_euler="0.000, 0.000, -0.437"/>
+		</game_entity>
+		<game_entity prefab="mp_shop_prop_merchantbakery_a">
+			<transform position="164.976, 168.805, 43.574" rotation_euler="0.000, 0.000, -1.275"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_2_fence_a">
+			<transform position="232.872, 179.433, 63.071" rotation_euler="0.000, 0.194, -0.903"/>
+		</game_entity>
+		<game_entity prefab="bd_table_e">
+			<transform position="201.191, 186.553, 65.842" rotation_euler="0.000, 0.000, -0.981"/>
+		</game_entity>
+		<game_entity prefab="bd_aserai_pot_cupper_b">
+			<transform position="156.655, 162.213, 43.623" rotation_euler="0.000, 0.000, -0.437"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_a">
+			<transform position="234.515, 173.255, 61.974" rotation_euler="0.000, 0.000, -1.540"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantpottery_b">
+			<transform position="205.257, 227.371, 72.990" rotation_euler="0.000, 0.000, 0.493" scale="2.439, 2.439, 2.439"/>
+		</game_entity>
+		<game_entity prefab="bd_table_e">
+			<transform position="198.661, 184.723, 65.752" rotation_euler="0.000, 0.000, -0.981"/>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_flowerpot_a">
+			<transform position="215.950, 219.324, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_aserai_a">
+			<transform position="220.315, 202.077, 93.172" rotation_euler="0.000, 0.000, -1.661"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_l1">
+			<transform position="236.761, 146.105, 60.012" rotation_euler="0.000, 0.000, -0.008"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="70.734, 123.391, 43.837" rotation_euler="0.016, 0.000, 1.846"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="52.136, 92.075, 37.168" rotation_euler="0.016, 0.000, 0.158"/>
+		</game_entity>
+		<game_entity prefab="bd_shelf_2_heap_b">
+			<transform position="249.369, 105.085, 29.421" rotation_euler="0.000, 0.000, -0.456"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_heap_a">
+			<transform position="240.203, 110.113, 29.277" rotation_euler="0.386, 0.380, 0.000" scale="1.369, 1.369, 1.369"/>
+		</game_entity>
+		<game_entity prefab="floorstone_c">
+			<transform position="232.133, 88.049, 31.798" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_d">
+			<transform position="148.696, 165.208, 43.965" rotation_euler="0.000, 0.000, -0.701"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_g">
+			<transform position="149.179, 162.519, 43.794" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_b">
+			<transform position="146.895, 165.700, 43.563" rotation_euler="0.000, 0.000, -1.590"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_heap_a">
+			<transform position="242.302, 114.409, 28.025" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="148.059, 168.124, 43.600" rotation_euler="0.000, 0.000, -0.763"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="172.372, 100.459, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_c">
+			<transform position="242.726, 107.530, 28.584" rotation_euler="0.000, 0.000, 2.724"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantsiege_b">
+			<transform position="220.914, 198.664, 72.947" rotation_euler="0.000, 0.000, 0.048"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<transform position="163.384, 158.205, 43.680" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantleather_c">
+			<transform position="219.127, 177.983, 65.861" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_a">
+			<transform position="176.795, 162.925, 50.710" rotation_euler="0.000, 0.000, 0.279"/>
+		</game_entity>
+		<game_entity prefab="sew_or_knit_chair_unsittable">
+			<transform position="158.143, 162.818, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantbeer_c">
+			<transform position="213.519, 177.607, 65.970" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_wheel_b">
+			<transform position="196.627, 183.499, 65.748" rotation_euler="0.476, 0.000, -1.425"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantpottery_c">
+			<transform position="216.467, 177.936, 65.940" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_e">
+			<transform position="162.553, 175.610, 43.770" rotation_euler="0.000, 0.000, 0.245"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantleather_a">
+			<transform position="156.774, 77.062, 27.000" rotation_euler="0.000, 0.000, 0.230"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="203.660, 86.821, 14.746" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_tower_round_a_l2">
+			<transform position="251.061, 206.632, 79.700" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<children>
+						<game_entity _index_="0">
+							<scripts>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+								<script name="AmbientSoundEmitter">
+									<variables>
+										<variable name="Overrided Max Distance" value="20.000000"/>
+										<variable name="Overrided Min Distance" value="1.000000"/>
+									</variables>
+								</script>
+							</scripts>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_l1">
+			<transform position="215.089, 146.134, 58.442" rotation_euler="0.000, 0.000, 0.002"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l1">
+			<transform position="224.466, 146.571, 62.047" rotation_euler="0.000, 0.000, -1.563"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_b_l3">
+			<transform position="252.810, 148.567, 66.334" rotation_euler="0.000, 0.000, -0.076"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="94.100, 195.085, 45.103" rotation_euler="0.000, 0.000, -0.858"/>
+		</game_entity>
+		<game_entity prefab="bd_bucket_b">
+			<transform position="220.698, 218.380, 73.022" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="ashes_b">
+			<transform position="231.987, 211.955, 73.660" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_c">
+			<transform position="213.176, 225.593, 72.990" rotation_euler="0.000, 0.000, 0.969"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="227.553, 104.091, 29.326" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="83.070, 173.077, 42.127" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_corner_a_l1">
+			<transform position="254.779, 175.256, 76.137" rotation_euler="0.000, 0.000, 1.532"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="68.389, 168.339, 43.612" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_aserai_a">
+			<transform position="211.469, 212.006, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="248.661, 73.722, 20.528" rotation_euler="0.000, 0.000, 0.800"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="252.934, 199.594, 99.427" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="101.935, 69.044, 17.458" rotation_euler="0.000, 0.000, -0.076"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_wall_a_l2">
+			<transform position="143.486, 158.791, 43.965" rotation_euler="0.000, 0.000, -1.616"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_c">
+			<transform position="215.218, 92.202, 29.814" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_flag_3">
+			<transform position="137.665, 188.249, 61.458" rotation_euler="0.000, 0.000, -3.141" scale="0.500, 0.500, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_barrel_f">
+			<transform position="178.761, 88.049, 28.169" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_e">
+			<transform position="146.747, 85.695, 26.960" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_d">
+			<transform position="191.527, 74.247, 27.134" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_a">
+			<transform position="156.245, 97.358, 26.970" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wheelbarrow_a">
+			<transform position="167.977, 97.150, 27.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_corner_d_l2">
+			<transform position="142.722, 145.570, 44.012" rotation_euler="0.000, 0.000, -1.617"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_d">
+			<transform position="159.678, 198.561, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="176.201, 43.661, 17.056" rotation_euler="0.000, 0.000, -1.072"/>
+		</game_entity>
+		<game_entity prefab="rope_chain_heap">
+			<transform position="164.568, 83.613, 26.877" rotation_euler="0.000, 0.000, -0.031"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="51.614, 238.947, 86.277" rotation_euler="0.019, 0.000, 0.358"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="104.688, 238.538, 71.658" rotation_euler="0.019, 0.000, 0.358"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="274.311, 318.321, 102.601" rotation_euler="0.000, 0.000, -0.560"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="259.895, 335.405, 112.642" rotation_euler="0.000, 0.000, -0.560"/>
+		</game_entity>
+		<game_entity prefab="brushwood_b">
+			<transform position="151.228, 169.348, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_heap_a">
+			<transform position="224.436, 221.390, 79.267" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="brushwood_f">
+			<transform position="154.055, 170.454, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="brushwood_d">
+			<transform position="154.136, 173.957, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantbeer_c">
+			<transform position="191.601, 158.040, 52.966" rotation_euler="0.000, -0.191, 0.000"/>
+		</game_entity>
+		<game_entity prefab="merchandise_wooden_stick">
+			<transform position="153.928, 171.826, 43.843" rotation_euler="0.000, 0.000, -1.926"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_a">
+			<transform position="210.856, 211.546, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantbeer_b">
+			<transform position="189.561, 158.155, 52.603" rotation_euler="0.000, 0.000, 1.376"/>
+		</game_entity>
+		<game_entity prefab="weapon_rack_aserai_a">
+			<transform position="145.349, 170.449, 52.416" rotation_euler="0.000, 0.000, -0.040"/>
+		</game_entity>
+		<game_entity prefab="brushwood_a">
+			<transform position="156.482, 172.156, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweapons_ranged_c">
+			<transform position="210.083, 147.198, 64.374" rotation_euler="0.000, 0.000, -0.003"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_a">
+			<transform position="249.727, 163.496, 63.973" rotation_euler="0.000, -0.496, 1.608"/>
+		</game_entity>
+		<game_entity prefab="merchandise_wood">
+			<transform position="152.548, 174.128, 43.770" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweapons_melee_c">
+			<transform position="250.578, 147.375, 65.881" rotation_euler="0.000, 0.000, -1.636"/>
+		</game_entity>
+		<game_entity prefab="brushwood_c">
+			<transform position="155.727, 177.793, 43.750" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_wheel_b">
+			<transform position="151.797, 173.116, 43.770" rotation_euler="0.461, 0.000, -1.604"/>
+		</game_entity>
+		<game_entity prefab="weapon_rack_aserai_a">
+			<transform position="146.342, 195.707, 52.565" rotation_euler="0.000, 0.000, -0.040"/>
+		</game_entity>
+		<game_entity prefab="bd_basket_heap_aserai_a">
+			<transform position="161.608, 151.493, 43.650" rotation_euler="0.000, 0.000, 1.461"/>
+		</game_entity>
+		<game_entity prefab="stone_pile_desert_e">
+			<transform position="214.856, 213.109, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="217.792, 203.065, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantsmithing_b">
+			<transform position="224.043, 218.675, 72.990" rotation_euler="0.000, 0.000, -1.453"/>
+		</game_entity>
+		<game_entity prefab="floorstone_a">
+			<transform position="214.181, 209.884, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="merchandise_stones">
+			<transform position="216.431, 208.968, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="prop_merchantsmithing_tools_c">
+			<transform position="231.940, 215.064, 72.990" rotation_euler="0.000, 0.000, 0.023"/>
+		</game_entity>
+		<game_entity prefab="outermesh_desert_b">
+			<transform position="230.354, 284.082, 117.927" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<transform position="249.059, 151.554, 58.980" rotation_euler="0.000, 0.000, -0.090"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_ramp_a">
+			<transform position="249.719, 163.581, 77.286" rotation_euler="0.127, 0.040, -0.007" scale="1.311, 1.063, 1.063"/>
+		</game_entity>
+		<game_entity prefab="bd_straw_a">
+			<transform position="216.151, 227.488, 72.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity name="ground_plane" old_prefab_name="">
+			<transform position="10.000, 10.000, 0.010" rotation_euler="0.000, 0.000, 0.000" scale="20.000, 20.000, 20.000"/>
+			<physics shape="bo_editor_plane"/>
+			<components>
+				<meta_mesh_component name="editor_plane_low"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="396.092, 184.151, 44.060" rotation_euler="-0.081, 0.435, -1.577" scale="1.210, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="390.155, 149.594, 33.299" rotation_euler="0.000, 0.000, -1.988"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="402.986, 208.955, 83.630" rotation_euler="-0.622, 0.000, 0.464" scale="1.503, 1.503, 1.503"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="342.708, 338.205, 132.152" rotation_euler="0.470, 0.000, -1.126"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="323.920, 337.969, 124.636" rotation_euler="0.575, 0.000, -1.791"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_c">
+			<transform position="328.420, 323.818, 112.318" rotation_euler="1.231, 0.000, -0.878"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_a">
+			<transform position="359.555, 347.939, 132.052" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="370.734, 324.827, 109.889" rotation_euler="-0.329, 0.000, 0.065"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="372.805, 309.222, 88.155" rotation_euler="-0.265, 0.000, 0.065"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="377.873, 290.410, 62.342" rotation_euler="-0.265, 0.000, 0.065"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="362.547, 319.804, 112.505" rotation_euler="0.192, 0.000, 0.209"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="339.574, 314.325, 111.451" rotation_euler="0.192, 0.000, 0.042"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="340.296, 307.147, 93.316" rotation_euler="0.302, 0.000, 0.042"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="352.280, 302.565, 85.111" rotation_euler="0.302, 0.000, 0.042"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="359.653, 293.562, 71.027" rotation_euler="0.302, 0.000, 0.042"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="323.519, 301.827, 91.233" rotation_euler="0.302, 0.000, 0.042"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="307.492, 311.487, 106.124" rotation_euler="0.302, 0.000, 0.042"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="305.862, 334.245, 118.382" rotation_euler="-0.188, 0.000, 0.042"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="222.053, 279.217, 112.806" rotation_euler="0.000, 0.126, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_d">
+			<transform position="222.434, 286.142, 112.687" rotation_euler="0.000, 0.126, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_far_a">
+			<transform position="219.878, 268.791, 94.951" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="204.409, 265.602, 100.711" rotation_euler="0.177, 0.000, 0.492" scale="0.916, 0.916, 0.916"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="235.481, 266.028, 99.705" rotation_euler="0.118, 0.000, -0.948" scale="0.916, 0.916, 0.916"/>
+		</game_entity>
+		<game_entity prefab="terrain_desert_rock_big_b">
+			<transform position="241.188, 285.064, 112.107" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="221.561, 303.245, 104.973" rotation_euler="0.140, 0.000, 0.583"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_c">
+			<transform position="200.798, 284.006, 117.111" rotation_euler="-0.796, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="231.536, 329.273, 120.681" rotation_euler="0.000, 0.000, 0.385"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="164.241, 333.204, 104.855" rotation_euler="0.000, 0.000, 0.385"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="186.081, 317.656, 102.671" rotation_euler="0.000, 0.000, -0.439"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="187.757, 295.899, 103.554" rotation_euler="0.000, 0.000, -0.439"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="176.389, 276.246, 102.377" rotation_euler="0.000, 0.000, -0.684"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="225.101, 284.449, 107.996" rotation_euler="0.000, 0.000, 0.050"/>
+		</game_entity>
+		<game_entity prefab="_barrier_08x04m">
+			<transform position="146.057, 107.794, 34.499" rotation_euler="0.000, 0.000, 1.456" scale="13.704, 1.713, 6.852"/>
+		</game_entity>
+		<game_entity prefab="_barrier_08x04m">
+			<transform position="149.249, 112.499, 34.978" rotation_euler="0.000, 0.000, 0.642" scale="13.704, 1.713, 6.852"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="305.187, 51.501, 19.305" rotation_euler="0.150, 0.000, 0.682"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_a">
+			<transform position="289.857, 28.476, 20.797" rotation_euler="0.098, 0.000, 0.682" scale="1.090, 1.090, 1.090"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="310.259, 82.558, 33.929" rotation_euler="0.689, 0.000, 1.281"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="314.961, 97.867, 38.724" rotation_euler="0.458, 0.000, 1.281"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="321.630, 119.844, 45.412" rotation_euler="-0.023, 0.000, 1.281"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="323.824, 135.034, 49.634" rotation_euler="-0.115, 0.000, 1.281"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="350.041, 137.494, 34.498" rotation_euler="-0.364, 0.000, 1.281"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="369.320, 151.097, 34.029" rotation_euler="-0.332, 0.000, -0.406"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="336.513, 161.221, 49.715" rotation_euler="-0.681, 0.000, -0.406"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="335.840, 199.670, 55.441" rotation_euler="-0.681, 0.000, -0.406"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="336.248, 218.391, 60.917" rotation_euler="0.109, 0.000, 1.121"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="70.669, 71.932, 6.998" rotation_euler="0.109, 0.000, -1.340"/>
+		</game_entity>
+		<game_entity prefab="rock_desert_cliff_b">
+			<transform position="290.671, 145.769, 50.395" rotation_euler="0.000, 0.000, -1.894" scale="0.749, 0.749, 0.749"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="true" node_dimension_x="4" node_dimension_y="4" node_size="100.000" lod_multiplier="1.000" min_height="-100.000" max_height="500.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="0" ao_intensity="4.000">
+		<outer_mesh>
+			<variable name="outer_mesh_name" value=""/>
+			<variable name="diffuse1_texture_name" value=""/>
+			<variable name="diffuse2_texture_name" value=""/>
+			<variable name="diffuse3_texture_name" value=""/>
+			<variable name="areamap_texture_name" value=""/>
+			<variable name="splatmap_texture_name" value=""/>
+			<variable name="splatmap_normal_name" value=""/>
+			<variable name="horizon_mesh_diffuse_1_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_2_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_3_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_tile_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_power" value="1.000"/>
+			<variable name="horizon_mesh_height" value="1.000"/>
+		</outer_mesh>
+		<layers version="1">
+			<layer name="desert_b">
+				<summer is_enabled="true" name="desert_b" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="sand" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="desert_floor_b"/>
+						<texture type="areamap" name="desert_floor_a"/>
+						<texture type="normalmap" name="desert_floor_b_n"/>
+						<texture type="specularmap" name="desert_floor_b_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="desert_floor_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="desert_b" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="desert_b" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="desert_b" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="default">
+				<summer is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="stone_desert_a_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="stone_desert_a_n"/>
+						<texture type="specularmap" name="editor_grid_8_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="none"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+		</layers>
+		<nodes>
+			<node idx="0" idy="0" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="5.293" min_height="-28.282" max_height="54.908">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="1" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="1.087" min_height="26.612" max_height="112.332">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="2.480" min_height="5.086" max_height="125.008">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="2.537" min_height="7.880" max_height="156.287">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="0" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="1.538" min_height="-19.695" max_height="30.551">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="1" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="0.692" min_height="-8.278" max_height="82.999">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="2" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="4.902" min_height="43.054" max_height="122.161">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.293" min_height="32.509" max_height="127.952">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="0" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="0.756" min_height="-0.017" max_height="62.030">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="1" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="0.099" min_height="26.993" max_height="84.331">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="2" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="1.003" min_height="65.263" max_height="123.564">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="3" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="0.326" min_height="29.569" max_height="141.042">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="2.203" min_height="-20.907" max_height="47.301">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="2.054" min_height="13.045" max_height="70.919">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.222" min_height="36.940" max_height="105.439">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.694" min_height="11.664" max_height="145.112">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+		</nodes>
+	</terrain>
+	<editor_data editor_camera_position="79.638, 37.111, 52.072" editor_camera_elevation="0.023" editor_camera_bearing="44.982" editor_camera_forward="0.731, 0.681, 0.051" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="100000.000"/>
+	<Paths/>
+</scene>
+

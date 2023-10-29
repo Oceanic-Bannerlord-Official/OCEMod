@@ -1,0 +1,2576 @@
+<?xml version="1.0"?>
+<scene name="kingclone_or_hct_hades" version="2">
+	<flora_bounding_rect min="0.000, 0.000" max="0.000, 0.000"/>
+	<levels>
+		<level name="base" mask="1"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="-223.771, -144.096"/>
+		<property name="physics_world_max_" value="400.000, 400.000"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="1.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-1.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="true"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="155.096, 233.826, 7.334" rotation_euler="-0.088, 0.000, -0.681" scale="7.167, 7.167, 7.167"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="75.953, 235.603, 6.489" rotation_euler="0.320, 0.031, 1.574" scale="6.620, 6.620, 6.620"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="62.746, 114.815, 52.269" rotation_euler="-0.050, 0.031, 2.188" scale="6.620, 6.620, 6.620"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="360.546, 157.598, 19.822" rotation_euler="-0.050, 0.031, 2.188" scale="9.744, 9.744, 9.744"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="194.828, 299.967, -3.671" rotation_euler="0.594, 0.000, 2.068" scale="0.539, 0.539, 0.539"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="157.148, 251.469, 29.634" rotation_euler="0.000, 0.000, 0.000" scale="3.749, 3.749, 3.749"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="162.415, 224.269, 16.832" rotation_euler="-0.034, 0.000, -0.673" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="354.751, 133.207, 29.520" rotation_euler="0.161, 0.000, -1.694"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="68.939, 299.031, 56.054" rotation_euler="0.320, -0.150, 1.574" scale="6.620, 6.620, 6.620"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="67.141, 162.459, 19.459" rotation_euler="0.320, 0.031, 2.188" scale="6.620, 6.620, 6.620"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_a">
+			<transform position="185.912, 87.026, -0.990" rotation_euler="0.000, 0.000, -1.931"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="273.233, 170.661, 22.321" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tree_olive_b">
+			<transform position="242.522, 114.705, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="93.937, 225.427, -0.379" rotation_euler="-0.168, 0.000, 1.017"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="147.987, 294.062, 6.704" rotation_euler="-0.316, 0.000, -2.285" scale="0.725, 0.725, 0.725"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="145.669, 248.415, 18.714" rotation_euler="0.000, 0.000, 0.000" scale="3.749, 3.749, 3.749"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_j">
+			<transform position="277.521, 150.330, 27.540" rotation_euler="0.000, 0.000, -0.768"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="266.340, 119.318, 7.627" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="314.604, 82.500, 5.248" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="226.299, 183.372, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="61.202, 272.880, 54.983" rotation_euler="-0.208, 0.279, -1.114" scale="5.511, 5.511, 5.511"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="170.760, 279.373, 26.943" rotation_euler="-0.175, 0.000, -3.128" scale="0.583, 0.583, 0.583"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="283.429, 142.955, 20.595" rotation_euler="0.000, 0.000, 0.104"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_tower_a">
+			<transform position="138.736, 164.988, 31.422" rotation_euler="0.000, 0.000, -1.643"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="160.937, 164.821, 14.630" rotation_euler="0.000, 0.000, -1.605"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="181.762, 164.050, 41.360" rotation_euler="0.000, 0.000, -1.601"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="61.711, 308.544, 64.513" rotation_euler="0.208, 0.000, 1.004"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="109.066, 129.686, 1.710" rotation_euler="-0.333, 0.000, -1.035" scale="0.900, 0.900, 0.900"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="91.431, 145.026, -0.414" rotation_euler="-0.309, 0.000, -1.590" scale="0.419, 0.419, 0.419"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="227.543, 172.368, 24.367" rotation_euler="-0.307, 0.064, -0.809" scale="2.120, 2.120, 2.120"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="121.668, 118.441, -1.080" rotation_euler="-0.309, 0.000, -0.552" scale="0.419, 0.419, 0.419"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="185.971, 238.765, 17.917" rotation_euler="-0.203, 0.000, 1.421"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="113.855, 186.315, 21.935" rotation_euler="0.000, 0.000, -0.316" scale="2.114, 2.114, 2.114"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="145.755, 181.746, 11.332" rotation_euler="-0.189, 0.000, -0.485" scale="3.865, 3.865, 3.865"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="199.367, 229.483, -0.441" rotation_euler="0.000, 0.000, 1.236" scale="0.616, 0.616, 0.616"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="138.990, 188.918, 14.927" rotation_euler="0.344, 0.000, 2.738" scale="0.575, 0.575, 0.575"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="183.490, 278.510, 12.272" rotation_euler="0.000, 0.000, 0.000" scale="7.036, 7.036, 7.036"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_d">
+			<transform position="131.892, 183.913, 29.065" rotation_euler="0.299, -0.416, -0.529" scale="0.360, 0.360, 0.360"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_a">
+			<transform position="330.242, 127.407, -0.990" rotation_euler="0.000, 0.000, 3.122"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="262.213, 161.574, 28.041" rotation_euler="0.000, 0.000, -1.630"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_j">
+			<transform position="306.533, 98.437, -1.080" rotation_euler="0.000, 0.000, -0.768"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="223.407, 177.621, 6.700" rotation_euler="0.102, 0.000, 3.138" scale="3.850, 3.850, 3.850"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="232.583, 169.387, 26.566" rotation_euler="0.000, 0.000, -1.489" scale="1.296, 1.296, 1.296"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="234.439, 169.624, 17.544" rotation_euler="0.360, 0.000, 1.621" scale="0.528, 0.528, 0.528"/>
+		</game_entity>
+		<game_entity prefab="battania_pit_entrance">
+			<transform position="283.675, 104.384, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="236.765, 168.852, 3.023" rotation_euler="0.360, 0.000, 1.478" scale="0.528, 0.528, 0.528"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_structure_a">
+			<transform position="181.195, 113.303, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_c">
+			<transform position="317.803, 77.842, -1.080" rotation_euler="0.000, 0.000, 0.861"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="142.526, 142.539, 9.689" rotation_euler="0.285, 0.010, 0.877" scale="2.092, 2.092, 2.092"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="182.352, 164.029, 1.966" rotation_euler="0.000, 0.000, -1.605"/>
+		</game_entity>
+		<game_entity prefab="battania_castle_stairs_a_l2">
+			<transform position="103.577, 161.569, 1.726" rotation_euler="-0.194, 0.146, 1.325"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="319.845, 138.262, -0.990" rotation_euler="0.000, 0.000, -2.916"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_a">
+			<transform position="285.029, 133.272, 10.135" rotation_euler="0.076, -1.567, -1.606" scale="1.003, 0.631, 1.107"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_k">
+			<transform position="190.673, 138.580, -1.050" rotation_euler="0.000, 0.000, 1.971"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="183.068, 302.356, 10.311" rotation_euler="0.436, 0.000, 2.930" scale="0.501, 0.501, 0.501"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_c">
+			<transform position="332.393, 161.912, -0.990" rotation_euler="0.000, 0.000, 2.539"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_b">
+			<transform position="275.133, 101.867, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="331.212, 54.736, 48.592" rotation_euler="0.985, 0.000, -2.903" scale="1.226, 1.226, 1.226"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="231.390, 362.565, 80.074" rotation_euler="0.910, 0.000, -0.302" scale="0.936, 0.936, 0.936"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="351.385, 93.974, 22.368" rotation_euler="0.462, 0.000, -1.211" scale="0.936, 0.936, 0.936"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="286.200, 325.183, 30.967" rotation_euler="0.437, 0.000, -1.478" scale="0.936, 0.936, 0.936"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="262.021, 162.829, 3.440" rotation_euler="0.000, 0.000, -1.565" scale="1.263, 1.015, 1.017"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="316.430, 136.423, 12.879" rotation_euler="0.000, 0.000, 0.062" scale="1.286, 1.286, 1.286"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="220.186, 135.556, -1.038" rotation_euler="0.138, 0.000, 0.000" scale="0.841, 0.841, 0.841"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="128.694, 202.529, -6.426" rotation_euler="0.000, -0.298, 1.568" scale="6.896, 6.896, 6.896"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="334.291, 76.852, -4.666" rotation_euler="0.462, 0.000, -2.252" scale="0.936, 0.936, 0.936"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="305.285, 134.408, -4.403" rotation_euler="-0.591, 0.000, 0.155" scale="4.034, 4.034, 4.034"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="238.251, 148.538, -1.118" rotation_euler="0.000, 0.000, 1.356" scale="0.167, 0.167, 0.167"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="235.172, 154.814, 4.316" rotation_euler="0.482, 0.017, 1.507" scale="0.806, 0.806, 0.806"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="103.337, 188.781, -7.309" rotation_euler="-0.040, 0.209, -0.371" scale="9.006, 9.006, 9.006"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="179.689, 42.157, 105.813" rotation_euler="0.757, 0.000, 3.087" scale="1.226, 1.226, 1.226"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="211.633, 44.698, 84.137" rotation_euler="0.985, 0.000, -2.903" scale="1.226, 1.226, 1.226"/>
+		</game_entity>
+		<game_entity prefab="skirmish_respawn">
+			<transform position="328.958, 109.939, -1.080" rotation_euler="0.000, 0.000, -2.412"/>
+			<children>
+				<game_entity _index_="0">
+					<tags>
+						<tag name="defender"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="1">
+					<tags>
+						<tag name="defender"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="2">
+					<tags>
+						<tag name="defender"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="330.058, 138.599, -0.990" rotation_euler="0.000, 0.000, 1.660"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="270.756, 53.519, 35.200" rotation_euler="0.000, 0.000, 0.934" scale="7.466, 7.466, 7.466"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="36.771, 178.971, 97.172" rotation_euler="0.805, 0.000, 1.311"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="81.756, 116.227, 5.908" rotation_euler="0.209, 0.000, 1.875"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="48.690, 93.497, 86.141" rotation_euler="0.467, 0.000, 1.956"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="63.031, 124.865, 37.536" rotation_euler="0.703, 0.000, 1.970"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_b">
+			<transform position="179.462, 132.112, -1.080" rotation_euler="0.000, 0.000, -2.442"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<transform position="158.376, 91.788, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_d">
+			<transform position="147.594, 93.854, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="137.040, 34.581, 78.023" rotation_euler="0.833, 0.000, -2.675" scale="2.011, 2.011, 2.011"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="278.735, 130.175, 3.548" rotation_euler="0.000, 0.000, -0.014"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="85.857, 266.853, 24.431" rotation_euler="0.000, 0.000, 1.520"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_a">
+			<transform position="220.823, 127.106, -1.170" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="139.149, 334.783, 30.111" rotation_euler="0.265, 0.000, 0.213" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="83.277, 330.710, 54.955" rotation_euler="0.265, 0.000, 0.942" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="258.199, 54.562, 31.984" rotation_euler="0.327, 0.000, -3.001" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="20.000, 0.000, 5.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="306.498, 121.871, -0.990" rotation_euler="0.000, 0.000, 1.998"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="111.405, 332.759, 24.782" rotation_euler="0.537, 0.000, 0.485" scale="2.258, 2.258, 2.258"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="55.708, 264.667, 60.222" rotation_euler="0.262, 0.000, 1.003" scale="1.865, 1.865, 1.865"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_a">
+			<transform position="288.279, 125.006, -1.235" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="165.998, 347.899, 32.891" rotation_euler="0.817, 0.000, 0.645" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="253.178, 349.663, 48.714" rotation_euler="0.864, 0.000, 0.749" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="131.996, 350.550, 57.710" rotation_euler="1.047, 0.000, 0.645" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="286.465, 338.126, 50.127" rotation_euler="0.537, 0.000, 0.485" scale="2.258, 2.258, 2.258"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="207.544, 354.231, 58.070" rotation_euler="0.864, 0.000, 1.180" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="129.719, 53.325, 10.110" rotation_euler="0.262, 0.000, -2.675" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="143.057, 275.861, 9.269" rotation_euler="0.197, 0.000, -1.985" scale="0.539, 0.539, 0.539"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="98.684, 42.472, 60.477" rotation_euler="0.181, 0.000, 2.342" scale="1.865, 1.865, 1.865"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="190.264, 270.301, 19.864" rotation_euler="-0.048, 0.000, 2.019" scale="1.107, 1.107, 1.107"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="103.668, 322.539, 12.698" rotation_euler="0.265, 0.000, 0.942" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="133.664, 249.409, 8.882" rotation_euler="0.197, 0.000, -1.404" scale="0.539, 0.539, 0.539"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="143.167, 304.573, -8.402" rotation_euler="0.033, 0.000, -2.285" scale="0.725, 0.725, 0.725"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="251.026, 162.286, 14.348" rotation_euler="0.000, 0.000, -1.630" scale="1.074, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b1" lod_bias_factor="1.000">
+			<flags>
+				<flag name="lod" value="1"/>
+			</flags>
+			<transform position="202.857, 73.302, -1.110" rotation_euler="0.000, 0.000, -2.687" scale="10.143, 10.143, 10.143"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_b">
+			<transform position="269.664, 163.943, 26.737" rotation_euler="-0.119, 0.032, -0.014"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_a">
+			<transform position="256.469, 147.317, 0.631" rotation_euler="0.002, -0.265, -3.032" scale="1.176, 1.176, 1.176"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="96.079, 334.838, 57.184" rotation_euler="1.047, 0.000, 0.645" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="104.781, 350.479, 91.400" rotation_euler="0.864, 0.000, 0.665" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="275.316, 331.332, 13.624" rotation_euler="0.322, 0.000, 0.298" scale="1.738, 1.738, 1.738"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="140.802, 317.380, -7.363" rotation_euler="0.265, 0.000, 0.213" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="148.378, 255.502, 15.984" rotation_euler="0.000, 0.000, 0.000" scale="5.535, 5.535, 5.535"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="241.641, 162.788, 41.478" rotation_euler="0.000, 0.000, -1.630"/>
+		</game_entity>
+		<game_entity prefab="mp_camera_start_pos">
+			<transform position="334.343, 92.432, 34.126" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="254.789, 242.533, 19.904" rotation_euler="0.000, 0.000, 0.062" scale="5.650, 5.650, 5.650"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="358.628, 212.438, 56.559" rotation_euler="0.648, 0.000, -0.788"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="62.270, 166.286, 48.879" rotation_euler="0.516, 0.000, 1.452"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="117.560, 200.265, 0.364" rotation_euler="0.331, 0.084, -0.027" scale="5.561, 5.561, 5.561"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="142.640, 188.816, 6.497" rotation_euler="0.000, 0.000, -0.833"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="160.937, 164.821, 1.936" rotation_euler="0.000, 0.000, -1.605"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="70.818, 276.288, 46.545" rotation_euler="0.000, 0.000, 1.520"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="159.780, 164.786, 41.345" rotation_euler="0.000, 0.000, -1.605"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_l1_heap_a">
+			<transform position="285.481, 82.408, -1.080" rotation_euler="0.000, 0.000, -0.717"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="153.241, 238.808, 28.049" rotation_euler="0.067, 0.000, -0.597" scale="0.583, 0.583, 0.583"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweapons_melee_c">
+			<transform position="148.353, 70.280, -1.110" rotation_euler="0.000, 0.000, -1.633"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_gate_house_a">
+			<transform position="223.162, 162.840, 31.721" rotation_euler="0.000, 0.000, -0.037"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="240.183, 162.914, 28.140" rotation_euler="0.000, 0.000, -1.630"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_i">
+			<transform position="333.517, 150.754, -0.990" rotation_euler="0.000, 0.000, -0.339"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="268.364, 218.502, -1.468" rotation_euler="-0.093, 0.000, 0.374" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="140.951, 267.984, 8.427" rotation_euler="0.000, 0.000, -0.090" scale="3.997, 3.997, 3.997"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="288.585, 232.926, -1.050" rotation_euler="-0.047, 0.000, 1.016" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="191.451, 66.127, -4.767" rotation_euler="0.262, 0.000, 3.020" scale="1.569, 1.569, 1.569"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="157.981, 281.056, 15.805" rotation_euler="0.000, 0.000, 0.893" scale="5.458, 5.458, 5.458"/>
+		</game_entity>
+		<game_entity prefab="dry_tree_b">
+			<transform position="330.830, 200.550, -1.080" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b1">
+			<transform position="202.126, 74.465, -1.110" rotation_euler="0.000, 0.000, -0.579" scale="10.143, 10.143, 10.143"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="341.379, 60.573, 39.460" rotation_euler="0.237, -0.763, -1.494" scale="1.411, 1.411, 1.411"/>
+		</game_entity>
+		<game_entity prefab="mushroom_tree_a" lod_bias_factor="1.000">
+			<flags>
+				<flag name="lod" value="1"/>
+			</flags>
+			<transform position="178.374, 87.982, 1.530" rotation_euler="0.000, 0.000, 2.776" scale="7.349, 7.349, 7.349"/>
+		</game_entity>
+		<game_entity prefab="dry_tree_a">
+			<transform position="121.592, 209.986, -0.990" rotation_euler="0.000, 0.000, -2.795"/>
+		</game_entity>
+		<game_entity prefab="tree_olive_b">
+			<transform position="223.050, 106.493, -1.117" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="305.322, 290.583, -8.530" rotation_euler="-0.002, -0.320, 1.030" scale="7.444, 7.444, 7.444"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_wool_c">
+			<transform position="197.025, 84.116, -0.990" rotation_euler="0.000, 0.000, -0.210"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_b">
+			<transform position="321.371, 143.219, -0.990" rotation_euler="0.000, 0.000, -0.273"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a3" lod_bias_factor="1.000">
+			<flags>
+				<flag name="lod" value="1"/>
+			</flags>
+			<transform position="253.555, 93.517, -1.080" rotation_euler="0.000, 0.000, -1.339" scale="9.842, 9.842, 9.842"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="333.504, 222.943, 19.778" rotation_euler="-0.050, 0.031, 2.188" scale="9.744, 9.744, 9.744"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_b">
+			<transform position="296.765, 130.445, -0.960" rotation_euler="0.000, 0.000, 3.139"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="237.810, 54.717, 9.454" rotation_euler="-0.050, 0.031, 2.188" scale="9.744, 9.744, 9.744"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="72.931, 86.345, 45.680" rotation_euler="-0.050, 0.031, 2.188" scale="6.620, 6.620, 6.620"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="333.438, 44.356, 59.910" rotation_euler="0.377, 0.000, -2.075"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="277.850, 267.477, 8.131" rotation_euler="0.000, 0.000, 0.000" scale="4.769, 4.769, 4.769"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="290.240, 251.031, -1.050" rotation_euler="-0.047, 0.000, 1.653" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_g">
+			<transform position="158.803, 96.409, -0.990" rotation_euler="0.000, 0.000, -3.105"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="93.934, 74.820, 52.780" rotation_euler="-0.008, 0.000, 1.970" scale="2.044, 2.044, 2.044"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="71.037, 103.178, 39.237" rotation_euler="0.414, 0.000, 1.812"/>
+		</game_entity>
+		<game_entity prefab="battania_watermill_base">
+			<transform position="154.066, 71.337, -1.110" rotation_euler="0.000, 0.000, -1.649"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="122.798, 142.235, 24.181" rotation_euler="0.000, 0.000, 0.000" scale="1.923, 1.923, 1.923"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="150.879, 195.446, -0.599" rotation_euler="0.000, 0.000, 2.294" scale="0.575, 0.575, 0.575"/>
+		</game_entity>
+		<game_entity prefab="battania_barn_b">
+			<transform position="340.906, 163.064, -0.968" rotation_euler="0.000, 0.000, 1.367"/>
+		</game_entity>
+		<game_entity prefab="mushroom_tree_a" lod_bias_factor="1.000">
+			<flags>
+				<flag name="lod" value="1"/>
+			</flags>
+			<transform position="273.546, 116.692, -0.731" rotation_euler="0.000, 0.000, -0.579" scale="7.349, 7.349, 7.349"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b1">
+			<transform position="200.691, 74.511, -1.110" rotation_euler="0.000, 0.000, -1.503" scale="10.143, 10.143, 10.143"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="311.552, 57.306, 38.095" rotation_euler="0.392, -0.168, -2.831"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="365.860, 82.843, 83.785" rotation_euler="0.053, 1.231, -2.497" scale="1.680, 1.680, 1.680"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_d">
+			<transform position="158.501, 110.089, -1.080" rotation_euler="0.000, 0.000, -0.451"/>
+		</game_entity>
+		<game_entity prefab="flora_tree_high_e_aspen">
+			<transform position="118.498, 94.111, -0.328" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="64.461, 84.669, 78.738" rotation_euler="0.354, 0.000, 1.812"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b1">
+			<transform position="199.358, 74.672, -1.110" rotation_euler="0.000, 0.000, -3.087" scale="10.143, 10.143, 10.143"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="69.439, 295.382, 60.688" rotation_euler="0.358, 0.000, 1.539"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_a">
+			<transform position="187.773, 159.728, -0.990" rotation_euler="0.000, 0.000, -1.931"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="217.176, 126.493, -1.110" rotation_euler="0.000, 0.000, 0.282"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantweavery_linen_c">
+			<transform position="172.016, 81.871, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_c">
+			<transform position="159.625, 97.208, -0.990" rotation_euler="0.000, 0.000, -0.361"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech_c">
+			<transform position="282.553, 107.563, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_male_small">
+			<transform position="297.490, 178.418, 8.768" rotation_euler="0.000, 0.000, 2.592" scale="5.193, 5.193, 5.193"/>
+		</game_entity>
+		<game_entity prefab="waterfall_a_single">
+			<transform position="217.453, 332.883, 8.853" rotation_euler="0.000, 0.000, 0.010" scale="1.392, 0.872, 1.392"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_c">
+			<transform position="283.302, 114.740, -1.020" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_gate_house_a">
+			<transform position="316.041, 130.325, -1.403" rotation_euler="0.000, 0.000, -0.005"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="257.447, 154.761, -2.372" rotation_euler="0.000, 0.000, 0.116" scale="6.291, 6.291, 6.291"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_structure_a">
+			<transform position="322.338, 108.617, -1.080" rotation_euler="0.000, 0.000, -1.570"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_b">
+			<transform position="284.330, 192.429, -1.530" rotation_euler="0.000, 0.000, -1.518"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_b">
+			<transform position="185.255, 100.508, -1.020" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="210.983, 172.279, 3.019" rotation_euler="-0.182, -0.017, 0.480" scale="4.821, 4.821, 4.821"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="233.670, 150.243, 23.550" rotation_euler="0.281, 0.000, 1.249" scale="0.525, 0.525, 0.525"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_tall">
+			<transform position="212.933, 174.909, 8.569" rotation_euler="0.000, 0.000, -2.764" scale="4.388, 4.388, 4.388"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="133.554, 137.617, 15.375" rotation_euler="0.391, 0.000, 0.268" scale="0.531, 0.531, 0.531"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="202.338, 145.832, 1.441" rotation_euler="-0.284, 0.000, -0.979" scale="4.119, 4.119, 4.119"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="205.300, 167.312, 5.996" rotation_euler="0.000, 0.000, -1.962" scale="1.803, 1.803, 1.803"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="137.738, 117.448, -1.803" rotation_euler="-0.199, 0.000, 0.268" scale="0.531, 0.531, 0.531"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="229.981, 174.892, 14.998" rotation_euler="0.309, 0.000, 2.345" scale="0.456, 0.456, 0.456"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="206.532, 151.925, 12.851" rotation_euler="0.178, 0.000, -1.124" scale="0.449, 0.449, 0.449"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="131.274, 118.530, -2.902" rotation_euler="-0.202, 0.000, -0.267" scale="2.775, 2.775, 2.775"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="202.779, 270.531, -5.460" rotation_euler="0.174, 0.000, 1.916" scale="0.820, 0.820, 0.820"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="226.020, 174.325, 5.730" rotation_euler="-0.239, -0.017, -0.406" scale="4.095, 4.095, 4.095"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="156.624, 252.668, 37.548" rotation_euler="-0.651, 0.000, -1.483" scale="0.379, 0.379, 0.379"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="234.343, 159.720, 8.540" rotation_euler="0.118, 0.000, 1.562" scale="3.795, 3.795, 3.795"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="221.781, 149.093, 31.910" rotation_euler="0.087, 0.000, -0.180" scale="0.367, 0.367, 0.367"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="213.339, 170.073, 32.747" rotation_euler="0.659, -0.070, -2.084" scale="0.290, 0.290, 0.290"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="227.373, 144.688, 21.435" rotation_euler="0.411, 0.000, 0.000" scale="0.525, 0.525, 0.525"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="215.315, 174.120, 24.791" rotation_euler="0.320, 0.000, -2.966" scale="0.580, 0.580, 0.580"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="364.984, 151.493, 29.317" rotation_euler="0.703, 0.000, -1.247"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="283.289, 138.739, 10.357" rotation_euler="-0.008, 0.000, 0.141" scale="2.559, 2.559, 2.559"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="132.318, 125.723, 3.238" rotation_euler="0.000, 0.000, 0.264" scale="2.531, 2.531, 2.531"/>
+		</game_entity>
+		<game_entity prefab="merchandise_wood">
+			<transform position="329.909, 149.786, -0.990" rotation_euler="0.000, 0.000, 1.576"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_b">
+			<transform position="321.198, 166.906, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="220.865, 175.614, 20.419" rotation_euler="0.309, 0.000, 3.124" scale="0.456, 0.456, 0.456"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation">
+			<transform position="216.631, 173.085, 8.289" rotation_euler="-0.292, -0.017, 0.263" scale="3.323, 3.323, 3.323"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="139.385, 224.689, 0.247" rotation_euler="0.000, 0.000, -0.516" scale="0.707, 0.707, 0.707"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="123.676, 201.519, 8.886" rotation_euler="-0.140, 0.000, 2.973" scale="0.630, 0.630, 0.630"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="141.579, 132.880, 2.541" rotation_euler="-0.934, 0.000, 2.136" scale="3.297, 3.297, 3.297"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="300.308, 144.653, 5.400" rotation_euler="0.143, -0.079, 1.314" scale="3.345, 3.345, 3.345"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="87.415, 321.316, 33.303" rotation_euler="0.208, 0.000, 1.432"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="125.463, 242.318, -1.415" rotation_euler="0.000, 0.000, -1.284" scale="0.707, 0.707, 0.707"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="247.276, 290.180, 20.218" rotation_euler="0.155, 0.000, -1.446" scale="0.552, 0.552, 0.552"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="157.635, 215.436, -0.025" rotation_euler="0.000, 0.000, -0.344" scale="0.707, 0.707, 0.707"/>
+		</game_entity>
+		<game_entity prefab="battania_platform_a">
+			<transform position="320.770, 168.677, -0.990" rotation_euler="0.000, 0.000, -0.003"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="94.754, 101.192, 15.066" rotation_euler="-0.112, 0.000, 2.274" scale="1.930, 1.930, 1.930"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="115.947, 75.152, 13.382" rotation_euler="-0.050, 0.000, 1.567" scale="1.930, 1.930, 1.930"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="318.232, 261.053, 33.735" rotation_euler="0.161, 0.147, -1.346" scale="1.693, 1.693, 1.693"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="36.869, 221.073, 104.538" rotation_euler="0.805, 0.000, 1.328"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="306.648, 279.572, -4.476" rotation_euler="0.161, 0.147, -2.218" scale="1.295, 1.295, 1.295"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="110.371, 297.776, 8.112" rotation_euler="0.000, 0.000, 1.438"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="182.055, 164.014, 28.538" rotation_euler="0.000, 0.000, -1.601"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="228.496, 263.490, -7.068" rotation_euler="0.298, 0.000, -2.148" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="269.121, 310.651, 0.896" rotation_euler="0.225, 0.000, 1.974" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_floor_a">
+			<transform position="305.609, 127.445, -0.990" rotation_euler="0.000, 0.000, -1.570"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_b">
+			<transform position="326.439, 124.839, -1.343" rotation_euler="0.000, 0.000, 1.562" scale="0.680, 0.991, 0.991"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_floor_a">
+			<transform position="319.389, 107.139, -1.080" rotation_euler="0.000, 0.000, 1.554"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="287.452, 268.374, -0.049" rotation_euler="0.053, 0.000, 1.621" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="53.226, 171.992, 60.321" rotation_euler="0.000, 0.000, 0.934" scale="7.466, 7.466, 7.466"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="326.936, 144.277, 8.088" rotation_euler="0.000, 0.000, -0.019"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="111.225, 42.847, 47.875" rotation_euler="0.000, 0.000, 0.000" scale="7.617, 7.617, 7.617"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech__cutted_b">
+			<transform position="284.632, 95.411, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="199.730, 245.825, -0.930" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="203.912, 163.391, 1.962" rotation_euler="0.000, 0.000, -1.601"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="59.534, 171.835, 27.222" rotation_euler="0.726, 0.000, 1.495"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="65.053, 148.649, 34.952" rotation_euler="0.516, 0.000, 1.683"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="203.936, 163.382, 41.334" rotation_euler="0.000, 0.000, -1.602"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="58.446, 190.355, 65.578" rotation_euler="0.516, 0.000, 1.452"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="121.371, 191.554, 19.830" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="153.026, 173.187, -2.352" rotation_euler="0.331, 0.084, -1.557" scale="5.561, 5.561, 5.561"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="134.614, 133.120, 5.503" rotation_euler="0.000, 0.000, 0.442"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="56.778, 143.417, 58.706" rotation_euler="0.516, 0.000, 1.452"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="162.789, 309.757, -2.185" rotation_euler="0.197, 0.000, -2.689" scale="0.539, 0.539, 0.539"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="62.211, 199.005, 43.406" rotation_euler="0.554, 0.000, 1.495"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="148.039, 162.792, 56.687" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="43.439, 237.921, 99.574" rotation_euler="0.805, 0.000, 1.328"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="203.794, 163.225, 14.535" rotation_euler="0.000, 0.000, -1.601"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="344.900, 218.316, 32.327" rotation_euler="0.440, 0.000, -0.788"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="67.355, 151.549, 9.129" rotation_euler="0.726, 0.000, 1.495"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="74.504, 132.694, 12.918" rotation_euler="0.726, 0.000, 1.495"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="68.709, 190.397, 22.613" rotation_euler="0.726, 0.000, 1.495"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_l1_heap_a">
+			<transform position="330.031, 143.153, -0.990" rotation_euler="0.000, 0.000, -0.027"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="149.291, 146.472, -3.922" rotation_euler="0.253, 0.017, -2.193" scale="6.427, 6.427, 6.427"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="344.640, 228.919, 50.352" rotation_euler="0.648, 0.000, -0.788"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="74.175, 153.547, 0.540" rotation_euler="0.726, 0.000, 1.495"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="160.937, 164.821, 28.621" rotation_euler="0.000, 0.000, -1.605"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="64.699, 201.995, 20.841" rotation_euler="0.554, 0.000, 1.495"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_structure_a">
+			<transform position="127.532, 147.050, 26.785" rotation_euler="0.000, 0.000, -0.014"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech_d">
+			<transform position="203.307, 117.526, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="143.451, 150.080, 18.186" rotation_euler="0.469, 0.310, 0.714"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="197.848, 79.572, -0.990" rotation_euler="0.000, 0.000, -0.258"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="151.556, 172.008, 17.894" rotation_euler="0.251, 0.000, 1.833" scale="0.770, 0.770, 0.770"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="111.534, 156.016, 15.859" rotation_euler="0.535, 0.000, -2.130" scale="0.390, 0.390, 0.390"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_n">
+			<transform position="203.893, 126.520, -1.157" rotation_euler="0.000, 0.000, 2.401"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="238.556, 298.146, -1.338" rotation_euler="0.386, 0.000, -1.857" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="188.117, 113.354, 19.479" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="149.838, 160.019, 18.648" rotation_euler="0.000, 0.264, -0.617" scale="3.331, 3.331, 3.331"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="220.929, 175.682, 8.014" rotation_euler="-0.106, 0.025, 0.234" scale="3.492, 3.492, 3.492"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="271.387, 269.697, 24.255" rotation_euler="0.017, 0.000, 2.235" scale="0.552, 0.552, 0.552"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="125.269, 264.387, -2.092" rotation_euler="0.000, 0.000, -1.478" scale="0.707, 0.707, 0.707"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_male_small">
+			<transform position="272.350, 244.159, 22.596" rotation_euler="0.000, 0.000, 0.000" scale="6.956, 6.956, 6.956"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="269.581, 136.373, -2.760" rotation_euler="0.000, 0.000, 1.115" scale="4.031, 4.031, 4.031"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="280.768, 135.840, 6.143" rotation_euler="-0.116, 0.019, 0.093" scale="3.815, 3.815, 3.815"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="223.784, 230.092, -1.270" rotation_euler="0.000, 0.000, -1.281" scale="0.584, 0.584, 0.584"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="295.910, 152.949, 18.931" rotation_euler="-0.211, -0.189, 0.143" scale="2.167, 2.167, 2.167"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_tall">
+			<transform position="203.602, 168.819, -0.922" rotation_euler="-0.028, 0.000, -1.762" scale="3.259, 3.259, 3.259"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="146.862, 137.781, -0.575" rotation_euler="0.028, 0.000, 0.661" scale="1.042, 1.042, 1.042"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_c">
+			<transform position="182.751, 97.959, -0.990" rotation_euler="0.000, 0.000, 1.604"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_b">
+			<transform position="333.889, 112.757, -1.080" rotation_euler="0.000, 0.000, -2.582"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b1">
+			<transform position="211.327, 91.868, -0.990" rotation_euler="0.000, 0.000, -3.087" scale="10.143, 10.143, 10.143"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_male_medium">
+			<transform position="294.367, 146.166, 18.993" rotation_euler="0.000, 0.000, 0.873" scale="5.935, 5.935, 5.935"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="230.743, 147.128, -3.741" rotation_euler="-0.015, -0.024, 1.003" scale="6.990, 6.990, 6.990"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a3" lod_bias_factor="1.000">
+			<flags>
+				<flag name="lod" value="1"/>
+			</flags>
+			<transform position="234.614, 99.174, -0.259" rotation_euler="0.000, 0.000, -0.579" scale="9.842, 9.842, 9.842"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="352.309, 197.666, 27.534" rotation_euler="0.000, 0.000, 0.360" scale="5.928, 5.928, 5.928"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation">
+			<transform position="256.605, 329.466, -8.821" rotation_euler="0.000, 0.000, 0.636" scale="20.794, 20.794, 20.794"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="292.978, 164.806, 24.570" rotation_euler="0.000, 0.000, 0.225" scale="2.167, 2.167, 2.167"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="263.883, 287.306, 8.872" rotation_euler="0.000, 0.000, 0.000" scale="4.769, 4.769, 4.769"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="281.159, 239.796, 9.356" rotation_euler="0.000, 0.000, 0.000" scale="3.434, 3.434, 3.434"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="231.780, 270.904, -5.800" rotation_euler="0.337, 0.000, -1.857" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="255.492, 260.114, 29.040" rotation_euler="0.017, 0.000, -1.672" scale="0.552, 0.552, 0.552"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="275.536, 299.085, 0.362" rotation_euler="0.225, 0.000, 1.839" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="234.204, 220.497, 3.543" rotation_euler="0.022, 0.031, -0.627" scale="0.583, 0.583, 0.583"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="243.607, 283.531, 10.950" rotation_euler="0.000, 0.000, -1.723" scale="1.808, 1.808, 1.808"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech_d">
+			<transform position="319.500, 174.319, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="263.525, 161.527, 41.436" rotation_euler="0.000, 0.000, -1.630"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="251.508, 192.900, -3.175" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_f">
+			<transform position="175.841, 80.151, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="256.121, 278.063, 17.344" rotation_euler="0.000, 0.000, 0.000" scale="4.322, 4.322, 4.322"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation">
+			<transform position="272.135, 231.292, -0.750" rotation_euler="-0.403, -0.137, 0.740" scale="6.472, 6.472, 6.472"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="224.366, 148.486, 27.298" rotation_euler="0.000, 0.000, 0.000" scale="2.705, 2.705, 2.705"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_d">
+			<transform position="101.172, 133.418, 0.549" rotation_euler="-0.039, -0.118, 0.119" scale="0.347, 0.347, 0.347"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="211.385, 153.902, 19.980" rotation_euler="0.000, 0.000, 0.000" scale="3.357, 3.357, 3.357"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_male_small">
+			<transform position="136.786, 136.763, 12.291" rotation_euler="0.000, 0.000, 0.191" scale="5.720, 5.720, 5.720"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="224.319, 174.057, 30.947" rotation_euler="0.439, 0.000, 3.000" scale="0.372, 0.372, 0.372"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="155.027, 157.867, 1.862" rotation_euler="0.302, 0.000, 1.272" scale="0.942, 0.942, 0.942"/>
+		</game_entity>
+		<game_entity prefab="stonewall_2c">
+			<transform position="292.845, 176.478, 21.315" rotation_euler="-0.002, 0.000, 0.078" scale="3.653, 3.653, 3.653"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="207.012, 149.168, 12.110" rotation_euler="-0.171, 0.000, -1.066" scale="4.119, 4.119, 4.119"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="346.858, 118.205, 7.527" rotation_euler="0.281, 0.000, -1.576" scale="1.693, 1.693, 1.693"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="85.662, 296.111, 28.685" rotation_euler="-0.008, 0.000, 1.584" scale="2.044, 2.044, 2.044"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="51.288, 128.306, 61.963" rotation_euler="0.355, 0.000, 1.970"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="50.163, 110.319, 85.650" rotation_euler="0.467, 0.000, 1.956"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="179.292, 290.349, 22.067" rotation_euler="0.000, 0.000, 0.000" scale="5.458, 5.458, 5.458"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="99.482, 259.304, 4.099" rotation_euler="0.000, 0.000, 1.520"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_b">
+			<transform position="270.821, 156.062, 28.585" rotation_euler="0.000, 0.000, -1.079"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="42.609, 137.834, 88.287" rotation_euler="0.467, 0.000, 1.579"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="71.228, 253.408, 42.400" rotation_euler="0.358, 0.000, 1.529"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="41.981, 157.339, 98.896" rotation_euler="0.805, 0.000, 1.311"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="296.787, 130.146, 8.187" rotation_euler="0.000, 0.000, -1.540"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="36.209, 204.141, 100.458" rotation_euler="0.805, 0.000, 1.311"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="367.947, 140.238, 54.717" rotation_euler="0.513, 0.141, -1.759" scale="1.411, 1.411, 1.411"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="70.289, 185.830, 1.599" rotation_euler="0.554, 0.000, 1.495"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="357.367, 187.600, 67.180" rotation_euler="0.053, 1.231, -1.995" scale="1.680, 1.680, 1.680"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="202.721, 174.468, -2.066" rotation_euler="0.000, 0.000, -2.410" scale="0.557, 0.557, 0.557"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation">
+			<transform position="223.137, 244.979, -17.598" rotation_euler="-0.328, -0.065, -1.785" scale="12.361, 12.361, 12.361"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="322.834, 243.532, 39.731" rotation_euler="0.000, 0.000, 0.000" scale="4.322, 4.322, 4.322"/>
+		</game_entity>
+		<game_entity prefab="sturgia_arena_detailstones_a">
+			<transform position="329.077, 157.634, 12.798" rotation_euler="0.000, 0.000, -1.540" scale="1.191, 1.191, 1.191"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="171.867, 252.636, 31.934" rotation_euler="0.000, 0.000, 0.000" scale="4.322, 4.322, 4.322"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="217.374, 142.986, 15.979" rotation_euler="0.408, 0.000, 0.000" scale="0.261, 0.261, 0.261"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_f">
+			<transform position="234.597, 99.553, -0.990" rotation_euler="0.000, 0.000, -0.755"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="219.490, 181.694, -1.980" rotation_euler="0.174, 0.000, -2.969" scale="0.557, 0.557, 0.557"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_a">
+			<transform position="197.949, 111.837, -1.122" rotation_euler="0.000, 0.000, -1.705"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="308.082, 166.981, -2.161" rotation_euler="0.000, 0.000, 0.050" scale="5.013, 5.013, 5.013"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation">
+			<transform position="180.056, 331.271, -9.961" rotation_euler="0.000, 0.000, -0.461" scale="25.518, 25.518, 25.518"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation">
+			<transform position="194.276, 258.636, -12.845" rotation_euler="-0.328, -0.065, 1.340" scale="12.361, 12.361, 12.361"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="293.237, 51.536, 28.764" rotation_euler="0.000, 0.000, 0.000" scale="4.322, 4.322, 4.322"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_e">
+			<transform position="318.600, 116.545, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_c">
+			<transform position="171.586, 90.864, -0.990" rotation_euler="0.000, 0.000, -1.810"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="309.352, 31.803, 69.991" rotation_euler="0.377, 0.000, -2.472"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="229.970, 42.537, 60.011" rotation_euler="0.766, 0.000, -2.941"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation">
+			<transform position="296.865, 136.758, -4.912" rotation_euler="0.000, 0.000, 0.098" scale="5.043, 5.043, 5.043"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="209.651, 168.446, 24.232" rotation_euler="0.288, 0.000, -1.796" scale="0.588, 0.588, 0.588"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="121.167, 28.255, 90.629" rotation_euler="0.473, 0.000, -2.941"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="235.229, 283.793, -2.081" rotation_euler="0.337, 0.000, -1.857" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="136.555, 200.929, 3.735" rotation_euler="-0.140, 0.000, 3.010" scale="0.630, 0.630, 0.630"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="297.965, 152.139, 13.350" rotation_euler="-0.212, -0.189, 0.143" scale="2.167, 2.167, 2.167"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_001">
+			<transform position="340.895, 149.070, -0.939" rotation_euler="0.000, 0.000, 2.668"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="186.137, 306.684, -4.730" rotation_euler="0.594, 0.000, 2.779" scale="0.539, 0.539, 0.539"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="190.778, 286.210, 10.145" rotation_euler="0.436, 0.000, 1.531" scale="0.501, 0.501, 0.501"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="172.576, 227.677, 24.582" rotation_euler="-0.002, 0.000, 0.180" scale="0.363, 0.363, 0.363"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_structure_a">
+			<transform position="295.773, 172.072, 12.898" rotation_euler="0.000, 0.436, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="267.205, 142.787, 16.361" rotation_euler="0.000, 0.000, 0.000" scale="3.249, 3.249, 3.249"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="215.102, 152.692, 29.082" rotation_euler="0.000, 0.000, -0.622" scale="1.840, 1.840, 1.840"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantbeer_c">
+			<transform position="148.398, 66.658, -1.110" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantleather_c">
+			<transform position="152.624, 66.221, -1.110" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="battania_stone_b">
+			<transform position="298.894, 105.392, -1.372" rotation_euler="-0.242, 0.000, -1.632"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_n">
+			<transform position="331.530, 84.292, -1.080" rotation_euler="0.000, 0.000, -3.095"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantleather_b">
+			<transform position="149.871, 66.466, -1.110" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="84.250, 247.410, 23.284" rotation_euler="0.039, 0.000, 0.959"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantpottery_b">
+			<transform position="148.706, 73.551, -1.110" rotation_euler="0.000, 0.000, -1.667" scale="2.554, 2.554, 2.554"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_i">
+			<transform position="274.080, 80.382, -1.080" rotation_euler="0.000, 0.000, -2.212"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_a">
+			<transform position="300.239, 119.341, -0.990" rotation_euler="0.000, 0.000, -0.468"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_c">
+			<transform position="309.764, 107.446, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantcarpenter_b">
+			<transform position="148.710, 68.020, -1.110" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_c">
+			<transform position="242.049, 89.325, -0.714" rotation_euler="0.000, 0.000, -1.810"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="199.223, 149.553, 0.412" rotation_euler="0.000, 0.000, -1.238" scale="0.598, 0.598, 0.598"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_e">
+			<transform position="279.659, 109.851, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_wheel_b">
+			<transform position="268.686, 108.452, -1.080" rotation_euler="0.382, 0.000, -1.039"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_d">
+			<transform position="162.763, 86.688, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_d">
+			<transform position="311.698, 86.290, -1.080" rotation_euler="0.000, 0.000, -0.628"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_k">
+			<transform position="146.304, 88.718, -0.990" rotation_euler="0.000, 0.000, 2.283"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="224.919, 173.824, 17.228" rotation_euler="0.000, 0.000, 0.000" scale="3.581, 3.581, 3.581"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="101.934, 147.075, 3.277" rotation_euler="-0.141, 0.009, -1.615" scale="0.487, 0.487, 0.487"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="285.043, 134.071, 12.765" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="128.146, 146.913, 46.705" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="190.986, 83.836, 13.249" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="98.352, 141.325, 5.493" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="102.715, 180.230, 9.298" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="129.542, 141.198, 27.844" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_d">
+			<transform position="181.240, 74.771, -0.990" rotation_euler="0.000, 0.000, 0.785"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_b">
+			<transform position="294.119, 120.428, -0.990" rotation_euler="0.000, 0.000, -1.565"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="112.897, 139.249, 15.014" rotation_euler="0.318, 0.000, -0.614" scale="0.519, 0.519, 0.519"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="107.449, 146.951, 7.145" rotation_euler="0.000, 0.000, 0.000" scale="3.572, 3.572, 3.572"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="132.079, 285.776, -2.453" rotation_euler="0.000, 0.000, -2.089" scale="0.707, 0.707, 0.707"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_j">
+			<transform position="168.026, 127.227, -1.080" rotation_euler="0.000, 0.000, -1.894"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="172.538, 210.962, -1.041" rotation_euler="0.000, 0.000, 0.050" scale="0.447, 0.447, 0.447"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_f">
+			<transform position="319.302, 119.881, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="102.885, 142.426, 3.408" rotation_euler="-0.351, -0.043, -1.689" scale="3.786, 3.786, 3.786"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="293.662, 153.087, 18.698" rotation_euler="-0.127, -0.003, 1.853" scale="3.157, 3.157, 3.157"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="187.755, 214.732, -0.906" rotation_euler="0.000, 0.000, 0.602" scale="0.448, 0.448, 0.448"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="309.368, 119.999, -0.990" rotation_euler="0.000, 0.000, 1.539"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="98.552, 177.799, 3.056" rotation_euler="0.000, 0.000, -1.397" scale="0.342, 0.342, 0.342"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="279.537, 114.935, -0.990" rotation_euler="0.000, 0.000, 1.444"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="359.459, 78.677, 61.351" rotation_euler="0.513, -0.168, -1.390"/>
+		</game_entity>
+		<game_entity prefab="map_rock_new_d">
+			<transform position="171.716, 209.582, 148.274" rotation_euler="1.434, 1.756, -1.535" scale="-60.951, 36.672, 60.951"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_b">
+			<transform position="179.938, 84.419, -0.990" rotation_euler="0.000, 0.000, -0.242"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="232.157, 174.446, -5.553" rotation_euler="0.000, 0.000, 0.434" scale="5.906, 5.906, 5.906"/>
+		</game_entity>
+		<game_entity prefab="log_tree_high_group_b">
+			<transform position="171.127, 111.194, -1.170" rotation_euler="0.000, 0.000, -1.609"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="64.599, 101.439, 62.454" rotation_euler="0.354, 0.000, 1.812"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="360.352, 111.775, 51.520" rotation_euler="0.513, 0.141, -1.759" scale="1.411, 1.411, 1.411"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="306.320, 296.987, 29.774" rotation_euler="0.161, 0.147, -1.346" scale="1.693, 1.693, 1.693"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="232.277, 47.116, 34.392" rotation_euler="0.513, -0.168, -3.071"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech__cutted_a">
+			<transform position="315.272, 99.088, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech_a">
+			<transform position="295.100, 95.511, -1.080" rotation_euler="0.000, 0.000, -0.983"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="44.696, 119.684, 85.264" rotation_euler="0.467, 0.000, 1.579"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_a">
+			<transform position="182.202, 206.690, -1.119" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="219.758, 342.235, 21.530" rotation_euler="0.000, 0.000, -0.052" scale="16.978, 16.978, 16.978"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_d">
+			<transform position="236.222, 144.615, -0.864" rotation_euler="1.024, 0.000, 1.059" scale="0.233, 0.233, 0.233"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_dungeon_a">
+			<transform position="242.864, 98.529, -0.990" rotation_euler="0.000, 0.000, -0.028"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_k">
+			<transform position="297.177, 84.747, -1.080" rotation_euler="0.000, 0.000, 2.283"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="265.678, 179.310, 12.493" rotation_euler="0.000, 0.000, 0.374" scale="1.676, 1.676, 1.676"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="310.780, 146.528, -4.524" rotation_euler="0.195, 0.000, 1.560" scale="0.616, 0.616, 0.616"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="256.995, 180.563, 2.705" rotation_euler="-0.026, 0.000, -2.416" scale="0.810, 0.810, 0.810"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_male_small">
+			<transform position="204.191, 157.010, 9.141" rotation_euler="0.000, 0.000, -1.706" scale="5.444, 5.444, 5.444"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_c">
+			<transform position="170.613, 102.491, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="263.855, 175.072, 13.699" rotation_euler="0.000, 0.000, 0.696" scale="1.985, 1.985, 1.985"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="111.639, 155.151, -1.137" rotation_euler="-0.034, 0.016, -1.819" scale="6.427, 6.427, 6.427"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="122.773, 134.635, 4.683" rotation_euler="-0.246, 0.082, 0.020" scale="6.412, 6.412, 6.412"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="139.920, 153.594, 13.304" rotation_euler="0.120, -0.051, 0.879" scale="8.820, 8.820, 8.820"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="208.887, 158.127, 6.497" rotation_euler="-0.032, 0.184, 0.252" scale="6.427, 6.427, 6.427"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="225.578, 140.457, 0.858" rotation_euler="0.000, 0.000, 0.168" scale="4.329, 4.329, 4.329"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="254.663, 169.403, 6.261" rotation_euler="0.141, 0.000, -1.687" scale="0.810, 0.810, 0.810"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="273.164, 138.637, 11.669" rotation_euler="0.142, 0.000, -0.493" scale="2.818, 2.818, 2.818"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="261.044, 139.375, 4.187" rotation_euler="0.118, 0.000, -0.997" scale="0.735, 0.735, 0.735"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="212.387, 146.868, 16.889" rotation_euler="0.092, 0.000, -0.591" scale="0.696, 0.696, 0.696"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="224.792, 142.096, 13.335" rotation_euler="0.000, 0.000, 0.129" scale="1.851, 1.851, 1.851"/>
+		</game_entity>
+		<game_entity prefab="empire_statue_chariot">
+			<transform position="338.625, 153.423, 2.476" rotation_euler="0.000, 0.000, 1.300"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="300.687, 190.482, -5.860" rotation_euler="0.000, 0.000, 2.672" scale="0.813, 0.813, 0.813"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="208.012, 178.554, -0.963" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="75.797, 174.006, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="1">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="2">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="3">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="4">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="5">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="6">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="7">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="8">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="skirmish_respawn">
+			<transform position="170.887, 157.256, -0.990" rotation_euler="0.000, 0.000, -1.365"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_A">
+			<transform position="222.733, 157.488, 46.004" rotation_euler="0.000, 0.000, -0.051"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_B">
+			<transform position="223.827, 83.952, -0.833" rotation_euler="0.000, 0.000, -0.065"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_C">
+			<transform position="218.111, 183.364, -0.961" rotation_euler="0.000, 0.000, 0.503"/>
+		</game_entity>
+		<game_entity prefab="_barrier_16x04m">
+			<transform position="174.899, 205.501, -1.080" rotation_euler="0.000, 0.000, -0.031" scale="552.330, 34.521, 138.082"/>
+		</game_entity>
+		<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_0"/>
+			</tags>
+			<transform position="193.483, 163.175, 46.041" rotation_euler="0.000, 0.000, 3.108"/>
+			<components>
+				<meta_mesh_component name="arrow_new_icon"/>
+			</components>
+		</game_entity>
+		<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_1"/>
+			</tags>
+			<transform position="194.956, 163.152, 46.041" rotation_euler="0.000, 0.000, 3.108"/>
+			<components>
+				<meta_mesh_component name="arrow_new_icon"/>
+			</components>
+		</game_entity>
+		<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_5"/>
+			</tags>
+			<transform position="193.619, 164.957, 46.041" rotation_euler="0.000, 0.000, 3.108"/>
+			<components>
+				<meta_mesh_component name="arrow_new_icon"/>
+			</components>
+		</game_entity>
+		<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_4"/>
+			</tags>
+			<transform position="192.603, 164.318, 46.146" rotation_euler="0.000, 0.000, 3.108"/>
+			<components>
+				<meta_mesh_component name="arrow_new_icon"/>
+			</components>
+		</game_entity>
+		<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_3"/>
+			</tags>
+			<transform position="194.475, 164.321, 46.041" rotation_euler="0.000, 0.000, 3.108"/>
+			<components>
+				<meta_mesh_component name="arrow_new_icon"/>
+			</components>
+		</game_entity>
+		<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="spawnpoint"/>
+				<tag name="sp_visual_2"/>
+			</tags>
+			<transform position="191.965, 163.279, 46.146" rotation_euler="0.000, 0.000, 3.108"/>
+			<components>
+				<meta_mesh_component name="arrow_new_icon"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="122.999, 175.494, 23.507" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="148.046, 124.256, -1.017" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="222.517, 89.343, -0.780" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="147.320, 68.472, -1.110" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="287.167, 123.168, 13.196" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="314.526, 136.256, 12.879" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="328.984, 159.845, 13.007" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="277.101, 166.443, 37.449" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="223.851, 169.011, 46.003" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="138.109, 157.422, 45.876" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="271.964, 147.534, 27.531" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="246.016, 76.492, 5.145" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="215.461, 71.901, 5.463" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="323.603, 137.804, 19.251" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="322.249, 113.082, 10.325" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="198.484, 171.015, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_d">
+			<transform position="143.949, 93.729, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="314.004, 157.632, 8.004" rotation_euler="0.000, 0.000, -1.548"/>
+		</game_entity>
+		<game_entity prefab="european_castle_wall_a_damaged_l1_heap_a">
+			<transform position="325.864, 171.123, -0.990" rotation_euler="0.000, 0.000, -0.050"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_j">
+			<transform position="329.963, 160.226, -0.990" rotation_euler="0.000, 0.000, -0.788"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="91.221, 313.216, 15.975" rotation_euler="0.320, 0.031, 1.574" scale="6.620, 6.620, 6.620"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_b">
+			<transform position="264.854, 132.551, -1.560" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="344.602, 91.849, 1.912" rotation_euler="0.462, 0.000, -1.684" scale="0.936, 0.936, 0.936"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="306.778, 203.434, -1.080" rotation_euler="0.000, 0.000, -1.593"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="152.053, 336.602, 25.617" rotation_euler="0.869, 0.000, -0.050" scale="1.236, 1.236, 1.236"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="171.541, 332.867, 63.937" rotation_euler="0.462, 0.000, -0.050" scale="1.236, 1.236, 1.236"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="186.955, 354.284, 65.029" rotation_euler="0.462, 0.000, 0.163" scale="1.236, 1.236, 1.236"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="164.979, 354.554, 63.161" rotation_euler="0.462, 0.000, 0.163" scale="1.236, 1.236, 1.236"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="211.747, 158.026, 31.737" rotation_euler="0.472, 0.000, -1.441" scale="0.449, 0.449, 0.449"/>
+		</game_entity>
+		<game_entity prefab="module_european_stone_floor_c">
+			<transform position="326.907, 157.832, 11.870" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 9.493"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_tall">
+			<transform position="199.267, 154.873, 0.580" rotation_euler="-0.377, 0.000, -1.773" scale="5.287, 5.287, 5.287"/>
+		</game_entity>
+		<game_entity prefab="stonewall_2c">
+			<transform position="326.017, 157.677, 6.504" rotation_euler="0.000, 0.000, 0.000" scale="3.831, 3.831, 3.831"/>
+		</game_entity>
+		<game_entity prefab="bd_hay_cart_b">
+			<transform position="323.299, 183.923, -0.990" rotation_euler="0.000, 0.000, 0.565"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="218.481, 147.430, 20.228" rotation_euler="0.000, 0.000, -1.590" scale="3.357, 3.357, 3.357"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="211.668, 143.880, 9.210" rotation_euler="0.000, 0.000, -1.928" scale="4.123, 4.123, 4.123"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech_d">
+			<transform position="269.169, 112.282, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_d">
+			<transform position="333.768, 95.442, -1.080" rotation_euler="0.000, 0.000, 0.785"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="231.881, 156.943, 19.538" rotation_euler="-0.028, 0.142, -0.115" scale="4.238, 4.238, 4.238"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech_c">
+			<transform position="316.144, 185.472, -0.990" rotation_euler="0.000, 0.000, -1.956"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_small">
+			<transform position="267.876, 166.008, 27.196" rotation_euler="0.000, 0.000, -2.562" scale="3.506, 3.506, 3.506"/>
+		</game_entity>
+		<game_entity prefab="map_rock_new_d">
+			<transform position="209.126, 259.630, -11.142" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="275.387, 135.849, 12.468" rotation_euler="0.099, 0.000, -0.230" scale="0.425, 0.425, 0.425"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="284.462, 179.780, 10.905" rotation_euler="0.000, 0.000, 0.000" scale="3.258, 3.258, 3.258"/>
+		</game_entity>
+		<game_entity prefab="sturgia_arena_detailstones_a">
+			<transform position="327.231, 159.860, 12.799" rotation_euler="0.000, 0.000, -0.008" scale="1.191, 1.191, 1.191"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="268.544, 147.271, 20.349" rotation_euler="0.000, -0.279, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="271.542, 139.032, 16.653" rotation_euler="0.099, 0.000, -0.540" scale="0.425, 0.425, 0.425"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_d">
+			<transform position="324.138, 100.619, -1.080" rotation_euler="0.000, 0.000, -0.642"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="238.484, 152.558, -1.502" rotation_euler="0.000, 0.000, 1.509" scale="0.167, 0.167, 0.167"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="272.581, 191.017, -1.530" rotation_euler="0.000, 0.000, -2.911" scale="0.776, 0.776, 0.776"/>
+		</game_entity>
+		<game_entity name="ground_plane" old_prefab_name="">
+			<transform position="10.000, 10.000, 0.010" rotation_euler="0.000, 0.000, 0.000" scale="20.000, 20.000, 20.000"/>
+			<physics shape="bo_editor_plane"/>
+			<components>
+				<meta_mesh_component name="editor_plane_low"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="280.565, 119.631, -0.990" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_tall">
+			<transform position="233.568, 140.737, -2.045" rotation_euler="-0.092, 0.013, 0.924" scale="4.107, 4.107, 4.107"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_male_small">
+			<transform position="227.688, 136.639, 0.068" rotation_euler="0.000, 0.000, 0.366" scale="5.556, 5.556, 5.556"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_b">
+			<transform position="275.110, 124.605, -1.090" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_b">
+			<transform position="141.729, 77.330, -1.080" rotation_euler="0.000, 0.000, -0.811"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="98.220, 170.106, -2.305" rotation_euler="0.000, 0.000, -1.559"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="217.584, 176.895, 7.777" rotation_euler="-0.005, 0.000, -2.311" scale="3.448, 3.448, 3.448"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="204.038, 163.327, 28.584" rotation_euler="0.000, 0.000, -1.601"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="233.701, 166.018, 18.898" rotation_euler="0.138, 0.000, 1.819" scale="3.030, 3.030, 3.030"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_b">
+			<transform position="105.596, 137.795, 0.012" rotation_euler="0.000, 0.000, 0.163"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="240.239, 220.059, -0.157" rotation_euler="0.000, 0.000, -0.141" scale="3.827, 3.827, 3.827"/>
+		</game_entity>
+		<game_entity prefab="map_icon_waterfall">
+			<transform position="220.144, 320.304, 4.294" rotation_euler="0.000, 0.000, 2.500" scale="1.144, 1.144, 1.144"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="297.056, 322.199, 64.653" rotation_euler="0.684, 0.000, -1.187"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="183.601, 211.656, -4.604" rotation_euler="-0.434, 0.000, -0.074" scale="4.255, 4.255, 4.255"/>
+		</game_entity>
+		<game_entity prefab="map_icon_waterfall">
+			<transform position="214.696, 320.250, 4.248" rotation_euler="0.000, 0.000, 2.500" scale="1.144, 1.144, 1.144"/>
+		</game_entity>
+		<game_entity prefab="map_icon_waterfall">
+			<transform position="217.198, 320.275, 4.381" rotation_euler="0.000, 0.000, 2.500" scale="1.144, 1.144, 1.144"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="308.801, 304.868, 63.174" rotation_euler="0.684, 0.000, -1.187"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="262.205, 227.972, 2.836" rotation_euler="-0.175, 0.000, 0.000" scale="6.027, 6.027, 6.027"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="196.267, 288.587, 1.596" rotation_euler="0.288, 0.000, 1.591" scale="0.501, 0.501, 0.501"/>
+		</game_entity>
+		<game_entity prefab="waterfall_splash_2">
+			<transform position="216.658, 322.445, 27.698" rotation_euler="0.000, 0.000, -1.987"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="185.731, 226.413, 8.096" rotation_euler="0.000, 0.000, 0.000" scale="3.997, 3.997, 3.997"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="264.747, 257.721, 35.718" rotation_euler="0.000, 0.000, 0.000" scale="3.434, 3.434, 3.434"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="317.949, 290.630, 62.989" rotation_euler="0.684, 0.000, -1.187"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="255.500, 175.780, -3.472" rotation_euler="0.000, 0.000, -0.255" scale="4.262, 4.262, 4.262"/>
+		</game_entity>
+		<game_entity prefab="battania_storage_wood_c">
+			<transform position="337.389, 103.323, -1.080" rotation_euler="0.000, 0.000, -2.736"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_d">
+			<transform position="324.075, 140.986, -0.990" rotation_euler="0.000, 0.000, 0.299"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="229.274, 163.272, 14.411" rotation_euler="0.000, 0.000, -1.594" scale="1.073, 1.000, 0.977"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="107.267, 198.776, 4.649" rotation_euler="0.011, 0.000, -2.368" scale="0.357, 0.357, 0.357"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_k">
+			<transform position="335.428, 133.075, -0.990" rotation_euler="0.000, 0.000, 0.141"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="239.764, 162.699, 3.459" rotation_euler="0.000, 0.000, -1.565" scale="1.238, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="155.471, 181.450, 3.378" rotation_euler="0.012, 0.000, 1.833" scale="0.603, 0.603, 0.603"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="319.492, 161.103, -0.990" rotation_euler="0.000, 0.000, -1.512"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="110.032, 188.985, 18.113" rotation_euler="0.202, 0.000, -2.041" scale="0.244, 0.244, 0.244"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_k">
+			<transform position="288.179, 148.791, 27.540" rotation_euler="0.000, 0.000, 0.800"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_b">
+			<transform position="117.476, 124.929, -5.617" rotation_euler="0.000, 0.000, 0.454"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="145.572, 179.565, 24.889" rotation_euler="0.000, 0.785, 0.000"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_structure_a">
+			<transform position="194.809, 101.299, -1.152" rotation_euler="0.000, 0.000, -1.660"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="195.818, 115.068, -1.080" rotation_euler="0.000, 0.000, -1.678"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantwinery_c">
+			<transform position="220.439, 123.322, -1.025" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="246.209, 213.898, -2.656" rotation_euler="0.141, 0.000, -0.121" scale="0.713, 0.713, 0.713"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_d">
+			<transform position="166.479, 76.479, -0.990" rotation_euler="0.000, 0.000, 1.991"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="244.168, 307.610, 1.088" rotation_euler="0.225, 0.000, -1.857" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="stone_bridge_battania">
+			<transform position="182.152, 163.921, 14.640" rotation_euler="0.000, 0.000, -1.601"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="312.780, 138.377, -0.829" rotation_euler="0.000, 0.000, -2.916"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_tower_a">
+			<transform position="282.801, 159.546, 31.501" rotation_euler="0.000, 0.000, 1.237" scale="1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="100.365, 331.117, 84.732" rotation_euler="0.000, 0.000, 0.934" scale="7.466, 7.466, 7.466"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech_f">
+			<transform position="287.538, 100.316, -1.080" rotation_euler="0.000, -0.045, 1.652"/>
+		</game_entity>
+		<game_entity prefab="ruinous_castle_small_wall_a">
+			<transform position="336.202, 133.113, -0.990" rotation_euler="0.000, 0.000, -0.022"/>
+		</game_entity>
+		<game_entity prefab="forest_ruinous_tree_beech_b">
+			<transform position="305.785, 106.154, -1.080" rotation_euler="0.000, 0.000, 2.378"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_c">
+			<transform position="316.347, 85.367, -1.080" rotation_euler="0.000, 0.000, -2.190"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_a">
+			<transform position="326.227, 134.544, -1.668" rotation_euler="0.000, 0.000, 1.574"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="75.057, 66.497, 88.802" rotation_euler="0.000, 0.000, 0.000" scale="3.227, 3.227, 3.227"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="188.429, 53.184, 21.998" rotation_euler="0.000, 0.000, 2.188" scale="9.744, 9.744, 9.744"/>
+		</game_entity>
+		<game_entity prefab="battania_castle_wall_stair_c">
+			<transform position="117.708, 176.032, 14.631" rotation_euler="0.000, 0.000, -2.910"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="79.893, 209.729, 3.044" rotation_euler="0.000, 0.000, 1.236"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="153.981, 266.430, 24.531" rotation_euler="0.192, 0.000, -2.447" scale="0.583, 0.583, 0.583"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="56.802, 236.792, 68.211" rotation_euler="0.211, 0.000, 1.236"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_medium">
+			<transform position="122.378, 181.833, 24.154" rotation_euler="0.000, 0.000, 0.000" scale="3.368, 3.368, 3.368"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation">
+			<transform position="174.005, 221.645, -6.864" rotation_euler="-0.138, 0.066, -0.034" scale="9.275, 9.275, 9.275"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="68.238, 217.792, 20.873" rotation_euler="0.000, 0.000, 1.236"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="323.936, 266.217, 63.019" rotation_euler="0.684, 0.000, -1.187"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="62.029, 228.430, 43.050" rotation_euler="0.358, 0.000, 1.236"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="140.736, 240.842, 9.530" rotation_euler="-0.250, 0.000, -0.862" scale="6.236, 6.236, 6.236"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="243.391, 270.940, 11.821" rotation_euler="-0.150, 0.000, -2.148" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="333.758, 249.036, 59.941" rotation_euler="0.684, 0.000, -1.187"/>
+		</game_entity>
+		<game_entity prefab="bd_cartbroken_a">
+			<transform position="343.247, 157.930, -0.930" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="300.629, 150.266, 12.165" rotation_euler="-0.195, -0.079, 1.413" scale="2.167, 2.167, 2.167"/>
+		</game_entity>
+		<game_entity prefab="battania_stonewall_part_c">
+			<transform position="283.301, 88.542, -1.080" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="279.414, 287.162, -4.286" rotation_euler="0.225, 0.000, 2.156" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="279.278, 254.976, 15.183" rotation_euler="0.237, 0.000, 1.390" scale="0.713, 0.713, 0.713"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_tree">
+			<transform position="232.132, 232.855, 7.228" rotation_euler="0.000, 0.000, 0.000" scale="3.434, 3.434, 3.434"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="310.817, 62.611, 13.684" rotation_euler="0.679, 0.000, 2.835" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="297.325, 61.237, 12.631" rotation_euler="0.679, 0.000, -2.936" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="291.531, 64.267, 6.026" rotation_euler="0.679, 0.000, -2.936" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="274.628, 63.977, 18.461" rotation_euler="0.679, 0.000, -2.936" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="253.642, 63.283, 5.943" rotation_euler="0.679, 0.000, -2.936" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="325.077, 71.037, -0.903" rotation_euler="0.693, 0.000, -2.607" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="326.808, 67.324, 10.122" rotation_euler="0.693, 0.000, -2.607" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="326.499, 63.025, 21.915" rotation_euler="0.693, 0.000, -2.607" scale="0.734, 0.734, 0.734"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="253.689, 67.252, 9.376" rotation_euler="0.078, 0.000, 2.840"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="222.937, 62.014, 16.470" rotation_euler="0.149, 0.000, 2.840"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="218.551, 57.017, 37.615" rotation_euler="0.149, 0.000, 2.840"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="170.516, 55.035, 39.142" rotation_euler="0.377, 0.000, 2.840"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="154.272, 45.939, 56.641" rotation_euler="0.163, -0.411, -2.306"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="356.677, 104.154, 45.892" rotation_euler="-0.230, -1.647, -1.013"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_c">
+			<transform position="351.263, 136.327, 16.114" rotation_euler="-0.762, 3.031, -1.753"/>
+		</game_entity>
+		<game_entity prefab="battania_barn_a">
+			<transform position="337.275, 182.645, -1.050" rotation_euler="0.000, 0.000, 1.846"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="149.440, 166.714, 46.092" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="184.659, 162.171, 46.107" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="215.461, 165.518, 46.018" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="215.263, 160.065, 46.054" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="246.025, 160.872, 46.225" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="271.564, 159.479, 46.183" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="229.945, 168.742, 46.536" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_b">
+			<transform position="223.138, 164.448, 45.523" rotation_euler="0.000, 0.000, -0.023" scale="1.206, 1.206, 1.206"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_2_stairs_a">
+			<transform position="128.715, 166.798, 29.355" rotation_euler="0.000, 0.000, -1.692"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_wall_b">
+			<transform position="301.461, 157.206, 18.004" rotation_euler="0.000, 0.000, -3.095" scale="1.046, 0.726, 0.958"/>
+		</game_entity>
+		<game_entity prefab="battania_grandbazaar_stair_a">
+			<transform position="316.836, 157.714, 13.673" rotation_euler="0.000, 0.000, 1.603" scale="1.443, 1.000, 0.802"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="292.315, 148.349, 26.156" rotation_euler="0.000, 0.000, 1.514"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="299.092, 166.656, 14.071" rotation_euler="-0.002, -0.105, 0.000" scale="4.054, 4.054, 4.054"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="295.672, 154.629, 16.194" rotation_euler="-0.008, -0.006, 0.000" scale="3.257, 3.257, 3.257"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_b_moss">
+			<transform position="304.334, 153.315, 7.537" rotation_euler="0.000, 0.000, 1.503"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="302.367, 147.720, 7.200" rotation_euler="0.020, -0.181, -0.492" scale="4.059, 4.059, 4.059"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="296.236, 139.756, 8.224" rotation_euler="0.000, 0.000, 0.000" scale="3.376, 3.376, 3.376"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="297.215, 151.939, 18.016" rotation_euler="0.047, 0.005, 1.523" scale="2.388, 2.388, 2.388"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="298.781, 161.910, 15.180" rotation_euler="0.000, 0.000, 0.000" scale="3.109, 3.109, 3.109"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="297.801, 163.962, 18.336" rotation_euler="0.000, 0.000, 0.000" scale="3.109, 3.109, 3.109"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_tall">
+			<transform position="308.058, 161.354, -2.883" rotation_euler="0.000, 0.000, 1.491" scale="5.534, 5.534, 5.534"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_female_tall">
+			<transform position="297.996, 150.050, 16.202" rotation_euler="0.000, 0.000, 1.491" scale="5.534, 5.534, 5.534"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="293.415, 160.741, 27.056" rotation_euler="0.000, 0.000, 0.206" scale="2.193, 2.193, 2.193"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_landmark_statue_foundation_moss">
+			<transform position="296.703, 160.574, 23.043" rotation_euler="0.000, 0.000, 0.008" scale="2.193, 2.193, 2.193"/>
+		</game_entity>
+		<game_entity prefab="bd_battania_statue_boudica">
+			<transform position="305.701, 160.491, 8.888" rotation_euler="-0.183, 0.025, 1.571" scale="2.677, 2.677, 2.677"/>
+		</game_entity>
+		<game_entity prefab="map_rock_hillside_a_snow">
+			<transform position="287.877, 167.996, 28.110" rotation_euler="0.340, 0.000, 2.966" scale="2.147, 2.147, 2.147"/>
+		</game_entity>
+		<game_entity prefab="map_rock_hillside_a_snow">
+			<transform position="286.302, 169.990, 27.433" rotation_euler="0.340, 0.000, 2.966" scale="2.147, 2.147, 2.147"/>
+		</game_entity>
+		<game_entity prefab="map_rock_hillside_a_snow">
+			<transform position="281.777, 169.274, 27.951" rotation_euler="0.340, 0.000, 2.966" scale="2.147, 2.147, 2.147"/>
+		</game_entity>
+		<game_entity prefab="map_rock_hillside_a_snow">
+			<transform position="278.291, 168.977, 28.243" rotation_euler="0.340, 0.000, 2.966" scale="2.147, 2.147, 2.147"/>
+		</game_entity>
+		<game_entity prefab="_barrier_08x04m">
+			<transform position="282.722, 157.239, 45.818" rotation_euler="-1.560, -3.142, 2.808" scale="8.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_08x04m">
+			<transform position="282.272, 161.070, 45.838" rotation_euler="-1.560, 0.000, -0.333" scale="8.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_08x04m">
+			<transform position="278.982, 157.037, 45.838" rotation_euler="-1.560, 0.000, -0.333" scale="8.000, 1.000, 4.000"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="true" node_dimension_x="4" node_dimension_y="4" node_size="100.000" lod_multiplier="1.000" min_height="-100.000" max_height="500.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="0" ao_intensity="4.000">
+		<outer_mesh>
+			<variable name="outer_mesh_name" value=""/>
+			<variable name="diffuse1_texture_name" value=""/>
+			<variable name="diffuse2_texture_name" value=""/>
+			<variable name="diffuse3_texture_name" value=""/>
+			<variable name="areamap_texture_name" value=""/>
+			<variable name="splatmap_texture_name" value=""/>
+			<variable name="splatmap_normal_name" value=""/>
+			<variable name="horizon_mesh_diffuse_1_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_2_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_3_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_tile_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_power" value="1.000"/>
+			<variable name="horizon_mesh_height" value="1.000"/>
+		</outer_mesh>
+		<layers version="1">
+			<layer name="soil_b">
+				<summer is_enabled="true" name="soil_b" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_soil_b_d"/>
+						<texture type="areamap" name="desert_floor_a"/>
+						<texture type="normalmap" name="ground_soil_b_n"/>
+						<texture type="specularmap" name="ground_soil_b_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_soil_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="soil_b" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="soil_b" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="soil_b" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="default">
+				<summer is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="vtstt_manure_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="vtstt_manure_n"/>
+						<texture type="specularmap" name="vtstt_manure_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="vtstt_manure_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="default" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="rock_cliff">
+				<summer is_enabled="true" name="rock_cliff" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="stone" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="rock_cliff_b_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="rock_cliff_b_n"/>
+						<texture type="specularmap" name="rock_cliff_b_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="rock_cliff_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="true"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="rock_cliff" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="rock_cliff" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="rock_cliff" is_flora_layer="false" is_mesh_blend_layer="true">
+					<meshes/>
+				</spring>
+			</layer>
+		</layers>
+		<nodes>
+			<node idx="0" idy="0" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="6.625" min_height="13.234" max_height="170.745">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="1" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="2.557" min_height="-1.095" max_height="126.943">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="2" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="4.852" min_height="-1.081" max_height="131.554">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="3" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="2.232" min_height="9.968" max_height="132.450">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="0" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="2.035" min_height="-1.132" max_height="143.213">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="1" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="0.687" min_height="-3.938" max_height="32.110">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="2" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="1.445" min_height="-13.175" max_height="42.103">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="3" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="2.487" min_height="-51.499" max_height="123.203">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="0" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="2.454" min_height="-1.123" max_height="130.921">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="1" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="3.927" min_height="-3.435" max_height="44.592">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="2" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="1.595" min_height="-63.278" max_height="40.937">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="3" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="5.667" min_height="-67.069" max_height="120.303">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="0" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="5.518" min_height="-1.101" max_height="131.897">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="1" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="4.920" min_height="-1.551" max_height="104.685">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="2" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="3.325" min_height="-14.239" max_height="119.048">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="3" occluders_enabled="true" layer_is_used_mask_summer="7" layer_is_used_mask_fall="7" layer_is_used_mask_winter="7" layer_is_used_mask_spring="7" layer_is_used_mask="true" height_complexity="6.844" min_height="20.417" max_height="135.006">
+				<texture_levels>
+					<variable name="heightmap_level" value="8"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="8"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="8"/>
+						<variable layer="1" value="8"/>
+						<variable layer="2" value="8"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+		</nodes>
+	</terrain>
+	<editor_data editor_camera_position="128.522, 112.951, 31.192" editor_camera_elevation="-0.656" editor_camera_bearing="123.393" editor_camera_forward="0.840, -0.019, -0.542" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="100000.000"/>
+	<Paths/>
+</scene>
+
