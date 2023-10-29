@@ -2,8 +2,9 @@
  Oceanic Bannerlord Mod
 
 # Roadmap 
-- Change UI to match Usain's changes to perks and classes 
-- 
+- Change UI to match Usain's changes to perks and classes.
+- Add more maps and ensure that they are tested for events.
+- Include screenshots for each map for admin ease of use.
 
 # Custom Map list 
 
@@ -11,6 +12,10 @@
 - BRE_Foret_de_Chalon_v2
 - BRE_Muret_Battle
 - BRE_Niveau
+- Isle_of_koreon_battle
+- kingclone_empire_city_battle
+- kingclone_or_hct_hades
+- kingclone_or_hct_nurdin_fort_battle
 - mp_astg_groupfight
 - Realm_Dodgeball_2.0
 - Realm_Dodgeball002
@@ -30,8 +35,6 @@
 - Copy to your module directory 
 - Run cmd in the following folder \Steam\steamapps\common\Mount & Blade II Bannerlord\bin\Win64_Shipping_Client 
 - Type TaleWorlds.MountAndBlade.SteamWorkshop.exe c:\path\WorkshopUpdate.xml into the console, with the path directing to your WorkshopUpdate.xml file and press Enter
-
-
 
 # Contributors 
 Acorn, Jonny, Usain 
