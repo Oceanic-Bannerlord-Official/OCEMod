@@ -1,7 +1,7 @@
 <Module>
     <Name value="OCEMod"/>
     <Id value="OCEMod"/>
-    <Version value="v0.1.1"/>
+    <Version value="v1.0.0"/>
     <DefaultModule value="false"/>
     <ModuleCategory value="Multiplayer"/>
     <Official value="false"/>
