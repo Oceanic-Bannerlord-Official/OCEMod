@@ -7,7 +7,7 @@
 - Include screenshots for each map for admin ease of use.
 
 # Custom Map list 
-
+### Battle Maps
 - BRE_Duverger
 - BRE_Foret_de_Chalon_v2
 - BRE_Muret_Battle
@@ -16,18 +16,25 @@
 - kingclone_empire_city_battle
 - kingclone_or_hct_hades
 - kingclone_or_hct_nurdin_fort_battle
-- mp_astg_groupfight
-- Realm_Dodgeball_2.0
-- Realm_Dodgeball002
-- Realm_Duel_No_arena
-- Relam_FunFight_MagBal001
-- scn_DodgeBall001
 - scn_Swamp
-- The_Realm_Battle
-- The_Realm_Camp 
+
+### Groupfight/Arena Maps
+- mp_astg_groupfight
+- WGWM_GroupFight
 - WGWM_Arena_Flooded 
 - WGWM_Arena_Pit
-- WGWM_GroupFight
+
+### Dodgeball Maps (Battle)
+- Realm_Dodgeball_2.0
+- Realm_Dodgeball002
+- scn_DodgeBall001
+
+### Realm Camp Maps
+- Realm_Duel_No_arena
+- Relam_FunFight_MagBal001
+- The_Realm_Battle
+- The_Realm_Camp 
+
 
 # Updating Steam Workshop 
 
