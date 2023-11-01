@@ -6,7 +6,7 @@
     <UpdateItem>
         <ModuleFolder Value="C:\Users\Jonathan\Documents\BannerlordLab\OCEMod-0.1.0"/>
         <!-- A direct path of your module -->   
-        <ChangeNotes Value="Public Release v1.0.0" />
+        <ChangeNotes Value="Steam Workshop Public Release v1.0.1 - Added more maps" />
         <!-- Insert patch notes -->
         <Tags> 
             <!-- You can use the following tags: -->
