@@ -4,9 +4,9 @@
         <!-- Can be found in the URL of your workshop item -->
     </GetItem>
     <UpdateItem>
-        <ModuleFolder Value="C:\Users\Jonathan\Documents\BannerlordLab\OCEMod-0.1.0"/>
+        <ModuleFolder Value="C:\Users\Isaac\Documents\GitHub\OCEMod"/>
         <!-- A direct path of your module -->   
-        <ChangeNotes Value="Steam Workshop Public Release v1.0.1 - Added more maps" />
+        <ChangeNotes Value="Steam Workshop Public Release v1.0.2 - Altered the maps in the custom maps pool." />
         <!-- Insert patch notes -->
         <Tags> 
             <!-- You can use the following tags: -->
